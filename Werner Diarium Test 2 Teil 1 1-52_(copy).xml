@@ -1,0 +1,2392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader><fileDesc><titleStmt><title>Title</title></titleStmt><publicationStmt><p>Publication Information</p></publicationStmt><sourceDesc><p>Information about the source</p></sourceDesc></fileDesc><xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240508142323551",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-05-08T12:23:23.551Z",
+	"dcterms:modified": "2024-05-08T12:23:23.551Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ZHFBonn",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alexander Gerber"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240508142323551#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://dev.leafwriter.users.h-da.cloud",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240508142323551#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/lg/l[14]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://d-nb.info/gnd/121936503",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://dev.leafwriter.users.h-da.cloud",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
+		
+	
+	<text>
+		<body>
+			<pb n="1"/>
+			<p>
+				<lg>
+					<l>Alpha</l>
+					<l>Omega</l>
+					<l>Diarium</l>
+					<l>Meiner Reise von Halle naher</l>
+					<l>Oßnabrück vnndt Münster.</l>
+					<l>Ob ich wol die gnadigste abfertigung Sontags, als den</l>
+					<l>16. Juny bekommen; Vnndt darauff folgende Montags den</l>
+					<l>17. auff sein sollen: So hatt sichs doch wegen der vnverhofften</l>
+					<l>march der Käyser. Armada; So denselben Sontag zu Bre-</l>
+					<l>na das Haubtguartier genommen, Vndt folgendts in das</l>
+					<l>Fürstenthumb Anhaldt gerücket, darmit biß Mittwochs, den</l>
+					<l>19. Juny verzogen: Da ich mich den nebenden Fürst.</l>
+					<l>Braunschweig. Lünbg. Ambts vnnd Closter Secretario Carl</l>
+					<l><persName key="Stisser, Carl" ref="https://d-nb.info/gnd/121936503" cert="high" type="real">Stißern</persName>, vndt deßen beyden Vettern, in begleitung I.</l>
+					<l>Fürstl. Durchl. Tromgeters, mit denen von Halle abge-</l>
+					<l>führten, vndt mit 15 Croaten convoyeten Proviant Wag.</l>
+					<l>auffgemacht; in hoffnung selben Tag noch Calbe zu er-</l>
+					<l>reichen, Wie wir aber nach einem guten stückwe-</l>
+					<l>ges einen warden, das dieser March vnd abfuhr</l>
+					<l>nicht auff Bern- sondern auff Rosenburgk (so Vns</l>
+					<l>zu weit umb gedunckt) gienge: Haben wir Vns</l>
+					<l>zwar in Zeitten von Ihnen abgeschlagen, weil wir aber</l>
+					<l>nicht allein damahls schon ziemlichen umbgefahren;</l>
+					<l>Sondern auch vnterwegends von [x] gar weit irre</l>
+					<l>gewiesen warden, vndt den weg wol uff 7. meilen</l>
+					<l>gezogen, darzu wegen der Proviant wagen vnd Con-</l>
+					<l>voy kaum vor 9. Uhr früh fort gefahren, weiter nicht</l>
+					<l>als biß Bernburg, fast 25. [M.] gelangen mögen,</l>
+					<l>Hierselbst ich dann, auff guttachten H. Carl Stißers</l>
+					<l>vndt des Tromgeters auff erlangete nachricht der</l>
+					<l>Großen Vnsicherheitt zu beiden seiten der Saale, nach des</l>
+					<l>Abendt einen Boten an Leutnandt Gräffen (den</l>
+					<l>aber der Bothe nicht angetroffen; oder vielleicht weil</l>
+					<l>Er nicht wieder zu vns kommen gar nicht fortge-</l>
+					<l>lauffen) in des Haubtquartier Wedlitz umb des H.</l>
+					<l>General-Leutenandts Paß vnd Convoy abgefertiget;</l>
+					<l>folgendes</l>
+					<l>20. aber nach der Mittagsmahlzeitt in I. Fürstl. Gn. Fürst</l>
+					<l>Christians zu Anhaldts soyte (durch anleitung vnndt</l>
+					<l>recommendation dero Ambtmannes vnndt Secretary </l>
+				</lg>
+			</p>
+			<pb n="2"/>
+			<p>
+				<lg>
+					<l>Thomas Benckendorffes; von welchem ich sonst vorhe-</l>
+					<l>ro auch dieses vernommen: Das zwar im Werck ge-</l>
+					<l>wesen, H. Mochovium, wegen des gesambten Fürst. Hau-</l>
+					<l>ßes naher Oßnabrück abzuschicken: So aber biß dato zum</l>
+					<l>theil aus Mangel der Mittel; vndt weil mann auch von</l>
+					<l>anderen Fürsten vndt Stände Gesandten daselbst noch nichts</l>
+					<l>vernommen, vndt das Hauß Anhaldt auch die ersten</l>
+					<l>zu sein bedencken gehabt, verblieben) selbst dahin</l>
+					<l>geritten, mich bey der Canzley so wohl den H. Gene-</l>
+					<l>ral Quartiermeister Reichen, vndt uff deßen anwei-</l>
+					<l>sung beym Herrn Graff Bruay angeben vndt einen gu-</l>
+					<l>ten Paß, nebenst einen Tromgeter vom Trautschische 3</l>
+					<l>Rthl, so damahls bey der Haubtwachen waren vnd dar-</l>
+					<l>von genommen würde erhalten: Worauff</l>
+					<l>wir vns den Freytags den</l>
+					<l>21. wieder auffgemacht, mitten durch die theils des Caval-</l>
+					<l>larie durch die Fürthe, theils aber vber die zugerichtete</l>
+					<l>Beckbrücke zwischen gemeldten Wedlitz vndt München.</l>
+					<l>Nürnbergk vber die Saal marchirende Kayser. stadt-</l>
+					<l>liche Armada gezogen, vndt Gott lob ganz sicher vnnd</l>
+					<l>(außer das ein einziger Reiter vns in den wüsten</l>
+					<l>Städtlein Froße anzusprengen vndt eine Zehrung</l>
+					<l>zu begehren sich vergeblich vnterstehen dürffen) vn-</l>
+					<l>angetaset zu Calke [M.] vndt den Salza vor-</l>
+					<l>bey zu Magdeburg 6 [M.] einkommen.</l>
+					<l>Bey meiner ankunfft nun habe ich zuförderst</l>
+					<l>die bey mir gehabte Gnädigste Schreiben vndt be-</l>
+					<l>fehlchs I. Hochw. DomCapituls Syndico, dem H. Möllen-</l>
+					<l>Voigt vndt den Einnehmer Knachenhauer, gebührendt</l>
+					<l>insinuiret: Nechst diesem aber Vermittels des H.</l>
+					<l>Syndici, so wohl auch meines Dieners, vndt zwahr</l>
+					<l>ein nehmen vndt auff befehlch der anwesenden</l>
+					<l>Herren I. Hochw. Domkapituls beym Brobst auff</l>
+					<l>dieser Frauen Closter M. Remisoldo Becken dem</l>
+					<l>Jüngen anmelden, vndt die Logirung daselbst gar</l>
+					<l>freundt vndt glimpflig suchen laßen. Weil</l>
+					<l>ich aber vnter ein vnd anderer den stich nicht</l>
+				</lg>
+			</p>
+			<pb n="3"/>
+			<p>
+				<lg>
+					<l>haltender entschuldigung als Vnvermögens vnndt</l>
+					<l>sonsten abgewiesen worden. Wie ich dann Von H. Syn-</l>
+					<l>dico vndt H. Knachenhauer vernehme, das Er zu dar-</l>
+					<l>hero mit der Landschafft darüber, das Er dem alt-</l>
+					<l>ers Herkommens zu wieder dieselbe auffzunehmen, Vndt</l>
+					<l>(wiewohl wie dießfals gegen die Landschafft</l>
+					<l>herkommens umb leidtliche bezahlung) zu wirth-</l>
+					<l>sich hefftig verweigert, in große discrepantz gerahten</l>
+					<l>Vndt ihne solche seine Vnbescheidenheit bey neulich-</l>
+					<l>sten Capitulo generali scharff verwiesen sein sollen:</l>
+					<l>So habe Ich solche Verweigerung stellen, vndt ein mit-</l>
+					<l>telst beym H. Möllen Voigtein hohren müßen,</l>
+					<l>Vernahme sonsten theils auß den geschriebenen</l>
+					<l>Hamburg. Zeitungen, theils auß mündlicher Rela-</l>
+					<l>tion: Ob solte der Schwedische Reichscanzler, Ox-</l>
+					<l>enstierna, zu vermutlicher, mercklicher Verende-</l>
+					<l>rung, mit Tage abgangen sein; vndt die Schwed.</l>
+					<l>die meyste Artollerie, nebenst in 300. Wispel Ge-</l>
+					<l>treyde aus Halberstadt (vielleicht dem Ohrte sich</l>
+					<l>nicht vertrauend: Wie dann auch bey etzliche</l>
+					<l>vndt auch von dem bey vns habenden Tromgeter</l>
+					<l>verlauten wolte als wan die Armada alhier</l>
+					<l>nicht über die Elbe gehen; Sondern in passant</l>
+					<l>gedachten Plaz wegnehmen würde) genommen</l>
+					<l>vndt meines behalts, nach Osnabryck geschafft</l>
+					<l>haben.</l>
+				</lg>
+			</p>
+			<pb n="4"/>
+			<p>
+				<lg>
+					<l>Continuatio diarii</l>
+					<l>Weil ich nun daselbst zu Madeburgk keine Gelegenheit zum wechsel</l>
+					<l>finden können; das an. H Knachenhauer vberschriebene geldt</l>
+					<l>aber mit zuführen sehr gefehrlich gewesen: So habe mit dem</l>
+					<l>H. Möllen Voigt ich den Verlaß genommen, daß Er mir 50</l>
+					<l>Rthl. darvon vermittels H. Oßwaldt Matthiasen oder eines</l>
+					<l>Ihme bekanten vndt versicherten Schiffers naher Hamburg</l>
+					<l>an Berndt Crämern, dieselben vff mein Abfordern an sich</l>
+					<l>zubehalten, übermachet; 40. Rthl. aber auff Schöningen, wan</l>
+					<l>der march fürüber, in entstehung Wechselgelegenheitt</l>
+					<l>mit einen sichern Bothen nachsenden wolte. Haben</l>
+					<l>Vns darauf dem</l>
+					<l>22. Juny (als ich vorhero an des H. Canzlers Maonifices</l>
+					<l>geschrieben) Weil wir keine andere sichere Gelegenheit</l>
+					<l>finden, nach den Tromgeter oder Andere Convoyleiter</l>
+					<l>erhalten können, mit dem Commendanten zue Magdeb.</l>
+					<l>Obristen Brandorff nach dem Haubtquartier Wansleben</l>
+					<l>Von Magdeburgk _ 2. [M.] begeben: Daselbst vff dem</l>
+					<l>von der Einquartirung außerhalb ezlicher des G[ener]alleut.</l>
+					<l>Gallas Leib- Vndt Wagen Pferde befreyeten Fürst. Hau-</l>
+					<l>se einkehren, vnndt weil ich demselben Abendt beym</l>
+					<l>G[ene]ral Quartiermeister vndt Obristen Reichen (in dem</l>
+					<l>Er gleich bey dem G[ener]al Leutenandt zu Kassel gegangen</l>
+					<l>vns zwar durch seinen G[ener]al Adiutanten in seinen Quar-</l>
+					<l>tier zur Taffel bringen vndt nötigen laßen, Auch denn</l>
+					<l>Verlaß genommen baldt bey vns zu sein, so doch nicht er-</l>
+					<l>folget) wegen der Convoy nicht zur richtigkeit kommen</l>
+					<l>können; Früh aber die Reiterey schon auffgebrochen</l>
+					<l>gewesen (wie wol vns auch fast fürkam: Als wann</l>
+					<l>Sie eine weinige Convoy ihrer eigenen, oder auch</l>
+					<l>der Schwedischen Partheyenthalber nicht abel traueten)</l>
+					<l>Folgenden Sontag vnndt Montag, der</l>
+					<l>23. Vnd 24. stille liegen vndt H. Carl Stißer nach Schöningen an</l>
+					<l>den OberAmbtann umb Convoy von I. F. Gn. [Leuben]</l>
+				</lg>
+			</p>
+			<pb n="5"/>
+			<p>
+				<lg>
+					<l>schreiben müßen. Wie dann nicht allein denselben Tag der</l>
+					<l>Obr. Vngar (den wir zwar mit Vorzeigung vnserer Päße</l>
+					<l>umb eine Convoy ersuchet: Worauff Er aber selbst die</l>
+					<l>Gefahr der Streifendenden Schwed: Partheijen eingewendet</l>
+					<l>Vndt zwar endtlich vns so viel als wir begehrten zu geben</l>
+					<l>sich erkläret; Doch das wir nebst dem Ambtmann vnndt</l>
+					<l>Commendanten gut darfür sein Vndt einen Revers hierob</l>
+					<l>von Vns geben solten: So aber vns nicht zurahten ge-</l>
+					<l>wesen) mit 5. Ziemblichen trouppen, von ohne gefehr</l>
+					<l>200. Pf[erden] auch 30. oder 40. Mußquetiren Wanzleben Vor-</l>
+					<l>bey auff Egeln in Sein Ihne dem Verlaut nach assignirten</l>
+					<l>Quartier marchiret; Sondern auch die folgende Mon-</l>
+					<l>tags Nacht vor Vnserm Abreisen eine starcke Parthey, von</l>
+					<l>2. oder 300. Pferden Vors Städtlein kommen vndt hir-</l>
+					<l>innen gewoldt: Welche Schwedische Parthey dan auch</l>
+					<l>wie wir hernach zu Schöningen vernahmen, folgendt</l>
+					<l>Dienstag fruhe vor HelmStadt gewesen, Vndt den Obri.</l>
+					<l>Columbo (so abgedancket, vndt mit seiner familia aber</l>
+					<l>darinnen gewesen) herauß haben wollen.</l>
+					<l>Nachdem nun Montags den</l>
+					<l>24. Gegen Abendt ein gefreyter vndt ein Mußquetier von</l>
+					<l>Schöningen ankommen: Haben wir folgenden</l>
+					<l>25. vns wieder auffgemacht vndt sindt mit dieser Con-</l>
+					<l>voy biß Schöningen - 2. [M.] Vndt dan folgenden</l>
+					<l>26. bis Braunschweig - 4. [M.] Gott, Lob wol vberkommen.</l>
+					<l>Alldiewell nun H. Carl Stißers Pferde schon zimlich</l>
+					<l>abgetrieben, vndt ihnen die Volle fuhre allein zu ver-</l>
+					<l>richten zu schwer gewest were, zum Vorspann aber so baldt</l>
+					<l>vndt ohne alzugroße Vnkosten nicht zugelangen gewesen,</l>
+					<l>Hergegen aber auff Wolffenbüttel, vndt von danne</l>
+					<l>vff Hannover zugekommen, sich beynemer gelegenheitt</l>
+					<l>ereignet: So habe ich mich in Gottes nahmen folgendt,</l>
+					<l>27. nach bemeltem Wolffenbüttel, so - 1. [M.] von Braun-</l>
+				</lg>
+			</p>
+			<pb n="6"/>
+			<p>
+				<lg>
+					<l>schweig begeben,</l>
+					<l>Vnndt wie wol nun zuvorhero wegen Abwesenheit des</l>
+					<l>H. Domdechandts, Herrman Senioris, vnd der meisten an-</l>
+					<l>deren Herren Einem Hochw. DomCapittul solches nicht</l>
+					<l>vorgetragen, nach dem gutachten darüber vernommen</l>
+					<l>werden können: So habe ich doch nicht vnterlaßen mit</l>
+					<l>dieser Gelegenheit bey dem daselbst zue Wolffenbüttel</l>
+					<l>anwesenden Fürstl. Braunschweig. Lüneburg. Leib-</l>
+					<l>predico D. Martin Gos[x]y mich anzumelden. Da Ich mich den</l>
+					<l>nechst Ermeldung Ihr. Fürst. Durch. gnädigen grußes</l>
+					<l>zuförderst auff die in Februario A[nno] 1639. mit ihme</l>
+					<l>derer in seiner Verwahrung habender Creiß acten hal-</l>
+					<l>ber, gepflogener conferentz, darob geschehene vnterthänigste</l>
+					<l>Relation, so wohl auch Ihr. Fürst. Durch. an ihn fer-</l>
+					<l>ners ergangenes schreiben referiret; Vndt dabey kürzlich</l>
+					<l>angeführet: Daß so viel 1. daß Cassatorium seines hiebe-</l>
+					<l>vonn von sich begebenen Reverses anlangete, daßelbige</l>
+					<l>albereit in optima forma apud acta, wie es Ein Hochw.</l>
+					<l>DomCapittul damals sede vacante auffsezen, vndt vn-</l>
+					<l>ter ihrem Innsiegel volziehen laßen, vorhanden, vndt solches ihme,</l>
+					<l>oder, da er damit nicht ersettiget, ein anders vnter Ihr.</l>
+					<l>Fürstl. Durchl. Secret iederzeit außgeandtwordtet werde</l>
+					<l>könte vndt solte. So viel aber (2) die angegebenen Ex-</l>
+					<l>pensen vndt begehrte recompens betreffe: Weren Ihr. Fürst.</l>
+					<l>Durch. darzu iederzeit zwar gnädigst geneiget gewesen,</l>
+					<l>wann nur bey diesem so gar drangsaligem erschöpfftem Zustan-</l>
+					<l>de dero ErzStiffts vndt Cammer einiges mittel sich an-</l>
+					<l>eugnen wollen. Hatten derowegen mir gnädigst anbe-</l>
+					<l>fehlen laßen; mit ihme daraus ferner zu reden, vndt ihn</l>
+					<l>dahin zu disponiren: Daß Er der Expensen halber, es auff</l>
+					<l>ein leidlichers kommen laßen; Wegen der recompens aber</l>
+					<l>etwas vorschlagen, vndt zu Ihr. Fürst. Durch. gnädigsten re-</l>
+					<l>solution stellen möchte: Welches dan deroselben ich vnter-</l>
+				</lg>
+			</p>
+			<pb n="7"/>
+			<p>
+				<lg>
+					<l>thänigst hinterbringen wolte; Er aber inmittels nachwie</l>
+					<l>Vor, Ihr. Fürst. Durch. zu ihm habenden gnädigsten Vertrau-</l>
+					<l>en nach, die acta in guter hoch vertrauter gewasamb hatten</l>
+					<l>vnndt in acht nehmen würde.</l>
+					<l>Worauff Er, nechst vnterthänigster dancksagung, des</l>
+					<l>zu entbohtenen gnädigen grußes; auch wiederholter er-</l>
+					<l>zehlung seiner bey Verwahrweg solcher acten gehabten vndt</l>
+					<l>außgestandenen großen Mühe vndt gefahr, sich dahin er-</l>
+					<l>kläret: Daß ihme selbster nichts liebers, als daß die</l>
+					<l>acta der mal einstens abgefordert, vndt dardurch Er der</l>
+					<l>großen sorge vndt gefahr entnommen werden möchte:</l>
+					<l>Gestaldt dan Ihr. Fürst. Durch. auff der gnädiges Zu-</l>
+					<l>schreiben Er vnterthänigst beandtwordtet, vndt dabey ein</l>
+					<l>vndt anders außführlich erinnert hatte, daß aber solche auch</l>
+					<l>werde nicht einkaurmen, sich zum höchsten verwunderte.</l>
+					<l>Vnndt obwohl nicht ohne das er, hiebevon berichte-</l>
+					<l>ter maßen, ein großes darauff gewendet vndt Er vnd</l>
+					<l>die seinigen darbey vndt darüber in großer gefahr gewe-</l>
+					<l>sen: So wolte Er es doch nicht zum höchsten [speines], nach</l>
+					<l>Ihr Fürst. Durch. hierunnter ziel oder maß fürschreiben</l>
+					<l>Sondern stelle Ihr. Fürst. Durch. underthänigst anheim, ob</l>
+					<l>vndt welcher gestaldt Ihr. Fürst. Durch. ihn aber die sei-</l>
+					<l>nigen mit einer erfrewlichen ergozlichkeit ansehen wolte.</l>
+					<l>Als ich nun nochmals erinnerte, das Er etwas gewißes</l>
+					<l>vorschlagen möchte, hatt er solches in bedencken zu neh-</l>
+					<l>men vndt in schrifften gegen Ihr. Fürst. Durch. sich</l>
+					<l>vnterthänigst heraus zu laßen vndt ansuchung zu thun</l>
+					<l>erkläret. Darbey er sich dan sonderlich so viel ver- [28]</l>
+					<l>nehmen laßen: Das seiner ersten Frauen famulie</l>
+					<l>die Crullen genandt, biß auff einer einigen ab- </l>
+					<l>gestorben, vnb deren Lehengüter anwartung da- [29]</l>
+					<l>vor Sich vndt seine Söhne, an stadt solcher recompens</l>
+					<l>vnterthänigste ansuchung zu thun, er fast gemeinet denn</l>
+					<l>Im übrigen, ob er wol Ihr. Fürst. Gn. seinem Gnä-</l>
+				</lg>
+			</p>
+			<pb n="8"/>
+			<p>
+				<lg>
+					<l>digen Herren ümb schuz anruffen müßen; vndt also</l>
+					<l>auch ohne denselben vorwißen, die acta nicht wieder</l>
+					<l>von sich stellen könte: (daraus dann fast so viel zu</l>
+					<l>vermercken; als wan dieselben in dero Fürst. Residenz</l>
+					<l>verwarlich beygesezt sein möchten) So wolten Sich doch</l>
+					<l>Ihr. Fürst. Durch. gnädigst versichern, das dieselben</l>
+					<l>ganz vnversehrt vnndt nichts daran verrückett; Son-</l>
+					<l>dern also vollkompen auff beschehenes gnädigstes ab-</l>
+					<l>fordern, gegen außhendigung des Cassatory vndt</l>
+					<l>Ihr Fürst. Durch. der Recompens halber erfolgete gnä-</l>
+					<l>digste resolution, ganz willig vnndt gerne aufgeandt-</l>
+					<l>worttet worden halten,</l>
+					<l>se Recht diesem habe beij Ihr Fürst. Gn. Herzog Christian</l>
+					<l>Ludwigs zu Braunschweig vnndt Lündburgk etc. Zeug-</l>
+					<l>Meister Ich mich mit Vorzeigung meines Paßes, vndt</l>
+					<l>an Ihr. Fürst. Gn. bey mein habenden Fürst. Schreibens</l>
+					<l>angemeldet, vndt umb gelegenheit mit der abfuhr ezlicher</l>
+					<l>Ihr. Fürst. Gn. aus Herrn Herzog Fridrich Vlrichs, vel.</l>
+					<l>Erb- vnndt Verlaßenschafftt zustehender teils von</l>
+					<l>dem Hern Vater selbst ererbten, teils von Herren Herzog</l>
+					<l>Fidrichen Ihr geschenckter munition weiter fort- vnndt</l>
+					<l>nach Hannover zu kommen mich beworben: Darzu er</l>
+					<l>mich dann ganz willig vndt willfährig erwiesen. Habe</l>
+					<l>mich also mit solcher gelegenheit noch desselben Nachmit-</l>
+					<l>tags wieder auffgemacht: Vnndt sindt der Abendt</l>
+					<l>zue Gästen, so ohngefehr - 2. [M]; folgenden</l>
+					<l>28. Mittags nach Hohen Engelsen, vndt zu Nacht auff Lüne</l>
+					<l>ohngefehr - 3. [M] Vndt dann am</l>
+					<l>29. vollents zu Hannover, so nach - 2 [M.] von dannenn</l>
+					<l>ankommen. Daselbst Ich noch deßelben Tages Ihr.</l>
+					<l>Fürst. Durch. Schreiben, Ihr. Fürst. Gn. Cammer Se-</l>
+					<l>cretario Julio Augusto Vito überreichet. Der es auch</l>
+					<l>also fort vnterthänig fürzutragen, angenommenn.</l>
+				</lg>
+			</p>
+			<pb n="9"/>
+			<p>
+				<lg>
+					<l>Wie er denn nach des Abents nach der Mahlzeit in mein</l>
+					<l>Losament, bey H. Secret. Carl Stißern kommen, vnnd</l>
+					<l>von Ihr. Fürstl. Gn. diese resolution hinterbracht: Daß</l>
+					<l>dieselbe, auff Ihr Fürst. Durch. ersuchen gar geneigt</l>
+					<l>vndt willig weren, vndt mir freystelleten, ob ich</l>
+					<l>biß etwan künfftigen Dienstag oder Mittwoch ver-</l>
+					<l>wartten, vndt alß dan mit Ihr. Fürst. Gn. Gesan-</l>
+					<l>ten, dem Herren ViceCanzler D. Lampadio fortrei-</l>
+					<l>sen oder mit Ihr. Fürstl. Gn. Paß vndt in be-</l>
+					<l>gleitung dero Tromgeters, so weit Ihre Fürst. Gn.</l>
+					<l>Landt vndt gebiehte reicheten, apart gehen solte.</l>
+					<l>Wie wohl ich nun mich nicht gerne noch lenger auf</l>
+					<l>dieser reise auffgehalten; sondern lieber also fort</l>
+					<l>wieder auffgemacht hette: So habe ich doch, zum theil</l>
+					<l>auß mangel anderer gelegenheit; teils aber auch umb</l>
+					<l>desto sicherern vndt beßerern fortkommens willen,</l>
+					<l>mich darvm ergeben, vndt das gnädige anbiehten</l>
+					<l>mit vnterthänigem danck angenommen: Zumaln</l>
+					<l>ich auch verstanden das noch niemand von Gesanten</l>
+					<l>zu Osnabrück ankommen, vndt also durch dieser we-</l>
+					<l>nig Tage verzug, ob Gott wil, nichts verseumpt sein</l>
+					<l>würde. Sonsten weil weder zu Magdeburgk</l>
+					<l>nach zu Braunschweig sich bequeme gelegenheit nahe</l>
+					<l>Zelle ereugnen wollen, habe ich die mitgegebenen</l>
+					<l>beyden Fürst. Schreiben, an Herrn Herzog Fridrichs</l>
+					<l>zu Braunschweig Lüneburgk etc. wie auch daß</l>
+					<l>Dritte an Herrn Herzog Adolph Friedrich zur Meckelnburgk F. F.</l>
+					<l>G. G. vnterm Copert an Secret. Heinrich Heldtbergern</l>
+					<l>daselbst von Hannover aus, mit einem eigenen bohten</l>
+					<l>daselbst hinfort schicken müßen; darauff aber noch zu Zeit</l>
+					<l>mehr nicht als eine recognition von gemelten Secre-</l>
+					<l>tario erfolget.</l>
+				</lg>
+			</p>
+			<pb n="10"/>
+			<p>
+				<lg>
+					<l>2. July berichtete mich der Cammer Secret. Julius Augustus Vitus</l>
+					<l>früh in der Hoff Kirchen: Wie das zu Frankfurt am Mayn</l>
+					<l>Von I. Kayß. Mayt. gar ein scharff schreiben an die Herren</l>
+					<l>Deputatos ein- vndt folgendt ad deliberationem kommen</l>
+					<l>sein solle, des inhaldt: Das der außwertigen Cronen,</l>
+					<l>sonderlich Frantzösische Gesandte, so ein weit außbehendes</l>
+					<l>schreiben fast an alle Teuzsche Fürsten vnndt Stände pro</l>
+					<l>aliendis ab Imperatore statuum animis et excitanda</l>
+					<l>communi seditione (oder wie etwan die formalia gewe-</l>
+					<l>sen sein mögen) abgehen laßen. Wodurch Sie Sich Ih-</l>
+					<l>rer Salvorum Conductum verlustig gemacht hetten, Vndt</l>
+					<l>demnach I. Mytt. der deputirten Gutachten begehre [ades]</l>
+					<l>wieder dieselbe fürzunehmen.</l>
+					<l>Hergegen berichtete mich nachnmittags der H. Canzler D.</l>
+					<l>Justus Kiepius; deme ich in Seinen Losament zugesproch-</l>
+					<l>en, vndt von Ihr. Fürst. Gn. (So vorhero am Sontag</l>
+					<l>Abendts, vndt folgendts tages dero Fr. Mutter, vnndt</l>
+					<l>anwesende Herren Brüder auff Mildungen in den</l>
+					<l>[Sactrbrungen Tarmbstack] vndt andere Örter, auff-</l>
+					<l>gebrochen) gnädige Resolution danck gesaget: Daß</l>
+					<l>die außwärtigen Ambassadeurs sehr hochempfünden,</l>
+					<l>das fast noch niemandt von Ständen Sich eingestellet;</l>
+					<l>vndt Ihr hohes interesse so gar schlecht in acht nehmen.</l>
+					<l>Sahe darneben (als ich ohngefehr per discursum des bey mir</l>
+					<l>habenden Fürstlichen Schreibens, an die Fürst. Br. Lün.</l>
+					<l>Herrn Gesandten erwehnte) fur gut vndt zu Meinen</l>
+					<l>Expeditionibus nicht vndienlich an; Wann von I.</l>
+					<l>Fürst. Durch. ich dergleichen auch an die Fürst. Landt-</l>
+					<l>Gräff. Caßelische Gesandte haben möchte: Sintemal die-</l>
+					<l>selbe mit den Französischen vndt Schwedischen noch vertrau-</l>
+					<l>licher, als Sie, die Lüneb. weren, vndt also auch eher</l>
+					<l>ein vndt anders penetriren könten.</l>
+					<l>3. July Nachmittage sprach ich dann Herrn Vice Canzler D. Jacobo Lampa-</l>
+					<l>dio vorstehender Reise geselschafft halber zu: Welcher dann</l>
+				</lg>
+			</p>
+			<pb n="11"/>
+			<p>
+				<lg>
+					<l>vermelzt, das dieselbe folgendes Nachmittages gar gewiß vnnd</l>
+					<l>vnfehlbar; Es kame gleich Herzogs Augusti zu Wolffenbüttel</l>
+					<l>Gesanter an vndt reißete mit oder nicht, fortgehen soll vndt [et</l>
+					<l>de] Sondern Ihme sehr lieb, das in seiner Gefolgschaft mitgehen</l>
+					<l>wolle: Darzu Er mir gute officia omnengs benevolentiane </l>
+					<l>promittirte. Die außwärtigen Gesanten trügen groß ver-</l>
+					<l>langen; vnd verwunderten Sich gar sehr: Daß nebst der</l>
+					<l>Kayß. Herren Gesandten vndt Ihnen selbst von den Ständen</l>
+					<l>(die es doch am meisten angang) noch niemand als die</l>
+					<l>Herren Häßen-Caßelischen ankommen ware. Seine abfertigung</l>
+					<l>belangtet: Were dießelbe fast ein ganzes Jahr in arbeitt </l>
+					<l>gewesen; Wie dann auch seine Instruction vndt Creditio gar alt</l>
+					<l>der Verzug aber were durch Niemandt anders, als H. Herzog</l>
+					<l>Augustus S. Gn. die alsschon alles erst zu Gifhorn vndt dann</l>
+					<l>zu Braunschweig deliberiret angehalten vnd zum Auffbruch</l>
+					<l>praeficiret, vndt Er wegen I. Fürst. Gn. zu Zelle vndt seines Gnädi-</l>
+					<l>gen Herren wegen (deren beyden Vices Er repraesentiren würde)</l>
+					<l>in provinetu gewesen, mit den geringe Anzahl Ihrer Räthe, vnd</l>
+					<l>das Sie deren nicht entbehren könten sich entschuldiget, vndt Ihme dem H.</l>
+					<l>Vice Canzler auch Ihm vices (so aber aus gewißen Ursachen bedencklich</l>
+					<l>gewesen) nit aufflangen wollen, versuchet worden; Vnt wie</l>
+					<l>Ich Ihme wol anheimb gestellet, ob Er das mir habende Fürst.</l>
+					<l>Schreiben alhier, oder in Oßnabrück nehmen wollte: Hatt</l>
+					<l>Er sich weil Er alhier, vndt so lang Er noch in Seines Herren Land</l>
+					<l>noch keinen Gesandten repraesentirete, entschuldigt; vndt solches</l>
+					<l>biß dorthin zu differriren begehret.</l>
+					<l>Sonst ob wol der Posten halber zu Hale der Verlaß genomnnen wo-</l>
+					<l>von das die briefe über Hamburg an [Bernandt Cemmern] gehen</l>
+					<l>solten: So vermeinten doch per discursum der H. Mölle Vo-</l>
+					<l>igt zu Magdeburgk, Georg Walbeck zu Braunschweig, vndt</l>
+					<l>S. Carl Stißer zu Hannover, daß dieselben so wol den von Kosten</l>
+					<l>als des weges halber naher vndt ja so sicher mit der Caßelischen Post</l>
+					<l>über Hannover vndt Braunschweig (biß deren beyden Orten [e¬</l>
+					<l>nen] Sie wan mir zu franquiren werden) auch Magdeburg </l>
+					<l>an den H. Möllen Voigt spediret werden könten. Wiewol</l>
+					<l>ich nun billich nach dem Genigen, was vndt wie mir es bey</l>
+					<l>meiner Abfertigung anbefohlen, biß auff weitere Verord-</l>
+					<l>nung zu richten: Habe ich mir doch fürgenommen, bey der</l>
+					<l>Ersten Gelegenheit den vnterthänigsten Bericht über Ham-</l>
+					<l>burg; zugleich aber ein beyschreiben über Braunschweig fort</l>
+					<l>zu senden: Damit als dann, welches ehe vndt gewißer über-</l>
+					<l>kommen, zu vernehmen sein möge.</l>
+				</lg>
+			</p>
+			<pb n="12"/>
+			<p>
+				<lg>
+					<l>1644</l>
+					<l>Continuatio diarii</l>
+					<l>Darauff dann folgenden</l>
+					<l>4. July, nachmittags umb 2. vhr wolgedachten Herr Vice Canzler D. Lampadio</l>
+					<l>auff einer mit 4 [Pf[erden] bespanten Chutschen, nur mit [zweeh diegen] vndt</l>
+					<l>einer Köchin, in begleitung I. F. Gn. Tromgeters, vndt eines Coporals mit</l>
+					<l>6. Pferden, vndt in deßen geselschafft auch ich mit dreyen (in mangel ander-</l>
+					<l>rer fleißig beworbenen gelegenheit) umbs Tagelohn vndt Futter ent-</l>
+					<l>lehneten Pferden, auch Vermittels H. Carl Stißers erborgeten Caleß fort-</l>
+					<l>gereiset: Seinen begehren nach, umb Gesprächs willen, mich in seines</l>
+					<l>Wagen gesezet; vndt hergegen seine Köchin vff die Caleß sezen laßen</l>
+					<l>Vnndt sind selben abends nach - - - - - - - 21 [Mg]</l>
+					<l>auff Colfeldt Folgenden</l>
+					<l>5. zu Mittag vff Minden - - - - - - - 5. [Mg]</l>
+					<l>(daselbst ich dem Herr Steimmacher angetroffen, vndt ihme I. Fürst. Durch.</l>
+					<l>wie auch des H. Hoffmeisters Schreiben, mit entschuldigung des Ver-</l>
+					<l>zugs, uberandworttet: Welcher aber, seinem Vorgeben nach, Sich einer</l>
+					<l>mehrern andtword Auff Seine Schreiben vndt Communication eines</l>
+					<l>vndt des andern, sonderlich wegen der Churfürst zu Sachsen wie seine</l>
+					<l>formalia waren: sich erkläret versehen hatte; Darneben sich so viel ver-</l>
+					<l>nehmen laße: Das ehe vndt zu vor das I. Fürst. Durch. gnädtigst bewuste</l>
+					<l>Haubtbedenck zur richtigkeit gebracht, wenig erfrewlicher Resolution,</l>
+					<l>wie hoch Er sich bemuhet, vndt alles beweglich genugsamb remonstriret,</l>
+					<l>zu hoffen; zumal es an deme, das der H. General Feldtmarschall</l>
+					<l>alle dergleichen querelen vndt sachen hiwieder an den G[ene]ral Majour</l>
+					<l>Königsmarckes remittirte. Hatte mir auch ezliche albereit verfer-</l>
+					<l>tigte vndt versiegelte Schreiben an I. Fürst. Durch. den H. Hoff-</l>
+					<l>meister Vndt H. Canzler zu spediren zugestellet: Wann Er vndt</l>
+					<l>ich nun, wegen der Posten richtige gewißheit zu vorläßig gehabtt</l>
+					<l>hatten, daselbst, zu Minden wurden wir auch erstmals berichtet:</l>
+					<l>das der G[ene]ral Majour Königsmarck, durch verrähterey eines [kau-</l>
+					<l>ren] deme Er deswegen 1000 Rthlr verehren laßen (durch des Dü-</l>
+					<l>vels [Weor], wie es genandt wirdt, mit Landt [von Worsten], so das</l>
+					<l>[beste] fast im Erzstifft Bremen sein mag, kommen, vndt daselbst, wie</l>
+					<l>auch anderer Orten bemelten Erzstiffts, mit fangen und [brennen]</l>
+					<l>sehr übel haußen; Hergegen aber [Gesvelingen] vom Piccolomimi oder</l>
+					<l>vielleicht Don Melos mit Verlust der Franzosen in 4000. Mann</l>
+					<l>vndt 10. Stück Geschuzes, entsezet sein solte, dern jenes zwar</l>
+					<l>auch zu Osnabrück contindiret, von diesem aber noch nichts [grund-</l>
+					<l>liches] zu vernehmen gewesen)</l>
+					<l>Zu nachts aber vff Lübcke  _ _ _ _ _ _ _ 2. [Mg.]</l>
+					<l>vndt dann folgender</l>
+					<l>6. July Nachmittags gegen 2. Vhrs vff Osnabrück so von gemeltem Lübke</l>
+					<l>nach 4. [Mg].</l>
+					<l>[4] _ 42 [Mg]</l>
+				</lg>
+			</p>
+			<pb n="13"/>
+			<p>
+				<lg>
+					<l>Gott sey dank ganz sicher vndt glücklich ankommen.</l>
+					<l>Bey welcher Reiße dann der Herr Vice Canzler Vnterwegens Vieler-</l>
+					<l>ley alle zu behalten vnd auffzuzeichnen vnmögliche discursus: De</l>
+					<l>causis et origine Belli Germanici; implicatione circuli aferioris</l>
+					<l>quponia in bellumm Panicum, Pacification Pragensi; acceptatione cuis-</l>
+					<l>dem à parte Ponius [conieasis]; Consilys eius Somus pacificis et</l>
+					<l>eorum professione atq[ue] scafione tam in Normbergensibg Ann.</l>
+					<l>Electorum, quam in Ratisbonensibus totius Impery Comitiis; subita ex-</l>
+					<l>corum et à sese, utpote darum rerum tunc ipsquonunque probata</l>
+					<l>retractatione et coniunctione cum Svecis denique transactione cum</l>
+					<l>Inprate et Etectorem Coloniensig geführet. Fragte mich auch eines</l>
+					<l>mals: ob ich damals A[nno] 1641 zu Regensburg gewesen? Vndt </l>
+					<l>als ich Ihm geandtwondet: Warumb ich ihme dann nicht zugesprochen?</l>
+					<l>Vielleicht weil Sie damals im schwarzen Register gewesen? So ich</l>
+					<l>aber auffs beste das es nicht darumb, sondern aus mangel</l>
+					<l>der gelegenheitt vndt Kundtschafft verblieben, abgeleinet: Wie</l>
+					<l>ich dann dem damaligem Fürst. Braunschweig. Wolffen-</l>
+					<l>bütt. (nunmehro Gräffl. Oldenburgischer) Canzler H. D. Bohne,</l>
+					<l>deme ich vom Lünb. Creißtage bekandt worden, Vnterschiedtlich</l>
+					<l>zugesprochen hette. Hielte nochmahls vor hochnötig, das Fürsten vnnd</l>
+					<l>Stände die Ihrigen förderlichst schicken: Dann Sie ja selbst die [Ri-</l>
+					<l>ci]palu weren; de quorum corio ludatur. Sie die Braunschweig.</l>
+					<l>Lüneb. wollen zwar Ihres theils handlen als redliche Leute, vnd</l>
+					<l>sich des Wercks trewlich mit annehmen: Doch müßten auch andere</l>
+					<l>Stände mitherbey treten vndt hand anlegen; Sonsten weren Sie</l>
+					<l>zu wennig, vndt möchte Ihnen fur eines temerität oder Curiosi-</l>
+					<l>tät außgeduket werden. Vnter deßen, vndt weil ia die mit-</l>
+					<l>tel sich weiter noch nicht erstrecken wolten; were doch sehr gut,</l>
+					<l>das I. Fürst. Durch. meine wenige Person dahin abgefertigt.</l>
+					<l>Denn nicht allein I. Fürst. Durch. von mir des Vorganges</l>
+					<l>richten werden könte, Sondern es wurde doch solches auch so</l>
+					<l>wol bey der Frembden Cronen Gesandten, als andrn Stände</l>
+					<l>eine gute Confidentz zu I. Fürst. Durch. friedtliebenden con-</l>
+					<l>silys vndt intention erwecken. I. Fürst. Durch. hohes fürstlich</l>
+					<l>vndt friedtliebendes Gemüht were zwart bekandt; Würdigens</l>
+					<l>deswegen von dem Fürstl. Hauße Braunschweig Lüneb.,</l>
+					<l>vnd isonderheit Seinen Gnädigen Fürsten vndt Herren, so ha-</l>
+					<l>als wol ein Potentat, veneriret vndt aestimiret: Zweiffelt</l>
+					<l>nicht es würde. I. Fürst. Durch. auch an Ihrem Ort zur Vertrau-</l>
+					<l>lichen Freundtschafft vndt Communication gegen bemeltes</l>
+					<l>Fürstl. Hauß, wie Sie biß anhero gethan, verharren: Deße</l>
+				</lg>
+			</p>
+			<pb n="14"/>
+			<p>
+				<lg>
+					<l>ich dann, vndt das I. Fürst. Durch. an ihr rechts, was, so wol zu des</l>
+					<l>Ganzen Nieder Sächischen Creißes wohlfahrt vndt beruhigung dien-</l>
+					<l>samb vndt practicall; als auch ehrgedachten Fürst. Hause, zumal</l>
+					<l>naher Verwandtnüß wegen, zu angenehmer Freudtschafft gereichen</l>
+					<l>möchte erwunderner wurden mit gewöhnlichen curialibus</l>
+					<l>(doch mit hoffentlich guter behatsamkeit Versichert:</l>
+					<l>Ließe sich darneben so viel herauß: Seine Instruction ginge</l>
+					<l>fürnemblich dahin, das Er sich wegen seiner Gnädigen Fürsten vnd</l>
+					<l>Herren, zwischen beide Partheyen, vndt zu beförderung der</l>
+					<l>Friedenshandlung cooperando vel pro Internuncio (Insachen</l>
+					<l>des Friedens Solennes Actiones nötig; Gleichwohl [ein] und anders </l>
+					<l>prime inde zu negotyren: Wordurch dann hoffenstlich, nacher weit-</l>
+					<l>läufftigkeit, vndt bey dergleichen zugebrachten Verhandeln</l>
+					<l>Cremonien vermidden vndt abgeschnitten; Gleichwohl aber der König.</l>
+					<l>Mays. zu Denemarck zumal übernommene [giene] interposition</l>
+					<l>nichts beeinträchtiget noch vorgegriffen werden könte) gebrauchet</l>
+					<l>laßen. Doch würde Er anfangs darmit behutsamb gehen, vnd des</l>
+					<l>Wercks sich nicht stracks annehmen: Wie Er dann sacht zu vorhern</l>
+					<l>noch mit dem Schwedischen, insonderheit nach etzliche wichtig puncte,</l>
+					<l>sonderlich wegen restitution der auch einhabenden, dem Herzogthumb</l>
+					<l>Braunschweig Lüneb. zugehörige Pläze: Als Hindenburgck,</l>
+					<l>Bleckede, Hey, Wolffsburg (über deren Jurisdiction des Erz-</l>
+					<l>stifft Magd. vndt Hauß Wolffenbüttel etc. discrepant gewesen</l>
+					<l>weren) vndt ander dergleichen Orte zu tractiren hätte.</l>
+					<l>Im übrigen Zieheten, der hinc inde verlautender avises halber</l>
+					<l>Seine Gedancken vndt discurse dahin: Das so viel die Kayser.</l>
+					<l>marche betreffen, dieselben eylen, sich, wo möglich, etwan zwischen</l>
+					<l>Hamburg vndt Lübeck, zu einhaltung der Schwedischen Armee;</l>
+					<l>oder so dieselbe das praecenire spielen, vndt bereits aus Holstein</l>
+					<l>heraus gegangen sein würde, bey Werben oder deren Orten</l>
+					<l>feste legen, vnd nicht schlagen, sondern die Schwedischen</l>
+					<l>vires functando zu infingiren sich bemühen; Hergegen aber</l>
+					<l>an Schwedischer seiten, Königsmarck, wan Er das Erzstifft</l>
+					<l>Bremen wol mitgenommen, wol gedachter Hamburgk einen</l>
+					<l>Vnvermuhteten Paß über die Elbe suchen, mit der Haubt</l>
+					<l>Armee sich conjungiren, vnd alßdann der Kayser. armee ent-</l>
+					<l>gegen gehen, die spize biethen, vndt wol gar zum schlagen forciren</l>
+					<l>möchte.</l>
+					<l>Weil sich nun nicht schicken wollen die Fürst. Schreiben also-</l>
+					<l>fort vndt so bald ich ankommen, in so staubiger Kleidung abzu-</l>
+					<l>geben, aber auch den folgenden Sonntg darauff die Herren</l>
+					<l>abgesandten, oder den Secretarios zu überlauffen: So habe</l>
+				</lg>
+			</p>
+			<pb n="15"/>
+			<p>
+				<lg>
+					<l>Ghott sey dank ! ganz sicher Vndt glücklich ankommen.</l>
+					<l>Bey welcher Reise dann der Herr Vice Canzler Vnterwegens Vieler</l>
+					<l>bey, alle zu behalten vndt auffzuzeichnen vnmögliche discursus: De</l>
+					<l>causis et origine Belli Germanici; implicatione lirculi aferioris</l>
+					<l>sitionia in bellum Panicum, Dacificatione tragensi; acceptatione cuis</l>
+					<l>dem a parte Domus Enneburgersi. Consulijs cius Donus sacificis et</l>
+					<l>corum professione atque svasione tam in Normbergens ibu Dnn.</l>
+					<l>Electorum, quam in Ratis Ponensibus totius Imperij Comitus; subita exr-</l>
+					<l>corum et a fere utpotae darum reranstunc i nung probata</l>
+					<l>retractatione et conjunctione cum Recis: deniqu transactione n</l>
+					<l>Imperate et Rectorem Coloniensi c geführet. Das mich auch eines</l>
+					<l>mals: ob ich damals A 1644. zu Gegensbung gewesen? Vnd</l>
+					<l>als ich zu geandwordtet, Worumb ich ihme dann nicht zugesprach</l>
+					<l>Vielleicht wd Sie damals im schwarzen Gegoster gewesen? So ch</l>
+					<l>aber auffs bese das es nicht darumb gsondern ausmangel</l>
+					<l>der gelegenheit vndt Kundtschafft verbleieben, abgelemet: Wie</l>
+					<l>in dann, dem demaligen Für tl. Brauschweg Wolffen,</l>
+					<l>vntl. (nunmehro Ghräfft Oldenburgischen Canzlar H. E. Bohne</l>
+					<l>deme ich vom EunrH Treißtage bekandt worden, Vnterschiedtlich</l>
+					<l>zugesprochen hette. Hielte nachmahls vorhochnötig des Fürsten Vnnd</l>
+					<l>Stande die Ihrigen forderlichst schickten: dann Sie ja selbst die B¬</l>
+					<l>waln edere, ae quorum corio ludatur. Sie die Braunschweig</l>
+					<l>E dief. wollen zwar Ihres theils handten als redliche Leute, Vn</l>
+					<l>sich des Wercks trewlich mit annehmen: doch wiser auch anhero</l>
+					<l>Stende mit herbey streten vndt handt antegen, Sonsten weren Sie</l>
+					<l>zu weinig, Vndt möchte Ihnen für einer temerität oder Curcos¬</l>
+					<l>tät außgedeutet werden. Vnter deßen, Vndt weil ia die mi¬</l>
+					<l>tel sich weiter nach nicht erstrecken wolten; wenn doch sehr gut¬</l>
+					<l>des d. Für fl. Beecht. meine weinige Person dahin abgefertig</l>
+					<l>in nicht allein J. Fürstl. Euech. Von mir ades Vorgenge</l>
+					<l>richtet werden könte; Sondern es würde doch solches auch</l>
+					<l>wol bey der Frembden Fragen gesandte, als andrn Rtandt</l>
+					<l>eine gute Confidenti zu S. Fürstl. Durchl. frietliebenden con¬</l>
+					<l>siliss vndt intention erwecken. D. Fürstl. Durchl. hohes Fürstl in</l>
+					<l>vndt friedtliebendes Gemüht were zwart bekandt, ürdgang</l>
+					<l>deswegen von dem Fürstl. Hause Braunschweig Lunek./</l>
+					<l>vndt Insonderheit Seinen Ghnädigen Fürsten vndt Herren, so hu¬</l>
+					<l>als wol ein Potentat, veneriret vnd aestimiret: Weiffel</l>
+					<l>nicht es würden d. Für f. Suechl. auch an Ihrem Orst zur Vertra¬</l>
+					<l>lichen Freundtschafft Undt Communication gegen bemeltes,</l>
+					<l>Furstl. Hanß, wie Sie biß anhero gethan verherren: Deße</l>
+				</lg>
+			</p>
+			<pb n="16"/>
+			<p>
+				<lg>
+					<l>ich solches biß Montags des</l>
+					<l>8. July differiret wollen. Da dann Früh Morgens nach 7. Vhren</l>
+					<l>der Fürstl. Braunschweig. Lüneb. Abgesandte H. D. Lampadius</l>
+					<l>zu mir geschickt, vndt, etwan in einer stunden zu ihme zu kom-</l>
+					<l>men, bitten laßen: Deme ich dann acoccasione I. Fürst. Durch.</l>
+					<l>Schreiben mit gebührender Salutation, conoratulation, voto,</l>
+					<l>dann Klagung wegen der Reyse Geselschafft, alysq[u]s curialito, in sinu-</l>
+					<l>viel: Worauff Er sich dann des Gnädigen Grußes Vnndt zuschrei-</l>
+					<l>bens vnterthänig bedanket; I. Fürst. Durch. Erzstifft so gar</l>
+					<l>schlechten zustand hochbedauert, vndt sich zu Vertraulicher com-</l>
+					<l>munication, auch sonst aller Vnterthäniger devotion anerboten.</l>
+					<l>Mich derselbe bittendt: Wann ich zu dem Herren Graffen</l>
+					<l>oder Graflichem Secretario kehme, Vndt etwan der Reiße-</l>
+					<l>gesellschafft, oder sonst seiner Person gedacht würde; Ihn, das Er</l>
+					<l>sich bey dem Kayser. Herren Abgesandten, aus Mangel eines</l>
+					<l>vor Zelle noch mit einem eigenem Pothen erwarttenden Cre-</l>
+					<l>ditivs nach nicht angeben, incidenter et per discursum zu ent-</l>
+					<l>shuldigung oder erluehr nur relatiri deß zugedenckens</l>
+					<l>Vndt Wiewol ich nun gerur auch bey des Kayser. Herren Abgesand-</l>
+					<l>ten Canzley mich angegeben hatte: So war doch nicht allein über</l>
+					<l>der auffwartung bey H. D. Lampadio (weil aber der Chur-</l>
+					<l>Brandenburg. Hoffjuncker und Agent bey Ihm gewesen, Vnd</l>
+					<l>über 3. Stunde sich auffgehalten) Vndt gespräch mit demsel-</l>
+					<l>ben des Morgen biß 1/2 zwölff Uhr verlauffen; Sondern es trug</l>
+					<l>sich auch Nachmittags zu: Das, stracks nach der Malzeit in dem</l>
+					<l>Wihrtshause, wo ich loge, vndt ein Pothe, so den Hamb. brieffe</l>
+					<l>Von Dethmar anhero bringet, diesmal aber über die Zeitt</l>
+					<l>außblieben, einzukehren pfleget, ein Kayserl. Haubtmann</l>
+					<l>Kach genandt, angesprochen, nach der Post gefraget, vndt sich</l>
+					<l>neben des Dennema. H. Abgesandten Schreiber, welcher in an-</l>
+					<l>dern Sachen mit dem Wihrt geredet, bey mir am Tisch ultro</l>
+					<l>niedersezet, Darauff aber baldt des H. Graffen Medicus</l>
+					<l>D. Rasch (des Rätten Rapschen Bruder) nach mir expresse ge-</l>
+					<l>fraget, vndt mich wegen der Landtsmanschafft (als Seinen</l>
+					<l>bericht nach ein Magdeb. Kind)  de adventu conoratular-</l>
+					<l>do besucht, Vndt also (rescio an fortaito; an consilio) zusammen</l>
+					<l>kommen. Weil ich dann von Ihnen verstanden, das der</l>
+					<l>Secretario, neben I. Excell. dem H. Graffen, nach gewohnheitt</l>
+					<l>ein wenig mit felzt gefahren: So habe ich Sie, und son</l>
+					<l>derlich den Medicum niederzusezen gebeten, Vndt mit ihnen</l>
+					<l>mera generatia et de novellis (de quibus mna) dis-</l>
+				</lg>
+			</p>
+			<pb n="17"/>
+			<p>
+				<lg>
+					<l>tiret, die Insinnation aber I. Fürst. Durch. Schreibens (darvon</l>
+					<l>ich aber doch gegendige, den Herren Graffen Ministros Gral mel-</l>
+					<l>dung gethan.) biß folgenden Morgen den</l>
+					<l>9. July verschicken müßen.</l>
+					<l>Da sich zwar der Secret. (so das Stiffts Canzlers zur Zein H. D.</l>
+					<l>Munchts Sohn vndt nach Wengel. Religion sein solle) zu dem ich</l>
+					<l>eben aus- vndt zu ihme gehen wollen, bey mir angeben laßen:</l>
+					<l>Deme ich aber meinen ohnbeschwert zuerwartten entbohten; vndt</l>
+					<l>ihme darauff I. Fürst. Durch. Schreiben dem H. Graffens, </l>
+					<l>nebst abgelegter conoratulation voto vnd andern curialibo</l>
+					<l>zu überreichen, in dem Gemach neben der Taffelstuben  ste-</l>
+					<l>hendt insinuiret: Welches Er dann, nach genötrinenes ab-</l>
+					<l>tritt I. Excell. alsfort fürgetragen; Zur Resolution aber</l>
+					<l>zurückbracht: Das I. Excell. vff I. Fürst. Durch. Schrei-</l>
+					<l>ben förderlichst andtwordten; Mir aber so offt ichs begehren</l>
+					<l>Vndt mich anmelden würde, in einem vndt andern mit</l>
+					<l>dienlicher communication, oder auch bedürffender assistenz</l>
+					<l>also an die hand wolle gehen laßen, das zuförderst I. Fürstl.</l>
+					<l>Durchl. vndt dann ich auch darann ein genügen haben</l>
+					<l>solte</l>
+					<l>Baldt darauff bin ich noch deßelben Morgens nach der</l>
+					<l>Schwedischen Gesandten H. Oxenstirns Quartier gangen;</l>
+					<l>Weil aber der Secret. Mylonius damahls eben bey bey den</l>
+					<l>H. Gesandten, über Verlesung Vorigentags, uff der Post ange-</l>
+					<l>langeter schreiben gewesen; Vndt Hergegen der Referendarius</l>
+					<l>eben auß der Canzley kommen, vndt sich praesentiret: So habe</l>
+					<l>ich kein bedencken gehabt, demselben das Fürstl. Schreiben</l>
+					<l>cum solitis curialibus, zu insinuiren; Welches Er auch, so baldt</l>
+					<l>jenes verrichtet fürzutragen cum reciprocis curialibus, auff</l>
+					<l>sich genommen</l>
+					<l>Worauff nun noch zur Zeit das Werck [Ee Jehr; Wente] an Kays.</l>
+					<l>seiten die schuldt beygeweßen, Vndt was sonst dabey berichtet</l>
+					<l>wurdt: Solches ist aus beygefuegtem I. Excell. andwordt Schrei-</l>
+					<l>[10.] ben mir am 10. July nachmittags, anstadt mündtlicher an-</l>
+					<l>zeige, vor der Obsionation nachrichtlich zu verleßen communicir-</l>
+					<l>ten andtwordt Schreiben, mit mehren zuersehen; Vndt dennoch</l>
+					<l>zu wiederholen vnnötig. Hergegen aber als ich deßelben</l>
+					<l>tages Frühe in transitu dem Schwedischen Scretario Mylonio</l>
+					<l>das mitgegebene Privatschreiben nebst dem auffgetragenen</l>
+					<l>gruße überandtwortete; Vndt zugleich umb adressirung der</l>
+				</lg>
+			</p>
+			<pb n="18"/>
+			<p>
+				<lg>
+					<l>der beyden Fürstl. Schreiben an den Herrn Feldmarschal Torsten-</l>
+					<l>son vndt Herrn Assistentz Rahte Erhken, gesuchete: Dero jenes</l>
+					<l>Er sehr wol vndt mit einer erfreulicher mine auffgenommen;</l>
+					<l>zu Bestellung aber der Fürst. Schreiben digen daßfung eines</l>
+					<l>Recipisse (wie auch erkundigung zuselbiger gelegenheit nach</l>
+					<l>Münster zu kommen, vndt mich daselbst, weil es hier nach nicht</l>
+					<l>viel zu thun gebe, umbzusehen) sich gutwillig, vnnd ultro erboten.</l>
+					<l>Verstunde ich von demselben; wie auch auß anderer vertrau-</l>
+					<l>licher communication, viel ein anders Vnd kürzlichen so viel:</l>
+					<l>1 Die Münsterischen tractaten anlangendt; Wenn zwar</l>
+					<l>die Vollmachten beyderseits produciret; beyderseits aber ezliche</l>
+					<l>defecta bedienen vndt angezogen worden. In der Fanzösischen</l>
+					<l>zwar vnterschiedtliche, vndt sonderlich das 1. der Duc d'Or-</l>
+					<l>leans dieselbe nicht mit volzogen. 2. Die Cron Franck-</l>
+					<l>reich sich gerechter Waffen darinnen gerühmet. In der Kaysl.</l>
+					<l>aber, das darinnen der Cron Franckreich Confoederirten nicht</l>
+					<l>gedacht würde. Zu hinlegung zwar solcher difficultäten hette</l>
+					<l>der interponirende Venetianische Ambassador ein G[ene]ral con-</l>
+					<l>cept auffzusezen, sich anerbohten: Ob aber solches geschehen; Vndt</l>
+					<l>wann die Vollziehung vndt außlieferung [achehen] nächste</l>
+					<l>Stünde zuerwartten. Vnndt sol darbey auch diese große diffi-</l>
+					<l>cultät geben: Das die Churfürst. H. H. H. interponenten</l>
+					<l>(als Mainz Vndt Brandenburg zu Oßnabrück vndt Cöln</l>
+					<l>Vndt Brandenburgk zu Münster) Ihre Gesandten, mit eben</l>
+					<l>den Solennitäten, wie der Venetianischen Ambassador einge-</l>
+					<l>holet wißen wolten, So aber der H. Graff von Naßau des</l>
+					<l>Chur Cölnischen Gesandten vndt Bischoff zu Oßnabrück deswe-</l>
+					<l>gen an Ihn abgefretigten Praeposito, abgeschlagen vndt sich auff</l>
+					<l>I. Kayserl. Mayst. stricte ordre beruffen hette. Wie nun</l>
+					<l>zwar solcher Vhralte praecedentzstreit bey diesen tractaten</l>
+					<l>ganz impertinent auch vnnötig: Sentemal den Ceremonien</l>
+					<l>der Einholung wol anders gerahten werden könte. Sonsten</l>
+					<l>aber beyderseits competirende theile, wol von einanderblei-</l>
+					<l>ben, und nimmerzusammenkommen würden: So</l>
+					<l>hette es gleichwol ein seltzames ansehen: Wenn I. Kayser.</l>
+					<l>Mayt. entweder dem Churf. Hochlöblichen Collegio solche hohe</l>
+					<l>Dignität vndt pratentirende praecedentz vndt praeeminentz</l>
+					<l>causa nondum decisa, durch Versagung solcher Ceremonien</l>
+					<l>verringern, oder aber, durch erregung solches pracedentz streits,</l>
+				</lg>
+			</p>
+			<pb n="19"/>
+			<p>
+				<lg>
+					<l>zu noch längern moris Vrsach vndt Anlaß geben ließe.</l>
+					<l>2. Die Oßnabrückische handtlung betreffendt: Ließe sich dieselbe auch</l>
+					<l>weitleufftiger ansehen, vndt wegen der Vollmachten noch gar nicht pro-</l>
+					<l>duciret: Sintemal die Kayserl. Herren Gesandten sich anfangs, das</l>
+					<l>Ihr Creditiv (wie Sie es genennet) auff Dennenmarck lautete,</l>
+					<l>vernehmen laßen, vndt demnach ein 3. oder 3 1/2 Wochen auffschub</l>
+					<l>ad referendum begehret. Nach ablauff aber derselben, uff beschehene</l>
+					<l>erinnerung, sich außdrucklich erkläret, das Sie Vermöge Kayserl.</l>
+					<l>Resolution ohne Dennemarck nicht tractiren könten noch dürff-</l>
+					<l>ten. Alß nun darauff die Schwedischen Herren Abgesan-</l>
+					<l>ten erklärung solcher wordt ohne Dennemarck, vndt ob dieselben an</l>
+					<l>der Königlichen intermedition, (die So die Schweden zwar Ihnen nie</l>
+					<l>zu verwehren gemeinet gewesen; Wenn nicht die Dänischen</l>
+					<l>selbst Ihne stationem verlaßen hetten) oder I. König. May.</l>
+					<l>selbst eigenem Interesse: vndt dieses wiederumb antworten</l>
+					<l>wegen seines König Reichs; oder wegen des Fürstenthumbs</l>
+					<l>Holstein zu verstehen begehret hätten. Wert endtlich einesal-</l>
+					<l>zhuerfolget: Das nicht die interposition (qua Rex per</l>
+					<l>novan hostilitatem pulsus esset; ob eamq[ue] Svecos publicis ad</l>
+					<l>Imperat. et Electorem Saxonica pro impetrandis suppetus datis</l>
+					<l>iteris, pro communibo Hostibo declarasset) sondern des Königs</l>
+					<l>selbst interesse dardurch gemeinet. Nun were es aber an</l>
+					<l>denen, daß dieser Krieg nicht wegen des Herzogthumb Holdt-</l>
+					<l>steins; Sondern wegen anderer, beyde Königreiche selbst</l>
+					<l>concerrirender Festungen Vndt streitigkeiten angangen: Ge-</l>
+					<l>hörte derwegen nicht für des Römische Reich, noch zu diesen</l>
+					<l>Teuzschen Friedenshandtlung, Sondern weres deßhalbe</l>
+					<l>zwischen bey der Cron Reichs Rähten, an den Gränzen zusammen-</l>
+					<l>kunfften angestellet: Die durch den Secret. Günthern Vndt Re-</l>
+					<l>sidenten Taucken incaminirte Französiche vndt Schwedische In-</l>
+					<l>terposition acceptiret: Inmaßen der Villeroy in durchreisen</l>
+					<l>sehr geeilet; vndt das den König sehr darnach Verlangen wür-</l>
+					<l>de, sich vernehmen laßen: Vndt hetten Sie (die Schwedischen)</l>
+					<l>die gewiße nachricht, das nicht so wohl der König in Denne-</l>
+					<l>marck dem Keyser sein interesse in diese tractaten zuziehen</l>
+					<l>ersuchet; Als I. Keyser. May. durch den Residenten Pletten-</l>
+					<l>bergen bey Dennemarck seine Gesandten anhero zuschicken, Vndt</l>
+					<l>des Werck zu treiben, anstendig anhalten laßen. Wie</l>
+					<l>dann auch D. Langermann selbst gestanden hette, Das sein</l>
+					<l>Gnädigster König solches nur begehret; Sondern zum praetext</l>
+					<l>der Verzögerung gebrauchet würde.</l>
+				</lg>
+			</p>
+			<pb n="20"/>
+			<p>
+				<lg>
+					<l>Vndt ob nun wol sicher dannn die Kayserischen vndt Spannischen</l>
+					<l>Gesandten beyder Orten, zu Lengerichen, beysammen gewesen: So</l>
+					<l>were doch noch nichts, weder hier, noch zu Münster, zu vernehmen,</l>
+					<l>das Sie sich eines besten entsonnen vnd dem Werck näher zutre-</l>
+					<l>ten begehrten. Worbey dann Er (Mylonius) auch dasjenige in-</l>
+					<l>cidenter, was ich am 2. July vom Lüneb. Cammer Secret. Vito</l>
+					<l>wegen der proposition zu Franckfuhrt, vndt das sich die Franzö-</l>
+					<l>sischen, sowohl durch daßelbe, als auch durch die defecten Ihrer Voll-</l>
+					<l>machten des Salvi conductus verlustig gemachet, verstanden, confir-</l>
+					<l>mirt, vndt darbey in specie referirte: Daß, obwol die Deputati</l>
+					<l>es ad referendum angenommen; So hette doch Chur Mainz. in ipsa</l>
+					<l>propositione auff des Kaysers seiten, mit ohngefehr diesen wordten:</l>
+					<l>Daß I. Kayser. May, solches nicht vnbillich resentirte, votiret vndt</l>
+					<l>dardurch den Deputirten gleichsamb den weg, wie Sie votiren</l>
+					<l>solten, gewiesen.</l>
+					<l>Sonsten aber weil weder der Kaysel. noch der Schwedische</l>
+					<l>H. Gesandte, wegen I. Fürst. Durch zustandes, oder meiner</l>
+					<l>auffgetragenen Verrichtung nach befragen laßen: So habe ich</l>
+					<l>auch bedencken gehabt gegen gemeldten Mylonio des Erztiffts</l>
+					<l>Magdeb. bedrängten Zustands speciatim (ohne was in meris</l>
+					<l>generalibus gedacht) anzuführen oder zu deduciren; Vnd</l>
+					<l>ist auch weder, von Ihme noch sonst iemands wegen des</l>
+					<l>Erzstiffts interesse, des geringste nicht moviret worden.</l>
+					<l>Was sonst der alhier Anwesenden Herren Gesandten Nahmen,</l>
+					<l>titul. führenden stat vndt comportement, auch Ordnung</l>
+					<l>Vndt Verrichtung der Visiten anlanget: Ist das Erste; so wie</l>
+					<l>ich noch zur Zeit erfahren können, beygefügt zuersehen, Vndt</l>
+					<l>vermeinet Herr D. Lampadius, das die Mecklenburg. vndt viel-</l>
+					<l>leicht auch die Bayersch., Marggräff. Brandenburg. Gesand-</l>
+					<l>ten ehist folgen möchten. Den stat vndt comportiment [rrst] sol-</l>
+					<l>ches vnterschiedtlich: Wie sich dann der Kays. H.  Abgesandte</l>
+					<l>zu Münster viel Prächtiger halten, vndt eine größere Soyte</l>
+					<l>(darunter 15. von Adel) haben solle; Als H. Graff von</l>
+					<l>Weißberg: Deme zwar wie berichtet wirdt, der schon im</l>
+					<l>herreißen begriffene Herr Graff von Lambergk succediren</l>
+					<l>solle, doch I. Excell, wengleich derselbe schon zuestelle, umb</l>
+					<l>nohtwendiger information vndt communcation willen noch</l>
+					<l>ein 3. oder 4. Wachen, neben Ihme, alhier verbleiben würde,</l>
+					<l>So soll auch der alhier anwesenden Heßen-Caßelische Abgesandte</l>
+					<l>Hr. Scheffer 6. Wagen, vndt 6. Reit Pferde, neben in 18 Person</l>
+					<l>bey sich haben. Dargegen der Braunschweig Lüneburg.</l>
+				</lg>
+			</p>
+			<pb n="21"/>
+			<p>
+				<lg>
+					<l>H. D. Lampadius, seines theils mehr nicht, dann mit obgedachter maßen 2. diener,</l>
+					<l>8. Kutzschen, einer Köchin, vndt 4. Pferden allhier ist. Waßen</l>
+					<l>dann auch in den Losamenten, wie wol sie, als ich vernehme,</l>
+					<l>meistlich sehr hoch, ein großer Vnrterschiedt. Dann zum Exempel</l>
+					<l>der Portugesische Ambassador auß einen, von eußerlichen auße-</l>
+					<l>hen nicht so gar stadtlichem Hauße, 500. Thlr, uff ein Jahr prand-</l>
+					<l>meriret, vndt noch die sumtus adornationis et exornationis über</l>
+					<l>sich genommen. Hergegen die Herren Lüneburg. Monatlich uff</l>
+					<l>20. thlr. (wiewol gar zeitlich; vndt fast vor einem Jahre) aus</l>
+					<l>einem hübschen ansehnlichem Hause, contrahiret haben sollen;</l>
+					<l>Für meine Person habe ich über angewendete fleißige Bemühung,</l>
+					<l>wegen Tisches vndt Losaments, noch keine gewißheit erlangen kön-</l>
+					<l>nen, hoffe aber deßen von einen fürgeschlagenen guten Orte</l>
+					<l>umb ein billiges habhafft zu werden. Dieweil auch sicher</l>
+					<l>meinen Anwesen meines wißendts, vndt wird niemandt</l>
+					<l>sonst angelanget, keine Visite fürgangen; Der mehrgedach-</l>
+					<l>te H. D. Lampadius aber, aus mangel noch erwarttenden Credi-</l>
+					<l>tivs, noch keine verrichtet: So habe ich noch zur Zeit darvon</l>
+					<l>auch nichts umbstendiges einzunehmen gehabt; So aber</l>
+					<l>noch künftig erkundiget, vndt umbstendig berichtet-</l>
+					<l>werden soll. Vndt habe ich vnter andern auch vernommen,</l>
+					<l>das von dem Kaysl. Herren Abgesandten, dem Jungen Her-</l>
+					<l>zoge von Würtenb. jure, des Pommerischen Gesandten,</l>
+					<l>aber weil Sie kein Creditiv gehabt, (wie Sie dann nur</l>
+					<l>in privato, wegen der Landesbedrängnüß sollicitiren wollen)</l>
+					<l>die Visite vndt Audienz abgeschlagen worden.</l>
+					<l>Avisen endtlich anlangendt: Ist an Schwed. seiten andres nichts</l>
+					<l>sonderliches, als was zur Minden, Von des G[ene]ral Maior Königs-</l>
+					<l>marc bis ein bruch ins Landt von Westen verlautet, zu verneh-</l>
+					<l>men gewesen; Hergegen aber die Kayser. Vndt Dennemarck.</l>
+					<l>aus den gedruckten avisen vndt sonst viel gute Zeitung ge-</l>
+					<l>habt. Av. 1. Were von Lübeck geschrieben, das zwischen der</l>
+					<l>Danisch. vndt Schwed. Schiffarmadis wieder etwas haubtsachliches</l>
+					<l>fürgangen: Darinnes der Schwed. Admiral zu grund geschoßen.</l>
+					<l>vndt 10 (die getruckten melden nur in allen von 6. Hol-</l>
+					<l>ländischen) Schiffe erobert, vndt nach Coppenhagen gebracht</l>
+					<l>worden.</l>
+					<l>2. Hannibal Seestäck gienge mit 15000 Mann nach den Schwe-</l>
+					<l>dischen Küpfer bergen: Vndt hatte guten progress.</l>
+				</lg>
+			</p>
+			<pb n="22"/>
+			<p>
+				<lg>
+					<l>alfbezu</l>
+					<l>3. Sey ganz Jütland wieder frey, vndt die Schwed. allbereit bey Oedeßlahe</l>
+					<l>wieder herraus kommen, Darüber die dänischen zu Hadersleben</l>
+					<l>(meines behalts) beym Abzug eingefallen, ezliche Völlcker miniret</l>
+					<l>vndt 36. stücken erstagget hatten.</l>
+					<l>4. Lage die Kayser. Haubt Armada in Meckelnburg umb zufa-</l>
+					<l>hren: Vnt war nichts dran, das Gallas, wegen des Ragorzi zu-</l>
+					<l>rück gefordert.</l>
+					<l>5. Wie den Ragorzi nicht alhein so weit zurück getrieben, vndt</l>
+					<l>connonstiret, das Er intra suos limites belligeriren müße.</l>
+					<l>Sondern hatte sich auch vom Türcken keiner Assistentz zuge-</l>
+					<l>trößn. Vndt würde noch durch G[eneral] von Buchennb mit Ihn</l>
+					<l>tractiret. Kschereine gehe nach der Türkische Pothen Vndt weren</l>
+					<l>schon Jede Türkische Pottschafften, umb confirmation des</l>
+					<l>Friedens, zu Ohren ankommen.</l>
+					<l>6. Continuire nicht, das KönigsMarck ins Stifft Bremen gan-</l>
+					<l>gen: Sondern wolle verlauten, Er sey erfordert, mit der</l>
+					<l>Torstensonischen Haubt Armee sich zu conjungiren,</l>
+					<l>7. Lege Jean de Wehrt vndt die Bay. Armee vor Freyburgh</l>
+					<l>im Breißgau: Sie dann albereit einen starcken Gurn</l>
+					<l>darfür gefället, vndt ein festes Schloß bey, uff gnadt-</l>
+					<l>vndt Vngnaden genommen haben sollen.</l>
+					<l>8. Wegen entsatzes Grevelingen würde zwar noch gezweiffelt,</l>
+					<l>Sey aber Gewiß, das die Spannischen 4. oder 600. Mann, iedes</l>
+					<l>mit 18 t. Pulver in die Stadt gebracht,</l>
+					<l>9. Deßgleichen gewiß, das die Portugesen totaliter ruinire</l>
+					<l>vndt (wie der Secretarius saget, das ich sicherlich von mir</l>
+					<l>schreiben könte) in 7000. geblieben Vndt gefangen:</l>
+					<l>10. Darauff sich auch Cerida in Catalonia ergeben</l>
+				</lg>
+			</p>
+			<pb n="23"/>
+			<p>
+				<lg>
+					<l>1644</l>
+					<l>Continuatio Diary</l>
+					<l>11 July Donnerstags habe ich meinen Vnterthänigsten Bericht No. 1. sambt der</l>
+					<l>Titulatur der Herren Gesandten, Extract der Reise Kosten, Vnd beyschreiben</l>
+					<l>an den Herren Cammer Secretarium gefertiget: Vndt neben dem An-</l>
+					<l>fang Vndt Continuation der Diary auch I. Excell. des H. Graffen von</l>
+					<l>Auersberg andtwordtschreiben, folgenden Freytag bey . . . .</l>
+					<l>12. dito mit der Kayse. Post uff Hamburg franco fortgesendet. Eodem</l>
+					<l>nachmittage habe ich mich auff Heinrich Meinarrd von Gülich Gül-</l>
+					<l>demeisters recommendation zu dem Pfarherrn bey S. Catharinen</l>
+					<l>(Wie denn ganz Oßnabrück; die Säsferey außgenommen, Gott </l>
+					<l>lob. nach eifrig pangelischiff ist) M. Jobanne Ludovico begeben vndt mit</l>
+					<l>ihme, das er mich, nebens meinem Diener zu sich ins Losament</l>
+					<l>vndt Kost nehmen möchte, tractiret: Darzu er sich dem ganz wil-</l>
+					<l>lig erboten; Das pretium aber ein 8. Tage Versucht mit er-</l>
+					<l>bietung aller Christlichen einem Prediger sonderlich gebührene</l>
+					<l>billigkeit, gestellet: Wie ich dan folgenden Sammabendts ge-</l>
+					<l>gen die Nacht das Losaemendt bezogen, Vndt den Sontag darauf</l>
+					<l>an den Tisch getretten.</l>
+					<l>13. Julÿ Nach Tische ließe der Herr Vice Canzler D. Lampadio mich ersuchen</l>
+					<l>mit ihme ins Feldt spazieren zufahren, vndt eröffnete mir</l>
+					<l>dabey Vertraulich: Das Er nach erlangtem Creditiv derselben Mor-</l>
+					<l>gen zwischen 9. vndt 10. Vhren bey denen Keyserl. Herren Abgesand-</l>
+					<l>ten die Visite Verrichtet; zugleich aber auch seine proposition vndt</l>
+					<l>Werbung abgelegt,</l>
+					<l>Summa derselben were gewesen; Das ihn zwar Seine Gnädige</l>
+					<l>Herren Principaln (Herr Herzog Friedrich vndt Herr Herzog Christian</l>
+					<l>Ludwig zu Braunschweig Lüneburg) mit gnugsamer Instructi-</l>
+					<l>on Vollmacht vndt Creditiven zu diesen Friedenshandtlungen abge-</l>
+					<l>fertiget: Die Er auch allerhandten produciren könte vndt wolte;</l>
+					<l>Weil aber Sie, die Herrn Kayser. mit den Schwedischen, Vndt Fran-</l>
+					<l>zösischen selbst noch über den Vollmacht. disputirten, nach zur Zeit vor</l>
+					<l>vnnötig erachtete.</l>
+					<l>Hatte darnebens hiebevor beliebtermaßen, bey diesen tractaten, pro</l>
+					<l>inter nuncio, vel quoris modo, fideliter Craffthabender befehligs vndt</l>
+					<l>Instruction zu cooperiren; Wordurch viel Ceremonien actiones ha-</l>
+					<l>lennes et publicae, vndt daher besagliche weidtläufftigkeit vndt Ver-</l>
+					<l>Zögerungen ersparet werden könten, sich offeriret, Doch darbey ange-</l>
+					<l>zeigt, das Er mit den Schwedischen Ministris wegen restitution der noch</l>
+					<l>inhabenden den Fürst. hauße Braunschweig, Lüneburg vndt inson-</l>
+					<l>derheit Herren Herzog Friederichs, vnd Herrn Herzog Augusten zue-</l>
+					<l>stendiger Belangen, nochmahls zu traciren befehl hatte</l>
+					<l>Worauff die Herren Gesandten, ihn nur mit eine General An¬</l>
+				</lg>
+			</p>
+			<pb n="24"/>
+			<p>
+				<lg>
+					<l>andtwordt versehen. Mitt erbiethen die Sache in bedencken zu nehmen</l>
+					<l>vndt daraus ferner mit ihme zu communiciren: Vndt hielte</l>
+					<l>der Herrn Vice Canzler darfür: Das Sie diese seine Proposition</l>
+					<l>Vorhero denen zu Münster anwesenden Keyser. Herren Abgesand-</l>
+					<l>ten (wie ich dann, das solche auff den Montag geschehen würde,</l>
+					<l>nach des [?]-dts von hiebevor gengelten den Herrn Grafen Von</l>
+					<l>Auersberg uffwardenden Hauptmann Kathen Verstanden) com-</l>
+					<l>mumciren, Ihnen auch vielleicht die anerbotene Cooperation</l>
+					<l>nicht allerdings angenehm sein würde.</l>
+					<l>Dann ob wol solches nicht allein hiebevon uff dem Collegial¬</l>
+					<l>Vndt Reichstage zu Nürrnnberg vndt Regensburg von dem</l>
+					<l>Churff. Collegio vndt ganzen Reich placitiret vndt acceptiret</l>
+					<l>Sondern auch bey der zwischen I. Keyser. May. Vndt Fürst. Hauße</l>
+					<l>Braunschweig Lüneburg getroffenen vergleichung außdrücklich</l>
+					<l>capituliret werden; Weil aber gedachtes Fürst. Hauß</l>
+					<l>so gar sehr beydes an gemelten Arten, vnd auff der Deputation-</l>
+					<l>Tage zu Frankfuhrt am Mayn Libertatem Germaniae et Con-</l>
+					<l>silia Pacis uroiret; Die Keyser. aber vielmehr die sache armii</l>
+					<l>Sich außzuführen, inclinirten. So würden Sie sich vielleicht</l>
+					<l>deßwegen, das mehr hoch gedachtes Fürst. Hauß des Jrarg,</l>
+					<l>das Sie nicht directe durch ihre vota et voces publicas er-</l>
+					<l>halten können; per obliquam Vermittels dieser angetragenen</l>
+					<l>Cooperation durch zubringen sich bemühen möchte, besegen</l>
+					<l>Curialia belanget: Hetten ihn an der euersten Haußthür</l>
+					<l>Zween des H. Grafen auffwarten; An der Innen aber im</l>
+					<l>Hauße oder uff der Dihlen die Herren Gesandten selbst empfan-</l>
+					<l>gen vndt in des H. Grafen Zimmer geführet: Daselbst H.</l>
+					<l>Eren zwar die rede gethan. Sonst aber auch der H. Gras</l>
+					<l>sich gar courtois vndt freundtlich Ihm, obschon nicht wenig</l>
+					<l>werdten erwiesen. Sonst hetten ihn auch so wol der Französich-</l>
+					<l>Resident alhier, als auch die Schwedischen Abgesandten venuerit</l>
+					<l>laßen vndt H. Salvius, alter Kundtschafft halber, ihm zubesuchen</l>
+					<l>sich erbotten: Vom König. Dennma. Abgesandten aber H.</l>
+					<l>Langermannen, wie sich zwar, weil er vor ihme hiergewesen</l>
+					<l>gebühret hette, were dergleichen nach nicht geschehen.</l>
+					<l>hatt Ihn auch baldt nach seiner Ankunfft der Heßische Gesandte ehe</l>
+					<l>nach Münster gereiset, zweymal besuchet: Deme der H. Vice Canz-</l>
+					<l>ler, auß seiner Vnter um hauße habenden Stuben biß vor die Thür</l>
+					<l>heraus ein Wagen entgegen gangen vndt denselben empfangen</l>
+					<l>Würde nunmehr förderlichst sich an die Herren Schwedischen Ge-</l>
+					<l>sandten finden. Vndt dann auch der König. Dennema. Vndt</l>
+					<l>andern H. H. Gesandten heimsuchen. Sehe aber gerne, das Vorhero das</l>
+					<l>in Vorgedachter deinigs vndt Restitution - Sache, (vndt wer-</l>
+				</lg>
+			</p>
+			<pb n="25"/>
+			<p>
+				<lg>
+					<l>der nicht) Von H. Herzog Fridrichen thur adiungirt Landtrost der</l>
+					<l>Graffschafft bey Johann Adam von Hammerstein sich alhier gegen Mon-</l>
+					<l>tags oder Dienstags. Seinen Vertrößen nach, einstellete: Damit</l>
+					<l>er nicht nur bloße Curialia ablegen dürffte; Sondern alsofort</l>
+					<l>die materialia tractiren könnte.</l>
+					<l>Selbigen Abendts kam der Heßische Gesandte H. G[ene]ralCommissarius</l>
+					<l>Scheffer von Münster zurück, vndt soll auch der Schwedische Resident</l>
+					<l>zu Münster Herr Schering (soll ein Vhralter Gothischer nahme sein)</l>
+					<l>Von Rosenhan Reichsraht vndt Gouverneur in Ostergohtlandt densel-</l>
+					<l>ben Tag auch angelanget sein.</l>
+					<l>Beides mir auch deßelben Abendt spat von dem Kayser. Haubt-</l>
+					<l>mann Kachen die Avisero von der Dänischen Seeschlacht vndt victori wie</l>
+					<l>auch das die König. Engelische Armee totaliter geschlagen, Vndt in 56. Mann</l>
+					<l>geblieben vndt gefangen weren, Communiciret: Die ich dann, neben des</l>
+					<l>andern von des H. Oxenstierns Hoffjunckern, Meinen Barbier, vndt</l>
+					<l>Von demselben nur communicirte contrari Zeitung am 15. t[ag]. die-</l>
+					<l>ses dem H. Cammer Secret. über Braunschweig vndt Magdeb. zuge-</l>
+					<l>schicket: Worbey dann auch vermeldet worden, als wann Jean de</l>
+					<l>Werts 3. Weymarische Regimenter ruiniret, Vndt solches mit eigenen han-</l>
+					<l>den dem H. Grafen von Auersberg geschrieben hatte.</l>
+					<l>14. Sonntags nach der Vesper Predigt ließe mich abermahls der H. Vice-</l>
+					<l>Canzlar zur Spazierenfahrt ersuchen; behielte mich auch den Abendt bey</l>
+					<l>sich zur Mahlzeit: Worbey aber nichts denckwardiges oder zuberichten nöti-</l>
+					<l>ges fürgelauffen; Sondern der H. Vice Canzlar mehrentheils Theolo-</l>
+					<l>gische vndt historische stadtliche discursus gefuhret.</l>
+					<l>15 Nach dem ich Früh an dem H. Canzler, H. Hoffraht D. Büttnern, des</l>
+					<l>Cammer Secret. vndt andern privat Schreiben, nebst vorgemelte Zei-</l>
+					<l>tungen mit der Keyser. Post über Braunschweig auff Magdeburg</l>
+					<l>an den Herren Möllen Voigt bestellete. Sprache ich nach der Mittags</l>
+					<l>Mahlzeit des H. Grafen von Auersberg Secretario Johann Mü-</l>
+					<l>chen zu; von deme ich in Taffelstube (so, wie auch des Vorgemach</l>
+					<l>mit schönen von Historien gewürckten Ewregereye gezieren: Auch</l>
+					<l>hinter der Obersolle Vndt über der Taffel mit einen rothen Da¬</l>
+					<l>maßenen Hamniel vndt Tapet bekleidet vndt die seßel oder</l>
+					<l>Stüle mit rothem Tuch beschlagen waren) geführet, Vndt stando</l>
+					<l>et deamontando eines vndt anders berichtet wurde.</l>
+					<l>Alß: das der Gräf. Oldenburg. alhier gehesee Secret Hermanno</l>
+					<l>Mylius auff sein übergebenes Creditv bey I. Excell. Audientz gehabt</l>
+					<l>hette, Vndt von derselben mit einen Recreditiv abgefertiget worden,</l>
+					<l>Waß sein anbringen oder Werbung gewesen, könne er eigendt-</l>
+					<l>lich nicht wißen: Hielte aber darfür, es werde umb abwendung der</l>
+					<l>Keyser. marche von der Graffschafft Oldenburg zu thun gewesen sein:</l>
+					<l>Welcher er daher abnehme, weil Er copiam des Königl. Denmmarck.</l>
+					<l>vor gemelter Graffschafft ertheileten protectorii oder Salva-Guardia</l>
+					<l>übergeben, (weil nun gedachter Oldenburg Secret. den vorhergehenden</l>
+					<l>Sonntag auch beym Schwedischen Secretario Mylonio als ich zu ihm geschickt</l>
+				</lg>
+			</p>
+			<pb n="26"/>
+			<p>
+				<lg>
+					<l>Vndt Ob Er noch keine gelegenheit nach Münster vernommen, auch erkundigen</l>
+					<l>laßen, gewesen: Mache ich mir die gedancken, Er werde auch daselbst dergleiche</l>
+					<l>jede mal gar eine Nentralität sollictiren haben, Wie den nachher H. My-</l>
+					<l>lonig, das solches seine eigentliche Verrichtung vndt Werkung gewesen, Vndt</l>
+					<l>Er dero behurff nicht allein das König. Dennemarck, sondrn auch des H.</l>
+					<l>Grafen von Gallas protectorum produciret, vnd am nachfolgenden</l>
+					<l>1. dieses seine abfertigung mit remission des Haubtwercks an die Cron</l>
+					<l>Schwed., vndt das es doch interm in vorigen terminis gelasen würde,</l>
+					<l>haben solte, confirmiret). Der Dähnische Victori zur</l>
+					<l>Sie continuiren von allen orten, auch mit eines diesen morgen hierdurch</l>
+					<l>uff Munster eylendt lauffenden Bremischen Pothen, umbständig. War</l>
+					<l>auch der große Verlust des Königs in Engelandt, vndt gienge Hanni-</l>
+					<l>bal Seestack nach auffgehobener Belagerung Wollenberg vnd hinter-</l>
+					<l>laßener bloquade, mit 15000. Mannes recta in Schweden, Vndt solle mit</l>
+					<l>guten Progress schon biß an die Kupfer Bergen kommen sein; Die</l>
+					<l>Kayser. recta uff Holstein gehende Armada aber hatte das Haubt-</l>
+					<l>quartier vnlangst zue Lauengbung gehabt. Hergegen haußete G[ene]ral</l>
+					<l>Major KöningsMarck im Erzstift Bremen mit fangen vndt brennen er-</l>
+					<l>bärmlich: Hette Vnter andern das Moor, dadurch er hienein kom-</l>
+					<l>men, anstecken laßen, welches eine solche Flame von sich geben, als war</l>
+					<l>das ganze Landt im feuer stünde: Hette auch der Raht zu Bremen</l>
+					<l>und reparation der Brücken zu Borg durch seiner Secrct. ersuchen laßen,</l>
+					<l>so als baldt (viellercht umb derer mit dem H. Erzbischoffs habenden</l>
+					<l>differentien willen desto ehe vndt lieber) geschehen. Sonst were zwar</l>
+					<l>der Dännemerkische Secretarius Klein (so hiebevor mit den</l>
+					<l>Dänischen Abgesandten in der Pfalzischen Interpositions sache, H. Be-</l>
+					<l>felches auch zu Regensburg gewesen) anhero Vnterwegens: Ob aber</l>
+					<l>die Pincipal-Ambassada (darzu hiebe vorn H. Jobst Höge Reich-</l>
+					<l>Canzler H. Gregor Crabbe ReichsRaht, H. D. Philip von den Lippe</l>
+					<l>Teuzscher Canzler, vndt der nach amwesende H. D. Laurentius Lan-</l>
+					<l>germann deputiret; auch bereits mit über 100. Personen vndt in 160.</l>
+					<l>Pferde hiergewesen sein sollen: Wie sie den 6. große Häuser neben</l>
+					<l>einander dazu bestanden, auffs beste repariren vndt das eine mit</l>
+					<l>dem König. Wapen) dergleichen auch an Kayß. Schwedischen Franzos</l>
+					<l>Brandenburg. Quartieres, an dem Heßischen vndt Lüneburg aber</l>
+					<l>nicht zufinden (vndt die andern, mit dem Königl. Nahmens</l>
+					<l>geichen M E beinercken laßen) folgen werden, könne man noch</l>
+					<l>nicht wißen: Mons[ieur] Toullerie (vndt nicht wie ich newlich epexe-</l>
+					<l>rore geschrieben Villeroy) were zwar wegen Franckreich, zu</l>
+					<l>zur Interposition ankommen; Weil aber der König der Schwed.</l>
+					<l>vndt vntschiedtliche Meinung wißen wollen, also baldt wieder a</l>
+					<l>vndt nach Schweden, dieselbe anzuhabe, verreiset. Der H. Graf</l>
+					<l>von Lamberg were auch, so weit Sie nachricht hetten, noch nicht un-</l>
+					<l>terwegens: Könte vnter drey Wochen nicht hier sein; Vnt würde</l>
+					<l>H. Graff von Auersberg alsdann doch noch ein 3. oder 4.</l>
+					<l>neben ihme verbleiben. 2. Zu Münster were zwar noch Reichs-</l>
+				</lg>
+			</p>
+			<pb n="27"/>
+			<p>
+				<lg>
+					<l>Standische Gesandte ankommen. Doch hatten sie gleich andern ihre salvos</l>
+					<l>Conductur: Dem Portugesischen aber (so den Schwedische, ein ansehnlich</l>
+					<l>Präsent uf 12. Thaler Werth gethan haben solte) were derselben, weil die</l>
+					<l>Revolte erst nachgeschloßenes praeliminal-tractatus enstanden, vndt</l>
+					<l>daher in diese tractaten nicht zuziehen, abgeschlagen worde.</l>
+					<l>Wie was ich nun darauff auf H. Mylonio es zusprechen wolle; vnd</l>
+					<l>hergegen Er mich, wie ich nachhero verkandt, in meines Losament ge-</l>
+					<l>suchet: So haben wir doch ein andern gefeilet, vnd seindt nur Vnter</l>
+					<l>wegs in transitu beym Barbier von eines Schwedischen Proviant-</l>
+					<l>Meister beyligende, seinen bericht nach, vom Schwedischen Residenten</l>
+					<l>oder Agenten Billderbeck zu Cölin anhero geschriebene Zeitungen</l>
+					<l>conmuniciret worden.</l>
+					<l>16 Juy Wurden über Tisch meinen Hospiti von H. D. Langermann</l>
+					<l>bey liegende Lateinische von Secretario Capituli Hamburgensis an</l>
+					<l>Ihn gethane schreiben zu verlesen communiciret: Woraus der Ver-</l>
+					<l>lauff so wol der Dannemarckisch Seeschlacht vndt victori, als</l>
+					<l>auch des Englischen Verlusts zu Vernehmen.</l>
+					<l>Vndt weil ich nun, der großen gefahr halber mehr nicht den ein-</l>
+					<l>kleiden als ein Seiden Wankß vnd Tuchenne feste mit genom-</l>
+					<l>men: daßelbe aber täglich zutragen balt auffgangen: Vndt her-</l>
+					<l>nach ein ander seidinnes machen zu laßen, Viel zu hoch kommen sein</l>
+					<l>würde, zumal das Reiße Kleidt so abgerißen, das ichs dieses orts</l>
+					<l>nicht wol mit tragen können, ich mich darinnen vor ehrlichen</l>
+					<l>vornehmen Leute sehen laßen dürffe, Hierüber auch der Hut</l>
+					<l>uff der Reiße anfenglich vom Regen, nachmahls vom Staube Vndt</l>
+					<l>Schweiße ganz verdreket worden: So habe ich nur Vnumbgenglich</l>
+					<l>nach eine Alletagesabendts machen laßen vndt einen neuen Hut</l>
+					<l>kauffen müßen. So aber beydes, biß uffs machen lasen, höher nicht</l>
+					<l>als uff 10 1/2 Rhlr. zustehen kommen.</l>
+					<l>Alß ich nun gedachte Wahre an Craen außnahmen, Fuhre der H.</l>
+					<l>legatus Oxenstiern, nebst Seiner Gehmalin der Gräfin Von Ruht;</l>
+					<l>(doch ich weders auff einer Absonderlichen stadtlichen Cavette)</l>
+					<l>spaziren, vndt daselbst fürüber: Darin ein 20. oder mehr vom de</l>
+					<l>Vndt auffegerter, neben einem beygeführten, mit einer rohten samme-</l>
+					<l>pten geldtfortierten decken belegten Leib zufryden, Vor- vndt auch</l>
+					<l>fast so viel Pagen und Lacqueien archgrrichten, vndt 6. oder 8. Tra-</l>
+					<l>banten (doch ohne ihre Helttharten) vor dem Wagen hergangen.</l>
+					<l>Bey ihm saße an den Wagen anfangs der Secretarius H. Myloni-</l>
+					<l>us allein zurückes vndt ihn wieder hersahrn, auch der</l>
+					<l>Resident Rosenhan im Schlage: Bey der Gräfin aber 3. Frauen-</l>
+					<l>Zimmer: Das ich auch als diesem tag bemelten Mylonio nicht</l>
+					<l>zusprechen können.</l>
+					<l>17 July. Frühe als ich den H. Vice Canzler D. Lampadium heimsuchete: Wurde</l>
+					<l>Ihme von den Heßischen Gesandten Beyligende Zeitungen Communiciret</l>
+				</lg>
+			</p>
+			<pb n="28"/>
+			<p>
+				<lg>
+					<l>Vndt kam in dem auch der vorgedachte Landttrost der Graffschafft</l>
+					<l>Hoy Johann Adam von Hammerstein auff einer Kutschen mit 4. Pf[erden]</l>
+					<l>auch mit 3. reit Pferden, 1. Tramgeter vndt in allen ohn gefehr 8. Per-</l>
+					<l>sonen: Worauff Sie beiderseits Ihre Creditiv Nachmittage dem Schwe-</l>
+					<l>disch Secretario Mylonio zugeschicket, der mit dem Schreiber in I.</l>
+					<l>Excell des H. Oxenstierns Losament gangen, vndt Ihnen der folgende Don-</l>
+					<l>nerstag nachmittage umb 2. Vhr zur Audienz bestimmet werden.</l>
+					<l>Vndt berichtete mich wolgedachter H. Vice Canzlar Ex Relatione des</l>
+					<l>Heßischen Hern Abgesandten: Wie das der Französische Resident Ba-</l>
+					<l>ron de Rorte auff der Post nach kmlden, umb die zwischen dem H.</l>
+					<l>Grafen auch der Landschafft in Ostfriestlandt, vndt der Fr. Landt-</l>
+					<l>Gräfin zu Heßen Caßel, über der Einlogirung der Heßischen Völcker</l>
+					<l>Vndt der Contribution entstandene differentio beyzulegen, Verreyse</l>
+					<l>weer.</l>
+					<l>Sonderlich  mir auch von Vertraueter handt bey kommende,</l>
+					<l>Copia einer Keyser. Proposition zu Franckfurt am Mayn, super</l>
+					<l>defectis, der Französischen Vollmachten communiciret; Vndt darneben</l>
+					<l>berichtet: Das ob wol die Französichen Gesandten Ihrer theils zur</l>
+					<l>ratification der Vollmachten sich erboten, oder dieselbe den Venetia-</l>
+					<l>nischen Intermediatore Vntergeben wollen: So hetten doch die</l>
+					<l>Keyers. zu Münster anwesende H. H. Gesandte es anfenglich uff</l>
+					<l>communication mit denen hiesigen außgesezet. Nochmahls aber</l>
+					<l>Vndt darauff sich also resaloviret: Das ehe vndt zuvor die</l>
+					<l>König. Dennemarck. Gesandte wiederumb zu Osnabrück</l>
+					<l>zurstelle; auch dort zu Münster zum tractaten nicht geschrit-</l>
+					<l>ten werden möchte, Vndt also weder Sie selbst der ratificati-</l>
+					<l>on sich noch Vnternehmen dürfften, noch den H. Intermediatorn</l>
+					<l>dieselbe noch zur Zeit anreumen könten.</l>
+					<l>Nach Tische Sprache ich dem Schwedischen Secretario H. Mylonio zu</l>
+					<l>welcher mir gleich von I. Excell. nach seines Losament neben des</l>
+					<l>H. Salvi quartier geheut begegnete, dahin Er mich Erstlich in</l>
+					<l>Sein Cabinet, vndt darauff in das Gärtlein daran geführet</l>
+					<l>neben mir auff einen seßel nieder gesezt, vndt neben einen teuren</l>
+					<l>Wein in gar freundtlich vndt Vertrauliches Gespräch (doch mein-</l>
+					<l>theils von Gravamina vndt privat sachen, auch dem Estat des König</l>
+					<l>Reichs Schweden) sich heraus gelaßen; Vnter andern auch dieses</l>
+					<l>berichtendt: Das wegen H. Herzog Adolph Friedrichs zu Mec-</l>
+					<l>kelnburg Fürst. Gn. H. D. Abraham Keyser, laut seines Schrei-</l>
+					<l>bens, gewiß vndt ehist,wie auch H. Marggraff Christians</l>
+					<l>zu Beyreuth Gesandte, vndt ein Woltbachischer Secretarius for-</l>
+					<l>derlichst erwartet wurde.</l>
+					<l>Alß auch occasione H. Hoffraht D. Büttners hiebevorn Ihr</l>
+					<l>minnister Recommendation-briefleins ich mich bey Ihme zur</l>
+					<l>guter Vertrauligkeit vndt communication deßen, was Mir</l>
+				</lg>
+			</p>
+			<pb n="29"/>
+			<p>
+				<lg>
+					<l>zu communicren, stünde Vndt den Statum Impera Publicam oder</l>
+					<l>I. Fürst. Durch. Vndt dem Erzstift quartvis ratione, angienge vndt</l>
+					<l>zum besten dienen möchte, bescheidentlich insinuirete; Welches</l>
+					<l>den I. Fürst. Durch. selbst mit alles gnaden vndt wolgewegen</l>
+					<l>Zeit erkennen würden. Erklärte Er sich nicht allein umb des</l>
+					<l>H. Hoffrahts willen derzu gar willig; Sondern Vermelde Er auch</l>
+					<l>das Er zuvor hiervon I. Fürst. Durch. ein pignas amoris (wa-</l>
+					<l>ren seine formalia) nemblich dero Fürst. Vermittels des H.</l>
+					<l>Obr. Leutn. Zastrow Ihme zu Werben praesentirtes Conterfait</l>
+					<l>empfangen: Welches ihm dann sehr angenehm gewesen; Vndt</l>
+					<l>Er sich dahero I. Fürst. Durch. so viel mehr Vnterthänig, zu die-</l>
+					<l>nen vndt mir freundtlich zuruliheen, obligat befinde.</l>
+					<l>Fragte mich per discurisam vnter andern, wegen I. Fürst.</l>
+					<l>Durch. Residentz Stadt Halle; Ob daselbst auch oder zu Magdeb.</l>
+					<l>(das Dom Capittul meinendt) Catholische zu befinden: Deme</l>
+					<l>ich darauff in gennere, das Gottlob, noch zur Zeit weder Vntern</l>
+					<l>den Herren Eines hochw. Domcapittuls einig Päpstliches membrum</l>
+					<l>noch auch zu Hall, oder in ganzen Erzstifftt (ezliche wenig Clöster</l>
+					<l>ausgenommen) einiger offentlicher Papystischen Vnterthan zu-</l>
+					<l>finden sein würde, berichtet.</l>
+					<l>Purt wir nun ein Gespräch das [x] grodre gabe vndt ich Vnter an-</l>
+					<l>drn, Ob er nicht vermercket, ob I. Excell. Legato I. Fürst.</l>
+					<l>Durch. auff das von mir vberreicheten Schreiben antwortten wür-</l>
+					<l>den; fragete; auch auff solchen fall, zu deßen getreulicher be-</l>
+					<l>stellung mich anerbotten: Zeigete Er mir so viel an, Das I. Excel.</l>
+					<l>solches Schreiben für ein Creditiv auffgenommen; Vndt dahero</l>
+					<l>H. Mylionium nicht ein- sondern mehrmal, ob ich noch keine</l>
+					<l>Audienc begehret, gefraget hette, Worzu er dann auch nochmahls</l>
+					<l>ganz willig sein, Vndt noch iederzeit gerne hören würden,</l>
+					<l>Drauff ich, in consideration, des Gnädigsten Memorials; et</l>
+					<l>pro re nata, geandtwortet: Das zwar auch zur zeit ich nichts</l>
+					<l>sonderbahres zu werken, oder anzubringen gehabt, Vndt</l>
+					<l>dahero I. Excell. zu vernn müßen vndt Audienz zu begeh-</l>
+					<l>ren angestanden hette; Wann aber I. Excell. selbst oder doch</l>
+					<l>die Ihrigen; mich über einen Vndgerdten zu befragen, oder</l>
+					<l>befragen zu laßen belieben möchte: Werde derselben ich Vnter-</l>
+					<l>thänng auffzuwenden, auch was mir auffgetragen, vndt so viel,</l>
+					<l>vrmar geißent bericht zuschicken, inder Zeit soefellig, als schul-</l>
+					<l>dig. Inmaßen er solches I. Excell. zuhinterbringen an- vndt ich</l>
+					<l>baldt darauff, weil Er zu I. Excell gefordert wurde, dieß-</l>
+					<l>mahl von ihm Abschiedt genommen;</l>
+					<l>Zu Abendt nach der Mahlzeit redete ich mit meiner Hospite</l>
+					<l>wegen des Losament vndt Kostgeldes: Vndt ob er wol es noch-</l>
+				</lg>
+			</p>
+			<pb n="30"/>
+			<p>
+				<lg>
+					<l>uff ein 8. oder 14 Tage Versuchs stellete, Vermerckte ich doch</l>
+					<l>so viel: Das vor die ordentliche Kost vor Mich vnd meines</l>
+					<l>Diener, auch fürs Losament vndt 2. Betten wöchentlich mit</l>
+					<l>5 Rhlr. Außzukomen; Darneben aber uff andere tägliche</l>
+					<l>Vndt Extraordinari Außgaben, auch eine wache der andern zu</l>
+					<l>Hülffe, auff 1. oder 4 Thlr. die Rechnung zu machen sein wer-</l>
+					<l>de</l>
+					<l>Gestalt ich dann auch mit meinem vorigen Wirth, so mit vch Hom-</l>
+					<l>sen zu handeln pfleget, eventualiter, des Rechtels halber, geredet:</l>
+					<l>Dem ich dann zu guder beforderung, das ich meine Gelder (zumfall</l>
+					<l>sie von Hall auß nicht immediati auff Oßnabrück vermacht</l>
+					<l>werden könten) vber Hamburg, vielleicht wol gar ohne; oder doch </l>
+					<l>ein gar gering lagio empfange könte vndt solle, erboten.</l>
+					<l>Wiewel ich mich fleißig bemühet, vndt sowol bey den Käyser. vndt</l>
+					<l>Schwedisch. Secretario (das besat umb endt mit dem vorienden: Das</l>
+					<l>weil es zu Oßnabrück noch weinig zu thun geben ich mich zu Mun-</l>
+					<l>ster gerne ein weinig vmbsehen wollte) als anderswo vnd</l>
+					<l>sinler zufällige Gelegenheit dahin zukommen befeuert: So hatt sich des</l>
+					<l>larser keine ereugnen wolen. Derwegen dann; vndt</l>
+					<l>weil ich die indinuation der beyden Schreiben länger zu Siffrer mir</l>
+					<l>nicht getraut zu verantworten: Habe ich mich nachfolgende</l>
+					<l>18. July mit der Kayß. Zine ordinari At gegen abendt auff-</l>
+					<l>gemacht, vndt den Abendt noch zu Lengerichen - - 2. M.</l>
+					<l>abgeleget; Darauff die Nacht durch (wiewol beyentstande,</l>
+					<l>nen schwerem Vngewitter vndt beschwerlichen Regenwetter</l>
+					<l>die Reiß aber denh epralis: Hier geweiße stunde holt vnd</l>
+					<l>einkommen müßen) fortgeritten, folgenden Sonabendt, den</l>
+					<l>19. dito früh 5 Vhr zu gedachten Münster  - - 4. M.</l>
+					<l>ankommen; weil ich mich aber von dieser Reiße nicht beym besten</l>
+					<l>empfunden (ich war bei der stockfinstern Nacht mit dem Pferde</l>
+					<l>hingefall; doch, Gott lob, ohne schaden gethan) den Morgen ein-</l>
+					<l>wenig außgeruhet.</l>
+					<l>Nach mittage aber habe ich mich in des Frantzösischen Herrn Abge-</l>
+					<l>sandten Comp d'avaux Losament verfüget, bey deßen Secr-</l>
+					<l>tario Mon[sieur] Acacia (welcher Nahm von Francisco I. Seine</l>
+					<l>Prater worden sein soll) anmelden laßen, vndt I. </l>
+					<l>Fürst. Durch. beyde Schreiben in Lateinischer sprache (weil Er</l>
+					<l>kein Teusch, vndt das Lateinische auch nicht beym allerbesten</l>
+					<l>konde) vberantwort; Solcher es dan zu insinuitz angenom-</l>
+					<l>men, darbey aber zu verstehen gegeben, als wan von I. Fürst.</l>
+					<l>Durch. ein anwort einkommen were: Hierbeneben entschuldi-</l>
+					<l>gen, das ich ihn, wegen des Ierde Wassen vnn aßtigkeit an einen</l>
+					<l>schweren angenftuß, vor Ihn selbst nicht komme könte; vndt (-</l>
+				</lg>
+			</p>
+			<pb n="31"/>
+			<p>
+				<lg>
+					<l>ich, das solcher auch vnnötig, vndt bloß zu I. Excell. gefall, stünde;</l>
+					<l>ich aber mehr nicht, als nur eins Antwort pleiße zu soliciri-</l>
+					<l>ten befellicht were, vermeldete) den Verlaß nach mir genom-</l>
+					<l>men: Das ich mich gegen Sonn- der Montags wider an Ihn finden</l>
+					<l>möchte; vndt Er inmittels die sachen zu mündtlicher audienz oder</l>
+					<l>schrifttlicher antwort befordern wollte.</l>
+					<l>Vndt weil nun der Herr VirCantzler D. Lampadio (deme ich alle</l>
+					<l>beedacht zuvergueiden, Meine Koiste etzlicher maßen eröf-</l>
+					<l>net) mir ultro ein Recommdendation Briefflein an den Heßen-</l>
+					<l>Caßelischen Herren Abgesandte Vultejum mitgegeben: Habe ich</l>
+					<l>nicht vmbhin können Ihme solches zu insinuiren; der mich dann alß</l>
+					<l>baldt an einer kleinen Treppen empfangen, vndt in das Audi-</l>
+					<l>entz-Gemach, zu nechst darbey geführet, Weil Er aber</l>
+					<l>eben sint occupat war; Diefnlch (wie ich solches hernach</l>
+					<l>tee füret) bey dem Kayß. Herr Abgesandt, eine Visite zu ver-</l>
+					<l>richen, oder Audientz zuhaben: Bate er mich sehr hoch vndt</l>
+					<l>mit vielen ceremonien, in einer stunde Ihme wieder zu zu-</l>
+					<l>sprechen, vndt mit Ihme spatzieren zufahren; auch fur Abendt</l>
+					<l>Mahlzeit oder portion (wie ers nennet) zu verbleiben: Da dan</l>
+					<l>ismol vntergegs, als in Seinen Losament, theils dißmal; zum</l>
+					<l>theil aber auch folgenden Sonntag, den</l>
+					<l>20. dito (da ich Ihme, auff Sein begehren, vndt aarch Seinen</l>
+					<l>Wottern beschehenes vernommen, poui purt timps wied zugesfle-</l>
+					<l>den, vndt ob Er H. Lampadio was antwort wolle, gefraget) ein,</l>
+					<l>vndt anderer discours ifall</l>
+					<l>Erstlich referirt Er dasjenige, was ich beyerteglichen commu-</l>
+					<l>nication der gemeldten Kayß. Proposition vernommen, mit et-</l>
+					<l>was andern vmbstände: Dasnehnloch die Münnsterischen Kays.</l>
+					<l>Herren Gesandten gegen die Herr. König. Frantzösische, das Sie Ihres</l>
+					<l>theils mit denselben Vorschlägen wegen ratification der Voll-</l>
+					<l>machten, oder auff sehin eines gundas Woeiichs auuh den Vene-</l>
+					<l>tianien Herren Inermediatoren; leichtlich zufeden sein,</l>
+					<l>tandt deron eines geschehen laßen könte; Mit Schweden aber</l>
+					<l>zuah nicht, als biß des beweße obstaculum (Zehmlich das Da-</l>
+					<l>ischefrasen auß dem Wege were spactiret werden möchte.</l>
+					<l>erae: DieDnant zischen heren, bde zuclagation, mit</l>
+					<l>hohen iedentimand, das dann Sie doch nicht für st einfälig</l>
+					<l>achten wollten, die icht zum ersten zu dergeiite sache geblaucht mi</l>
+					<l>der den Sopam dieser intation nicht ern könten</l>
+					<l>sich, das Sie so weinig ohne Schweden; als Schweden ohne Franckreich</l>
+				</lg>
+			</p>
+			<pb n="32"/>
+			<p>
+				<lg>
+					<l>Fnnseh könten noch wollten, resolut. Were auch iemels Zeit</l>
+					<l>gewesen, swwere es ih Das Fürsten vnd Stände herbey komen</l>
+					<l>ins mittel tretten, vndt entweder diesem incident vndt andern</l>
+					<l>bey den Veshnfen vndt ceremonien sich ergsenden. Difficul-</l>
+					<l>taten bey gech abselsten; oder das doch dieser außwärtigen rei-</l>
+					<l>tigbeite halber, das Dänischich nicht vnteruhget gelaßen, noch</l>
+					<l>diese Handelstractaten länger verschoben werden meste: Defet</l>
+					<l>annebe der Herren Frantzösischen bißhero erwiesem Rivalitat, erfer-</l>
+					<l>ndt en zu diesem Fidenswerck: Sie dann auch Ihr Csrar-</l>
+					<l>da das Königreich gentonieriret vndt erschörfet, der König noch</l>
+					<l>sinden de; die Frau Mutter, vndt Regentin dem Hauß befa</l>
+					<l>einen vnd Osterreich so nahe verwandts ein sichern, allgem</l>
+					<l>dien seinden ser hoch wonder.</l>
+					<l>Als ich nun bey dieser Occadion erinnerte, das vielleicht man</l>
+					<l>vormenner Wadt bishero auß mangel. der mittel nicht habe [x]</l>
+					<l>den können: Sie dann ich iel mint, das des Fern Er Pischeff</l>
+					<l>zu Magdes Fen. Fur. herlängst gerne dero Rate vndt Ge-</l>
+					<l>sanden, zu bedencung des Heil Römn, Reichs vndt des hochlöb. Die-</l>
+					<l>der Sich Breistes gelparch vndt besen; auch I. Durch. dero hochwe-</l>
+					<l>Domcapituls vndt das Erz Stifft Magdeburg interist daher Oßna-</l>
+					<l>brück abgefertiget hetten: Darzu Sie aber bißhero, wegen des</l>
+					<l>Landes vndt der neimer vndersten vnd erschöpftten zu-</l>
+					<l>stand nochmiben wingen können; et aber meiner</l>
+					<l>weingkeit, mich des Zustenderg vnd wir vor dnderer zu-</l>
+					<l>waleten, fürs Fürsten vnd Stände Gesanden ankommen</l>
+					<l>vndt mir baldt die haubraiset Ihoon vngung nehmen möhte.</l>
+					<l>zu erkundigen vndt vnterthänigst zuberichten, abfertigen wol-</l>
+					<l>len: Vermunderte Er sich gar höchstlich das desed. vndt so-</l>
+					<l>ger fnterkinnen, Das auch dergense Ci darauß nicht</l>
+					<l>zuerschen weren. Derich wan eb wolden zu geund ver-</l>
+					<l>an derbren zugandt desgantzg Landes; als auch wie in eineit der</l>
+					<l>Schwedische besatzung, zumal die die Königsmarck. Einquartierung</l>
+					<l>vent seecu st fart bedanget vndt gar ineriiret worden.</l>
+					<l>ein genang vndt mir in generale referiret: Er aber demelbe</l>
+					<l>bewegen condalit, vndt darüber wegen I. Fürst. Durch. (Dere</l>
+					<l>Eer Eihalite qualitat Ihme gnngstins bekant waren, vndt Er ima-</l>
+					<l>beßade I. Fen I. Br. Feren Landtglaifislebudeinnes befahl</l>
+					<l>A[nn]o 1631. Fibz2. zu dreßdend Frs. Dar. zufreifen auch Ihr</l>
+					<l>vndt Ihren H. H. Geder tey Dernker. aufzuwarten, die Ehre gehan-</l>
+					<l>ete) guten aabsgepundtheit, Fürst. Grlengeses vndt Poffstet</l>
+					<l>smol Hoher. Donituls, des Landen Aidt der Ratt, blle ein</l>
+					<l>vndt anders früg: Worauf ich vnmichit hi mir wißen</l>
+					<l>vndt in wi molln, vürtlich berichen.</l>
+				</lg>
+			</p>
+			<pb n="33"/>
+			<p>
+				<lg>
+					<l>Im vbrigem confirimirt Er die Portugisischen Viitori wider belüg-</l>
+					<l>bliener (nuh mit der Avigin Lit. 8.) Purgewid vndt eigent-</l>
+					<l>lich: Wie dann die anwesende Frantzösische fforgen mit</l>
+					<l>Cataylonische Geandt, darob trium[x] vndt einander visitirt</l>
+					<l>hetten. Vor Freiburg ginge es iörffter, dem Bayerischen ver</l>
+					<l>ein general stunmb, mit iteßem Grem verluht, abgeschlagen; vndt</l>
+					<l>gde vereunthlich, den gesguitigen müßte: Denn aber 3 Mari</l>
+					<l>ral do Tourain macheten, sich an sie senk, vndt au gur, wo neu-</l>
+					<l>lich, zu einer Haubt Action ingafir dürfft: Dit Brübelingen</l>
+					<l>nnd es, wie Ihm auß dem Klanschemn Tager Her Malden sein</l>
+					<l>par wenlich zuegereben were, ia entem and würde sich (wan</l>
+					<l>es, wie die Stainshen bdien Facoti vorgefaht, nicht entsezet</l>
+					<l>würde) vber 4. war nnhhelten können: Das Er, als mit der nech</l>
+					<l>en Dten Fist wol den Accoretuas zu vennehen vermei-</l>
+					<l>ne. Sollt nun der Jlah so Zeitlch vergehen; Dere sion eine</l>
+					<l>pihe noch in imploort trm gor autehandt zustiuire: So</l>
+					<l>nir dem giest des feischen Plrts ver diesen belagenungs in 12. oder</l>
+					<l>2. Gans zusamen bingen; nach dem Ahin der Meset gehen.</l>
+					<l>o wol gar iie Versach auff eine oder den andern art thun</l>
+					<l>dürfen. Siegen des Ragotzi aber lette mit der wmrlichten Vie-</l>
+					<l>nen Pestger gewiß verlautet: Das derselbe giemlich geschlagen;</l>
+					<l>auch der fuenemrsten Kaydischen Herz einen allas tan genant,</l>
+					<l>gefänglich eingebeacht sein solle.</l>
+					<l>Soviel sonst seinen, des Heßischen Stesanditar vndt orapetiment</l>
+					<l>ttes. Wire erztlich ein Audientz gemach eini anfauße oder</l>
+					<l>Opte ein auß himmel hatte mit einer Rothen kommen eben</l>
+					<l>vndt dergeice Forhängen vff Frantzösische manir ganz blau</l>
+					<l>bekleidet; Neben eine Klein Tischlein, zween Lehnstühl vndt 8. Seßel</l>
+					<l>auch mit enbsehn, alles mit stlchem Domast vberzogen; Ein an</l>
+					<l>den Köpflein aber mit rothem Tuch bedecket; vndt an den großenen-</l>
+					<l>stein, fast das gantze Gemach hat 3. Leths Lange Vorsengeten ge-</l>
+					<l>wößer Schemkt de Ovinot (zu Seinen Zimmer aber eine</l>
+					<l>Sopft vndt etzlich ihrestheils nicht vrtheine Tappeten vnd das Bette</l>
+					<l>an der darbey offen sted inner nicht länge lochen versin-</l>
+					<l>ken von Fras oder Sarge Eapemait auch d Franztösische Kutsche</l>
+					<l>außstafieret, vndt mit aste eidung fentbetage) leis.</l>
+					<l>Als auf fvort manier bekleidet: Vndt dann im Hauß</l>
+					<l>oder Fos zu behuff der Taffl am spartweie, mit vntershiedenen</l>
+					<l>Chüre, fngerehr auff beystehende auch gezehten vnterschied, nebst</l>
+					<l>der aundeslapfe vndt einen langen Fredentzlafft mit bundten</l>
+					<l>srnefichten Lot, blau vnt weißen Teppich vbergegen; die Stühl</l>
+					<l>der Seßel aber (daron ich hinten 8. der 9.; obon aber etwan 6.</l>
+				</lg>
+			</p>
+			<pb n="34"/>
+			<p>
+				<lg>
+					<l>oder 7. gezehlet) mit rothem Leder beschlagen vndt etwas ver-</l>
+					<l>guldet, Auß welchem Loßammt bloß vndt allin (wiewol es</l>
+					<l>ziemlich mmeselich vndt noch mit andern Jemichen gemlich accon</l>
+					<l>modiret steyet) Sie Wöchentlich 32. Thlr. geben; das hett vnd</l>
+					<l>schedet aber schon abstsonderlich scif müßig. Dise sich beyde</l>
+					<l>aucals ich dar war, mit 10 eßen, auch nst huter end</l>
+					<l>Kaß 5. schißel Contaict (doch nicht auß Selber) traititz: vndt</l>
+					<l>hatte bey sich, an 3 Tast. Seinen Vetter vndt noch einen Auff-</l>
+					<l>water nebst einem Schreiber, 2. ander diee Recht Tom-</l>
+					<l>geter (so nach Caßel verschickt; vndt Er deßen erwartte) 6.</l>
+					<l>kutsch- vndt etzliche Reitfferden, sonst zu beförigen Kutscher vnd</l>
+					<l>knecht. Zur audientz bey den Kayßer. Herren Gesandten</l>
+					<l>führt Er mit 6. Pferden; dergeichen Er auch sonst, wann Er et-</l>
+					<l>was weit aus feldt fahren, soll zuthun pflegen: Bey Verrichtung</l>
+					<l>aber etzlicher visiten, vndt als ich dißmal nicht gar weit</l>
+					<l>mit ihm fuhren, wurden mir 2. vorgensannet; Vndt pfle-</l>
+					<l>gen alßdenn bemeldten beyde Auffwarten (biß weile auch bey-</l>
+					<l>den Visiten) mit Ihm im Wagen zu sitzen. Der princi-</l>
+					<l>pal-Gesandt Herr von Kays ist itzo in Hollandt ver-</l>
+					<l>beet: Vndt ist auch Herr Vultijus genomet (wie baldt</l>
+					<l>deye Er nicht; vielleicht geschehet es aber wediunei</l>
+					<l>altero) auch vaeg nach handt zu machen, Station ze thun, sein</l>
+					<l>Sene außfea im Kindelbett zubeuch, auch Sein weg</l>
+					<l>auff Oßnabrück zu nehmen, vndt H. Lampadio zu gesprechen.</l>
+					<l>ps</l>
+					<l>Mon[sieur] der dene Servien in herzog gestrigen Abendts mir für</l>
+					<l>ennemundtlihe inserime Restitution, weil Comte d'Avaux ver-</l>
+					<l>meldter maßen dnaß, erwilt: Soll sie mecht zum Dia-</l>
+					<l>rio ge beacht vndt Kurleig etliche Titul vnterhänigst vndt</l>
+					<l>nur ensten eingemickt werden; Dann ist die Zeit</l>
+					<l>(gere Dugmit der Zenabriste, Pist germ vnd zu lückle)</l>
+					<l>s wdenndt, den fegwesist zuglaß wirden keillens</l>
+					<l>Münster: d. 23. Au-</l>
+					<l>gusti 1644</l>
+				</lg>
+			</p>
+			<pb n="35"/>
+			<p>
+				<lg>
+					<l>1644.</l>
+					<l>Ad No 3.</l>
+					<l>Continuatio Diary</l>
+					<l>Wie mich nun der Secret. Acacia; welchen ich des Sonntags</l>
+					<l>nicht antreffen können, folgenden Montag den</l>
+					<l>22. Julÿ der Resolution vndt Antwordt halber, wegen noch anhaltenden</l>
+					<l>Vnpaßlighkeit des M[onsieur] d'Avaux, an den M[onsieur] Servien verwiesen: Habe ich den</l>
+					<l>Nachmittag gegen 4. Vhren in deßen Quartier (so Zimblich weit von des</l>
+					<l>H. Graffen Losamendten gelegen) begeben; Weil aber eben damals</l>
+					<l>der Nuntio Apostolico denselben vndt deßen Gehmahlin, (wie wol mit</l>
+					<l>wenig Personen, auch nur einer Kuzschen, vndt nur mit 2. P[ferden]. be-</l>
+					<l>spannet: Vielleicht weil Er, der Nuntio nechst darbey in dem Fran-</l>
+					<l>cisaner Closter logiret, vndt gar nicht weit zufahren gehabt) be-</l>
+					<l>suchet, in die 3 1/2 Stunde auffwarten müßen. Da es dann in der</l>
+					<l>Taffelstube (dahin ich von einen Pagen gewiesen würde) mit einen</l>
+					<l>Secretario (Meines erachtens) vndt zween von Adel in Lateinscher</l>
+					<l>Sprache einen, vndt andern discours gegeben: In dem Sie nicht al-</l>
+					<l>lein der Avisen halber das Grävelingen in lezten Zügen liege; Frey-</l>
+					<l>berg hergegen sich fest hielte, vndt die belägerende Bayerische Armee</l>
+					<l>selbst von dem M[onsieur] Tourrain selbst gleichsam blocquiret, vndt Ihnen</l>
+					<l>die Proviant abgeschnitten weren vermeldeten: Sondern auch</l>
+					<l>wegen I. Fürstl. Dürch. Vndt dero Erzstiffts; insonderheit, ob auch die</l>
+					<l>Catholische Religion darinnen geduldet würde, frageten: Ich ihnen aber</l>
+					<l>so viel nur wißendt, vndt Ihnen zuwißen nötig, sonderlich den drang-</l>
+					<l>sahligen Zusandt des guten Erzstiffts vndt das dahero I. Fürst. Durch.</l>
+					<l>dero Estat so, wie es hohen Standes halber sein solte, nicht führen kön-</l>
+					<l>ten, sondern Ihre Hoffstadt sehr genau einziehen müsten, Kürzlich ent-</l>
+					<l>würffe; Vndt darneben auch dieses, der Religion halber mit anfü-</l>
+					<l>gete: Daß ob wol, sonst im ganzen Lande kein ander exerciti-</l>
+					<l>um Religionis publicum, als der Evangelischen oder Lutherischen were;</l>
+					<l>dennoch etzliche Catholische Äbte bey Ihren Clößern in dem Erzstifft</l>
+					<l>ruhig vndt vnperturbiret gelaßen würde.</l>
+					<l>Alß nur die Gehmählin von dem Päpst. Nuntio an dem hintersten</l>
+					<l>Eingang der Taffelstuben vor Ihrem Gemach Abschiedt genommen; der</l>
+					<l>Herr Servien aber denselben durch das Taffel Gemach Vndt die</l>
+					<l>Stiegen hinab biß in den Hoff vndt vor den Carosso begleitet:</l>
+					<l>Meldeten mich Seine Hoffjunckern einer bey Ihme in reditu an;</l>
+					<l>Worauff Er auch alßbaldt von zweien Portugesen, die Ihn an-</l>
+					<l>sprechen wollen, ab- vndt zu Mir an die Taffel getreten, mir</l>
+					<l>die handt gebohten, vndt meine Werburg vernehmen wollen.</l>
+					<l>Vnndt alß ich nun in Lateinischer Sprache auffs aller kürzeste, wel-</l>
+					<l>cher maßen von des H. Grafen Secret, An I. Excell. ich verwiesen</l>
+					<l>were, Vndt dahero bey deroselben vnterthänig auffzuwartten, vndt</l>
+					<l>der Resolution gewärtig zu sein mir gebühret hette: Gab</l>
+					<l>Er mir gleichßfals Lateinsch, kürtzlich, jedoch gar glipmf- vnndt</l>
+				</lg>
+			</p>
+			<pb n="36"/>
+			<p>
+				<lg>
+					<l>freundtlich, zum bescheide: Daß ob sich zwar gebührete, mich alsofort</l>
+					<l>mit Resolution vndt Antwordt darauf ich nun ezliche Tage gewarttet</l>
+					<l>hette, zuversehen; So könten Sie doch wegen Vngelegenheit des Conte d'</l>
+					<l>Avaux zu vorhero nötiger communication so baldt nicht gelangen.</l>
+					<l>Eß wolle auch vnnötig sein, mich zu Münster deswegen länger</l>
+					<l>uffzuhalten; Sondern Vernehme gerne, daß ich zu Osnabrück</l>
+					<l>so lang, biß I. Fürst. Durch. Gesandte daselbst ankommen möchten</l>
+					<l>verbleiben würde: Mitt des endtlichen anzeig vndt erbietung: Das</l>
+					<l>I. Fürst. Durch. Andtwort Ihnen sehr lieb vndt angenehm gewesen.</l>
+					<l>Deren dann hinwieder mit gebürender Antwordt an die hand</l>
+					<l>gegangen, vndt dieselbe nach Osnabrück in des Residente, Baron</l>
+					<l>de Rorte logament spediret werden solte.</l>
+					<l>Dieweil ich dann Vermercket. Vndt Er M[onsieur] Servien selbsten (dan</l>
+					<l>nach, wie sehr ich dafur bahte biß an die förderste Than der Taffel-</l>
+					<l>stuben: Gedachter Von Adell aber vff seinen befehl, durch den Hoff, bis</l>
+					<l>fast an die eiserne Haußthür, begleitete) mir ein solches an die</l>
+					<l>handt gegeben, Weil vngewiß, wie baldt der Herr Graff convo-</l>
+					<l>lesciren möchte; Das dahero weitere Zeit an diesem Orte zu ver-</l>
+					<l>lieren Vnnötig: So habe ich folgenden Dienstag den</l>
+					<l>23. nachdem ich Meinen Vnterthänigsten Bericht No. 2. sambt voriger</l>
+					<l>Continuation des Diary vndt deren beylagen gefertiget vndt bey</l>
+					<l>der Kayser. Post auff Hamburg bestellet, von dem Heßischen Ab-</l>
+					<l>gesandten Herrn Vultejo, mit Zurücknehmung einer Antwordt</l>
+					<l>an Herrn Lampadium Abschiedt genommen, vndt mich gegen Mi-</l>
+					<l>tage wiederumb in Entstehung anderer fleißig beworbene</l>
+					<l>gelegenheit, auff der Post Zuruck naher Osnabrück begeben</l>
+					<l>Daselbst ich zwar noch Vor 9. Vhr zu Abendts angelanget: Wan</l>
+					<l>aber überzüvorsicht Vndt wider Gewohnheit, die Post nicht</l>
+					<l>eingelaßen werden wollen, sondern ich mich nachhero abson-</l>
+					<l>derlich angemeldet, Vndt solches erst dem Bürgemeister von</l>
+					<l>der Wache berichtet worden, an die 2. Stund lang Vorm Thor</l>
+					<l>wartten müßen. Waß ich auch zu mehrgedachten Münster</l>
+					<l>von Nahmen vndt Tituln der Anwesenden Ambassadoren</l>
+					<l>Vndt Gesandten vor mehrere nachricht erlanget: Besaget den</l>
+					<l>Stebenschluß; Vndt berüchtet mich sonst Herr Vultejus: Das</l>
+					<l>zwar wegen fur Brandenburg der Herr Graff vom Witt-</l>
+					<l>genstein, (so hibevor in Consilio formato zue Fanckführt an-</l>
+					<l>gewesen) Herrn Johann Friedrich von Löben, Vndt H. D. Veter In</l>
+					<l>deputiret; Von dem Auffzug vnd oder ankunfft aber noch</l>
+					<l>nichts zu vernehmen sey.</l>
+					<l>Nachdem ich nun also Gott lob glücklich wieder zurück gelanget; Lie</l>
+					<l>nng folgendes Mittwochs den</l>
+					<l>24. July. fruh der H. Vice Canzler D. Lampadius de reditu gratuliret</l>
+					<l>darneben, das ich Ihm zusprechen möchte, ersuchen: Welches ich</l>
+				</lg>
+			</p>
+			<pb n="37"/>
+			<p>
+				<lg>
+					<l>Nachnittags thate, Vndt zugleich des Heßischen Herrn Abgesangten Schreiben</l>
+					<l>vberandtwortete. Da Er mir dann theils zu hause; theils im Spaziren</l>
+					<l>fahren, Vertraulich referirt: Weßen sich die Schwedischen H. Legati </l>
+					<l>uff Ihm der Lüneburg. Abgesandten H. Droste von Hammerstein, vnd</l>
+					<l>sein, des H. Vice Canzlers Proposition (wie Sie beym H. Oxenstirn</l>
+					<l>verwichenen Donnerstags den </l>
+					<l>18. Vmb 2. Vhr Nachmittage beym H. Salvio aber folgenden Freytags den</l>
+					<l>19. July früh nach 7. Vhr abgeleget: Vndt darauff H. Oxen-</l>
+					<l>stiern Sie beyderseits in des H. Drosten Losament Sontags den</l>
+					<l>21. July besuchet, Vndt von 2. biß 7 Vhr Nachmittags bey Ihnen Verblie-</l>
+					<l>ben) resolviret, Vndt welcher gesaldt Ihre vielstündige discourse vor-</l>
+					<l>nemblich dahin gegangen</l>
+					<l>So viel erstlich die Friedenstractaten anlanget: Were Von den</l>
+					<l>bißherigen Verzug vndt impedimentis derselben aber also discou-</l>
+					<l>tiret, vndt die schuldt den Kayser. beygemeßen worden. Wie</l>
+					<l>albereit hiebevor von mir, ex relatione, des Secrctario Mylonii</l>
+					<l>sub No 1. Vnterthänigst im Diario berichtet worden. Mitt</l>
+					<l>den kernern Ruhan: Daß Sie aber zwischen beyden Cro-</l>
+					<l>nen, Dannemarck Vndt Schweden zu einen offentlichen Krieg</l>
+					<l>(deßen Justification Er H. Oxenstiern zum öffteren wieder-</l>
+					<l>holet) außgeschlagener streitigkeiten ungeachtet des Königs</l>
+					<l>in Dännemarck interposition repudiisset nach deßen</l>
+					<l>Gesandten deturbiret; Sondern Sie selbst stationem suam dese-</l>
+					<l>riret hatten: Wiewohl auch die cognition oder irudicati-</l>
+					<l>on solcher zweifelt nicht, vor das Reich oder den Röm. Kayser</l>
+					<l>gehörte: Hetten doch deren interposition Vndt Vermitte-</l>
+					<l>lung güttlichen tracteten, vndt lieselbe sache auch alhier</l>
+					<l>vorgenommen würde, die dran Schweder keinen scheis</l>
+					<l>oder bedencken gehabt; Wann es mit beyderseits Reichs-</l>
+					<l>Rähte beliebung geschehen, vndt nicht bereits in Confinito solche</l>
+					<l>tractaten angesteht weren, Könten auch wol geschehen laßen:</l>
+					<l>Das hochgemehlter König, als Herzog von Holstein Seine Gesandten</l>
+					<l>anhero schicken, Vndt das Interesse deßelben Herzogtumbs</l>
+					<l>negotyren könnten.</l>
+					<l>Waß dann die vom Fürst. Hause Braunschw. Lüneb. abermahls</l>
+					<l>gesuchte restitution derer noch innehabenden Plätze antreffe; Wie-</l>
+					<l>wol nicht ohne, daß Er, H. Oxenstiern, selbst solche tractaten anhe-</l>
+					<l>ro remittiret hette: So were doch das werck nicht allein</l>
+					<l>diutatia argie semestri india temporis erfihen blieben; Sondern</l>
+					<l>es were auch an daran das Ihnen von den Keyser. H. Commisa-</l>
+					<l>rien, sich darchauß aller militarium zuenthalten, ernstlich an-</l>
+					<l>gedeutet, vndt auff den Widrigen fall, mit Cassation oder</l>
+					<l>revocation der Salvorum conductum gedrohet werden. Vndt</l>
+				</lg>
+			</p>
+			<pb n="38"/>
+			<p>
+				<lg>
+					<l>weil Er, hiebevorn aber berichtet worden, gleichsamb das Fürst.</l>
+					<l>Hauß diß negotium in Schweden Vermittels einer Ambassade</l>
+					<l>tractiren laßen wolte: Hette Er solches dahin nachrichtlich gelan-</l>
+					<l>gen laßen; Vndt were darauff Seine vorige Commission su-</l>
+					<l>spendiret worden. Er hielte aber, wie nicht weiniger H. Salvi-</l>
+					<l>us für billich vndt für gewiß, das I. König. May. Vndt Cron</l>
+					<l>Schwedens des Fürst. Hause satisfaction geben, vndt dero behuef</l>
+					<l>ehist anderweit commission, entweder an Ihn, oder H. Feldt-</l>
+					<l>marschall Torstenson (weil militaria; Vndt die Excention</l>
+					<l>doch an Ihn kommen müste: Waßen auch mit Chur Bran-</l>
+					<l>denburg geschehen; Vndt demselben darauff Franckfuhrt an der</l>
+					<l>Oder vndt Emßen restituiret worden) ertheilen würde.</l>
+					<l>Wie Er denn noch neuligst von Seinem H. Vater nachricht</l>
+					<l>hatte, das der mitschreiben in dieser sache dahin spedirte Vom Adt</l>
+					<l>förderlichst werde depessiret werden. Darauff zwar Er</l>
+					<l>H. Lampadius die remission der tractaten anhero; vndt das </l>
+					<l>gleichwol dieselben nicht reassumiret werden wollen</l>
+					<l>(welches doch wann gute freundschafft erhalten werden sol-</l>
+					<l>te, geschehen, Vndt die restitution, ohne ferner weigerung</l>
+					<l>eilich erfagen müste) hoch vrgiret vndt beweglich remonstri-</l>
+					<l>ret hette: Weil Sie Sich aber defectu novi et Suspensione</l>
+					<l>prioris Mandati sive Commissionis entschuldiget: So hatten</l>
+					<l>oder wolten Sie Ihner nach einen andern Vorschlag (den Er</l>
+					<l>aber nicht gemeldet; Vndt ich auch nicht curios sein mögen</l>
+					<l>thun; Vndt sehen was Sie sich darauff resolviren wolten) Wür-</l>
+					<l>de darauff Er H. Lampadius förderlichst, iedoch sub certa</l>
+					<l>reditus conditione zurückreisen, relation thun, vndt dabey auch</l>
+					<l>eine andere wüchtige sache (darvon ich neulichst am 26.</l>
+					<l>dieses dem H. Cammer Secret. mit der Schwedischen Post, in</l>
+					<l>geheimb geschrieben, Vndt alhier zu wiederholen vndienlich vndt</l>
+					<l>vnnötig beförders helffen: Zuvorher aber von dem Key-</l>
+					<l>ser. H. Abgesandten (die ihme auff seine abgelegte Pro-</l>
+					<l>position ferner noch nichts hetten entbieten laßen) ad</l>
+					<l>terim Abschiedt nehmen, vndt hac occasione auch Ihr gedancken</l>
+					<l>super mora tractatum zu penetriren sich bemühet.</l>
+					<l>Ferner ob ich wol Donnerstags den</l>
+					<l>25. Jul. beydes dem Keyserl. Secret. Räuschen in transitu zusprechen</l>
+					<l>wollen, vndt auch bey H. Mylonio mich anmeldes laßen: I</l>
+					<l>nn doch jener nach Münster Verreiset, Vndt dieser ließe</l>
+					<l>sich, das der Donnerstag nach Hollandt Vndt Franckreich</l>
+					<l>der Freytag aber nach Schweden Ihre Posttäge weren, en-</l>
+					<l>schuldigen.</l>
+				</lg>
+			</p>
+			<pb n="39"/>
+			<p>
+				<lg>
+					<l>26. Julÿ Freytags frühe kame an, Vndt Kehrte auch bey Meines Hospite</l>
+					<l>ein, der Syndico der Stadt München, H. D. Conradus Heyer, umb</l>
+					<l>den Schwed. Herren Legatis zu remonstriren: Wie so gar hart</l>
+					<l>dieselbe Stadt bedränget; Vndt so gar nicht die von der Cron</l>
+					<l>Schweden Ihnen, denen Herrn Gesandten vndt dem H. Feldtmarschalt</l>
+					<l>TorstenSohn habende gute Erhe respectiret vndt gehalten würde.</l>
+					<l>Welcher mir zu seiner ankunfft am ersten die leidige Zei-</l>
+					<l>tung berichtete: Das General Major Königsmarck, Nach-</l>
+					<l>dem Er Langwedel im Erstifft Bremen wieder erobert</l>
+					<l>vndt ruiniret, zurück in kleisen gehen, vndt Grainitz ent-</l>
+					<l>setzen würde: Wie Er dann bereits Minden vorbey gan-</l>
+					<l>gen vndt 4. Compaonien travaillirter Völcker wider seinem</l>
+					<l>geleget hette. Dieweil aber die Post schon fortgewesen: Habe</l>
+					<l>ich solches so schleunig nicht avisiren können.</l>
+					<l>Deselben Abendts berichtete Er ferner ex relatione H.</l>
+					<l>Oxtenstierns selbsten; bey dem Er zu Mittag zur Taffel gewe-</l>
+					<l>sen: Das zwar neulichst zween Abgeschickte Jesuiten recom-</l>
+					<l>mendation von dem Franzosischen Gesandten Conte d'Avaux ge-</l>
+					<l>bracht, vndt darauff Vnterschiedtliche Salvos Conductus vndt</l>
+					<l>Salve Guardice solicitiret: Die Kayser. H. Gesandtens</l>
+					<l>auch umb Verstadtung der Audientz umstandlich vor </l>
+					<l>Sie anhalten laßen: So aber Er, H. Oxtenstiern Ihnen ver-</l>
+					<l>saget, vndt gegen den M[onsieur] d'Avaux sich auffs beste; sonder-</l>
+					<l>lich, das es wegen des meinen, so ein Apostata von Lainzig</l>
+					<l>bürtig, vndt Mühlmann heißen solle, gewesen, Verweigert</l>
+					<l>werden entschuldiget. Herr Servien ad instantiam le-</l>
+					<l>gatorum Casariorum dieselbe enstlich verkadtet hette; Ihre</l>
+					<l>pietita aber gänzlich abgeschlagen, were: Worauff Sie dann</l>
+					<l>der H. Graff von Auersberg auff Seiner Carossa zurück</l>
+					<l>nach Münster bringen, vndt auch suis Secretarium beglei-</l>
+					<l>ten laßen. [x] Continuatione </l>
+					<l>29. July Montags Eß ich fruh morgens zu behueff folgenden Diensta-</l>
+					<l>ges Post den vnterthänigsten bericht vnd continuationen Diary No.</l>
+					<l>3. albereit gefertiget Vndt umschreiben laßen. Vnd wng gleich</l>
+					<l>über der Mahlzeit sase: Kame theriaz Hreimah von Halle</l>
+					<l>alhier an, vndt vberantwortete mir I. Furst. Durch. gnädigstes</l>
+					<l>Rescriptum vom 19. dieses, nebst dero Reconmendation Schrei-</l>
+					<l>ben an die Fürst. Heße-Caßelische Herrn Abgesandten, vnd</l>
+					<l>anders Privatbriefen, Mitt bericht, das Er nicht allein zu Mag-</l>
+				</lg>
+			</p>
+			<pb n="40"/>
+			<p>
+				<lg>
+					<l>deburgk eines vndt zu Zelle zweie Tage auffgehalten worden; Son-</l>
+					<l>dern auch wegen derer in schleunigem marche naher Meißen be-</l>
+					<l>griffen, vndt damals nicht weit von Hannover zum Bsernen hag¬</l>
+					<l>Vnd daherumb ligenden Königs-Markischen Völcker etwas umb-</l>
+					<l>lauffen mußen, Worauff ich mich alsobald nach der Mahl-</l>
+					<l>Zeit bey dem alhier anwesenden Heßisches Abgesandten, H. G[ene]ral Com-</l>
+					<l>[Reinhardt] missario Scheffer durch meinen Diener angegeben; Der sich zwar</l>
+					<l>wegen der Post in etwas entschuldigen; Doch aber gegen 3. Uhr</l>
+					<l>Ihn zuzusprechen, mich ersuchen Thun.</l>
+					<l>Vnter deßen sprach ich dem H. Vice Canzler D. Lampadio zu, Vndt ver-</l>
+					<l>nahme von denselben so viel: Das nachdem Sie in der Fr.-</l>
+					<l>tungs-restitution sache bey dem Schwedischen Legatis propter</l>
+					<l>allegatum defectum Mandatorum weiter nichts außrichten kön-</l>
+					<l>nen, der Herr Drost der Graffschafft Hoy Johann Adam von Ham-</l>
+					<l>merstein nach genommenen Abschiedt von H. Oxenstirn am nach-</l>
+					<l>ligsten Sonnabend von hinnen wieder abgereiset; Er aber wan</l>
+					<l>Er diesen Tag vmb 3. Vhr bey dem Dannemarckischen Abgesandten</l>
+					<l>H. D. Langermannen die Visite Verrichtet, Morgen aber bey dene</l>
+					<l>Kaser. Vnd ubermorgen bey denen Schwedischen Herren Legatis</l>
+					<l>Abschied genommen, sich gleicher gestaldt auff eine Kurze Zeit zu-</l>
+					<l>rück begeben würde. Reisete zwar cum multorum desideris</l>
+					<l>Siecorum etiam indtonatione ab: Hette aber versprochen mit Got-</l>
+					<l>tes hülff, in 3 Wochen zum Lengsten wieder hierzu sein, auch zu</l>
+					<l>wünschen: Das nicht allein ein Landtag gehalten; sondern</l>
+					<l>auch vel nomine totius sirenti relgente a potissimis statio</l>
+					<l>zu beförderung der heilsamen, so gar ins Stocken gerahtende</l>
+					<l>Friedenstractaten, Legati anhero geschicket werden möchten. Com-</l>
+					<l>[A] municirte mir inmittels beyligendes Extract der angetra-</l>
+					<l>genen cooperation batt; Mit bitt vndt erbieten: Das ich mit</l>
+					<l>dem Heßischen H. Abgesandt fleißig communiriren, Vndt dann</l>
+					<l>mit ein ander correspondiren wollten.</l>
+					<l>Hirauff ich folgents zur bestimbter stunde bey dem Heßischen</l>
+					<l>H. Abgesannten mich eingestellet: Von welchen ich in Seinen Ge-</l>
+					<l>mach, so an den Wänden, von gesircks, biß an die Länke</l>
+					<l>Vnd fur der einen darinnen stehenden betten, nebens dem Tisch</l>
+					<l>oder Taffel (mit grünen, Doch mit gar köstlichen Tuch be-</l>
+					<l>decket war) empfangen; niederzusezen genötiget, auch an-</l>
+					<l>hero ieder herunter biß in das Hauß oder Döhte, vndt von¬</l>
+				</lg>
+			</p>
+			<pb n="41"/>
+			<p>
+				<lg>
+					<l>vns von Zweenen Seinen Auffwärtern oder Canellistes biß an die</l>
+					<l>Haußthür begleitet worden. Deme ich dann, nach kürzlich ab-</l>
+					<l>gelegten Gruß vom Herren Vultejo (weil Er daber angefangen, I. </l>
+					<l>Fürst. Durch. gnädiges Schreibes gebührendt insinuirte; Die</l>
+					<l>gewöhnliche curralia ablegte, Vndt zu großgünstiger geborgenheit</l>
+					<l>vndt communication, mich recommantirte, auch incidenter et</l>
+					<l>per discursum den elend verderbten Zustandt des Erzstiffts be-</l>
+					<l>rührte; Vndt wie gerne I. Fürst. Durch. dero Gesandten</l>
+					<l>albereit geschickt hetten, oder noch ehist schicken würden, Wenn</l>
+					<l>es nicht bißhero an den Vnkosten ermängelt, oder noch einig</l>
+					<l>mittel sich darzu errägnete, vndtt zu welchem noch dieselben</l>
+					<l>Vnter deßen mich anhero abgefertiget, anzeigete: Er aber</l>
+					<l>des Zuentbohtenen gnädigen gruses, vndt durch dieses Schrei-</l>
+					<l>ben bezeigeten hohen Ehre sich vnterthänigst bedanckten. I.</l>
+					<l>Fürstl. Durchl. Friedliebende intention,Gute Consilia</l>
+					<l>Vndt das Sie inmittels mich anhero geschicket auch ferner</l>
+					<l>noch mehrer Gesandten (Wie seine formalia lauteten)</l>
+					<l>schicken würden, Hoch approbirte zu guter Vertrawlichen com-</l>
+					<l>munication (die Er mit aller Fürsten vndt Stände Gesandten</l>
+					<l>oder Agenten zu halten von Seiner Gnädigen Fürstin Vndt Freiten</l>
+					<l>befechlicht were) sich erbohte; Von dißmal aber mehr nicht, als</l>
+					<l>was albereit in voriger Continuation Diary No. 4. auß ver-</l>
+					<l>traulicher Communication vndt H. Mylony relation, de mo-</l>
+					<l>ra et obstaculis horum tractatuum et utriusque partis causatione</l>
+					<l>sire imputatione, Vnterthänigst berichtet, nebst etzlichen nach- Vnd</l>
+					<l>zusammen gesezten Zeitungen, zu referiren wuste.</l>
+					<l>Aldieweil auch wie anfangs gemeldet M[onsieur] Servien ver-</l>
+					<l>tröstung gethan, das die andtwordt auff I. Fürst. Durch.</l>
+					<l>Schreiben anhero in des Französischen Residenten Barons de</l>
+					<l>Rorte Losament remittiret werden solte; Habe ich gele-</l>
+					<l>genheit genommen, bey deßen Sohne (weil Er selbst noch</l>
+					<l>nicht zurückkommen) mich anzumelden, vndt nach-</l>
+					<l>frage zu halten. Wie ich aber vernommen, das noch</l>
+					<l>Zur Zeit nichts angelanget, vndt dahin stünde, ob bey mor-</l>
+					<l>genden Poste dieses erfolgen möchte: Habe ich ihme über-</l>
+					<l>morgen früh wieder zuzusprechen verlasen. Vnterdeßen aber</l>
+					<l>Vndt da noch nichts ankame, solches bey des Conte de Avaux</l>
+				</lg>
+			</p>
+			<pb n="42"/>
+			<p>
+				<lg>
+					<l>oder M[onsieur] Servien Secretario einen ohn beschwert mit geteinigen</l>
+					<l>zuerinnern gebohten.</l>
+					<l>Sprache darauff H. Mylonio in des H. Legati Oxenstierns Canzley</l>
+					<l>zu vndt hinter brachte ihm, pro occasiene et accessu, einen ange-</l>
+					<l>nehmen gruß vom H. HoffRaht D. Bülnern: Der mir die</l>
+					<l>nicht allein wegen des von denen Herren Legatis diesen vori-</l>
+					<l>gen, durch den Syndicum der Stadt Osnabrück insinuirtes</l>
+					<l>Erinnerungs- Vndt Protestations-Schreiben (darvon ich zwar auch</l>
+					<l>zu vorhero vor etzlichen Tagen gute vndt gewiße nachricht ge-</l>
+					<l>habt)  bericht theten; Sondern auch daßelbe zu Verlesen gabe.</l>
+					<l>[B.] Vndt folgendts Tages beyligender maßen communicirte. Vnd</l>
+					<l>[C.] weil mir, auch beygefügter Lateinischer Discours, fast gleich</l>
+					<l>inhalts vnd ein Vertrauter handt communiciret worden:</l>
+					<l>So habe ich denselben, Nebst der Copia der Schwedischen nerben Ver-</l>
+					<l>[D.] pflegungs Ordinants hiermit zugleich gehörsambst beylegen</l>
+					<l>sollen. Im übrigen wurde ich von H. D. Rapschen</l>
+					<l>berichtet: Das zwar der H. Graf von Lamberg am 9/19 Juni zu</l>
+					<l>Wien auffgebrochen; Noch zur Zeit aber von seiner</l>
+					<l>Ankunfft (weil Er vermuhtlich Vnterwegs ein- Vndt</l>
+					<l>andere Kayser. Commissiones abzulegen haben; oder sonst</l>
+					<l>sich etwan auffhalten möchte) noch nichtt zu vernehmen als</l>
+					<l>Gott helffs, das Er noch ankommen, andere Resolution</l>
+					<l>mittringen, vndt das werck beßer von stadten gehe: Die</l>
+					<l>Causula finalis aber des Schwedischen Schreibens, vndt besorgliche</l>
+					<l>gückselige dissolution des Consents Vermieden bleiben möge!</l>
+					<l>30. July Diensags berichtet mich ein guter freundt für gar Groß [?]</l>
+					<l>Das die Kayser. Herren Abgesandter das Schwedische protesta-</l>
+					<l>tion-Schreiben vom Syndico nicht annehmen wollen; Mitt vor-</l>
+					<l>geben: Das Ihnen; Weil die Schweden noch Reichsfeinde we-</l>
+					<l>ren dergleichen zu thun, vndt verschloßene Schreiben (wie dieses</l>
+					<l>von beeden H. Legatis besiegelt gewesen) zu empfangen nicht</l>
+					<l>gebühren wollen. Vnndt wie wol Sie darbey des Inhalt</l>
+					<l>sich erkundiget, Vnd den Syndicum wieder an sich zu beschieden</l>
+					<l>sich erkläret; inmaßen auch baldt darauff geschehen: Die</l>
+					<l>Schwedischen aber ihme daß Schreiben nach geister also zu</l>
+					<l>insinuiren, vndt darbey, das Sie die H. Kayser. hiebevor der</l>
+					<l>gleichen wichtigere vndt fast bedencklicher Schreiben ang-</l>
+					<l>nommen hetten, anfführen; Auff den fall aber fernere Ver-</l>
+				</lg>
+			</p>
+			<pb n="43"/>
+			<p>
+				<lg>
+					<l>Weigerung das corpert oder umbschlag in Ihrer Prasentz zu eröf-</l>
+					<l>nen, Vndt Ihnen also offen zu überandtwordten conmission gege-</l>
+					<l>ben: So hetten doch die Kayser. H. Legati solches anzunehmen,</l>
+					<l>da auch nur inmaßen zu Verlesen sich elamhauß vndt bekundig Ver-</l>
+					<l>weigert: Welches die Schwedischen Herrn Gesandten hoch em-</l>
+					<l>pfunden, Vndt das Schreiben nicht allein nochmahls durch Notarien</l>
+					<l>vndt Zeugen insinuiren, Sondern auch offentlich (Vielleicht durch</l>
+					<l>den druck) publiciren zu laßen gewillet weren. </l>
+					<l>Sonst sollen auch deßelben Tages, nach der Mittags Mahl Zeit</l>
+					<l>der Portugesische Anbassader den H. Oxenstierns heim gesuchet</l>
+					<l>haben: Deme derselbe in dem Mantel biß vor die Haufthur heraus</l>
+					<l>entgegen gangen vndt bey der handt mit Ihme in den Garten</l>
+					<l>führet.</l>
+					<l>Vndt wiewol mich auff den folgenden Mittwoch den </l>
+					<l>31. July. der Herr Vice Canzler D. Lampadius zur Mittags Mahlzeit</l>
+					<l>bitten laßen; Da ich dann, nach eines Vnd das andere, was bey ra-</l>
+					<l>tedicirung der Keyser. Vndt Schwed Herrn Legatorum fürgelauffen,</l>
+					<l>zu vernehmen verhoffet; Vndt deswegen der Posten auch noch die-</l>
+					<l>sen tag uffgehalten,: So hatt es doch in anwesenheit des Heßischen</l>
+					<l>H. Abgesandten, so wohl seines Wirths, D. Menderpols, vndt des in-</l>
+					<l>tervenirenden Medici D. Raschens, zu malen der H. Vice Canzler</l>
+					<l>umb 2. Vhr zu dem H. Oxenstierns (wie er Fruhe beym H. Salvio</l>
+					<l>gewesen) fahren müßen. Keine gelegenheit darzu, oder andere</l>
+					<l>discourse als wegen Grävelinges, Freyburgk, Cheminz vndt</l>
+					<l>anderer Zeitungen gegeben.</l>
+					<l>Soden reisete der Syndicus von Münster mit guter expedition</l>
+					<l>zurück, vndt vernahme ich beym Abschiede, von des H. Salvy an-</l>
+					<l>wesenden Secretario so viel: Das der angethrehete discessus</l>
+					<l>noch zur Zeit so wenig an Schwedischer seiten ernstlich gemein-</l>
+					<l>net, als Sie dafür halten, das nach es an Keyser. seiten darzu wer-</l>
+					<l>de kommen lasen.</l>
+					<l>Was sonst erstgedachte Zeitunges anlanget: Obwol derselbe pro</l>
+					<l>studio partium so her wiedereinander lauffen, das man fast nicht</l>
+					<l>weiß, was man glauben, viel weniger nachsagen, oder von sich, schrei-</l>
+					<l>ben solte: So habe ich doch, so viel ich deren schrifftlich bekommen</l>
+					<l>mögen, hierbey anschicken, vndt des übrigen, zu fernerer divdica-</l>
+					<l>tion, kürzlich anfügen sollen. Vndt ist nun Anfangs wunderlich</l>
+					<l>die Vngleiche relation wegen der Schwed. vndt Dähnischen See-</l>
+					<l>schlacht, worbey mich H. Mylonius auch dieses mündlich be-</l>
+				</lg>
+			</p>
+			<pb n="44"/>
+			<p>
+				<lg>
+					<l>richtet: Welcher gestaldt bey solchen hartten gefecht der König</l>
+					<l>selbst; Secundam relationem eines Dähnischen Cavagliers Ubefeldt</l>
+					<l>genandt (so dabey gewesen, vndt zween andere des geschlechtes zu</l>
+					<l>blieben) in höchster gefahr gestanden: In deme nicht allein zu</l>
+					<l>Vnterschiedenen mahlen die Stücken bey Ihn weggetroffen, Son-</l>
+					<l>dern auch zu lezt als der König sich von einem Orht zum andern sal-</l>
+					<l>virt, Vndt dazumal beym größten macst gestanden, ein Stücke</l>
+					<l>fünff personen, zu nechst bey dem Könige, auff einmal sambt das</l>
+					<l>tabutat weggenommen, der König Nieder gefallen, mit der To-</l>
+					<l>den bludt besprüzet, vndt von einem Splitter über der Naße ein-</l>
+					<l>weinig Verwundt were. Darüber alles in confusion hette gerahten</l>
+					<l>wollen. Vndt dahero der König nohtwendig favore noctis die</l>
+					<l>reterada zu nehmen gezwungen worden.</l>
+					<l>Hergegen wollen andere doch, das in 12 Schwed. Schifft, so teil</l>
+					<l>zugrundt gangen, teils erobert worden, in sich geblieben, Vndt von</l>
+					<l>48. derselben mehr nicht, dann 36. zu Kühl vndt Wißmar</l>
+					<l>eingelauffen, behaubten: Die dann in Kieler Hafen der König</l>
+					<l>mit an die 63. großen Orliche Schiffe, auch vielgroße Bro-</l>
+					<l>men, Heier Vndt Klnanen Jagschiffer beszet hette. Wie wol in</l>
+					<l>Gegentheil dieses Vermuhtet wirdt: Das die Schwed. Flotte</l>
+					<l>studio daselbst verbleibe, umb die Dähnische auffzuhalten, vndt</l>
+					<l>dardurch der Holländischen Flotte Vnterm Admiral Marthin Ehn-</l>
+					<l>ten vorhabende fahrt durch den Beldt vndt conunction mit ihne</l>
+					<l>zu facilitiren.</l>
+					<l>Ingleichen wirdt von expedition, der Keyser. Haubt Armada vn-</l>
+					<l>gleich discoutiret: Indeme eines theils vorgegeben werden, wil.</l>
+					<l>Als wan die Dänizer mit hülffe einer Vntern Obri[st] Bött</l>
+					<l>der commandirten KöngsMarckischen Parthey außgefallen, in be</l>
+					<l>nieder gemacht, vndt die Schiffbrücken erobert oder doch, wie</l>
+					<l>andere referiren, zu schanden gemacht haben sollen, Land</l>
+					<l>theils aber wil man darvon nichts wißen, Sondern wirt Ver-</l>
+					<l>meldet; Das die Gallaßische Armada, nach dem Sie Bei¬</l>
+					<l>burg erobert vndt ezliche Tage zu Oldeßlohe gestanden bereit</l>
+					<l>Segeberg ankommen: Des Schwedischen aber sich biß in Schles-</l>
+					<l>wig hienangezogen hetten: Vndt wir nun dieses letzte wi-</l>
+					<l>derumb dahin gederet wirt: Das es entwedtr die Kayser</l>
+					<l>ins Landt zu locken, oder das verlauffs der beiden Flotten</l>
+					<l>zuerwartten, geschehen, Alß wirdt auch dieses gedacht: Da</l>
+					<l>Gallas von I. König. May. vor antretung seiner action</l>
+				</lg>
+			</p>
+			<pb n="45"/>
+			<p>
+				<lg>
+					<l>in Hollzem Gluckstadt zu reterade Pineberg abzutreten, vndt</l>
+					<l>6. Monat Solch vor die Armee zugeben begehret. der König</l>
+					<l>aber das alles abeschlagen hette.</l>
+					<l>Das Grävelingen. Vndt hergegen Feyburgk im Breißgaw vndt</l>
+					<l>Chemiz über, will continuiren: vndt geben die avisen, das</l>
+					<l>die 3. Örter fast auff einen Tag übergangen, Imgleichen cortinu-</l>
+					<l>iret das die Holländer, In dem die Spanischen Grävelingen</l>
+					<l>Zuentsezen, sich selbst entblößet, mit gewaldt vndt behandigkeit</l>
+					<l>über die Ley (so ihnes sonst etzliche Jahr her nicht habe angehen</l>
+					<l>wollen) kommen, das Saß von Genth nunmehr formaliter</l>
+					<l>belägert, auch ezliche Forten durch oder außenwerck bereit er-</l>
+					<l>obert haben sollen, : Ob Sie es aber diß Jahr omportiren</l>
+					<l>werden, stehet zuerwardten. Vndt wirdt, wegen wichtigkeist des</l>
+					<l>Ohrts, daran fast gezweiffelt. So sollen auch, wie ich vom</l>
+					<l>Heßischen H. Abgesandten Vndt Mylonio vernommen, nach 2</l>
+					<l>Französische Armeen vnterwegs sein: Dern die eine Vnterem</l>
+					<l>Duc d'Elbeuf nach Hammergau. Die andere Vnterm Duc d'</l>
+					<l>Engien nach dem Ahain vndt Mosel recta uff Trier zugehe.</l>
+					<l>Vom Ragorzi hatt man, das derselbe Götzen Zimlich geschlagen;</l>
+					<l>Möge aber sich von Laphen (darfür angelegen) biß nach Hauster</l>
+					<l>oder Nitriam gegen Mähren zu, reteriret habe: Darvon aber</l>
+					<l>darcben Zulandt vielleicht mehr gewißheit sein wirdt ./.</l>
+				</lg>
+			</p>
+			<pb n="46"/>
+			<p>
+				<lg>
+					<l>1644.</l>
+					<l>Continuatio Diarij</l>
+					<l>1. Augusti. Habe ich mich erstlich früh wiederumb beij des Französischen Resi-</l>
+					<l>denten Sohne, (welchen ich des vorigen Tages so weinig; als den Secretari</l>
+					<l>um angetroffen) angegeben, vnd ob noch kein andtwort an I. Fürst-</l>
+					<l>Durch. von den Herrn Ambassadorn ankommen, vernommen; Auch noch-</l>
+					<l>mals umb diensame Erinnerung bey der Herren Secretarien einen gebeh-</l>
+					<l>ten: Dieweil ich aber verstanden, das doch nichts erfolget, auch vor Sam-</l>
+					<l>tags keine Schreiben einkommen würden. So habe ich vnnötig vnt vn-</l>
+					<l>verandtwortlich geachtet, den Pothen von Vall lenger auffzuhalten, Son-</l>
+					<l>dern denselben gegen Mittags mit meines vndterthänigsten bericht post-</l>
+					<l>scripto et continuatione Diarij No. 3. vndt zubehörigen Beylagen, auch</l>
+					<l>anders privat-Schreiben, in Gottes nahmen wieder abgefertiget.</l>
+					<l>Denselben Morgen früh umb 7. Uhr, ist der Herr ViceCanzlar D. Lam-</l>
+					<l>padius iedoch mit vorgemeltem Abschiede, binnen 3. Wochen, geliebtes</l>
+					<l>Gott, wieder hier zusein, zurück auff Hannover gereiset: Deme</l>
+					<l>zwar, weil ich noch gegen abfertigung des Pothens zu schreiben gehabt,</l>
+					<l>nicht zusprechen, noch das Gleit geben können. Doch habe ich mei-</l>
+					<l>nen Diener hingeschicket, Ihme viel glück vndt Heil auff die Reisse</l>
+					<l>gewünschet, vndt das ich, gedachter Verhinderung halber, nicht selbst Ab-</l>
+					<l>schied nehmen können, mich entschuldigen laßen.</l>
+					<l>Aldieweil auch der H. Vice-Canzlar vor gut angesehen, das: Ob ich wol</l>
+					<l>dem Creditvo oder Recommendation Schreiben an Ihn hatte. Dannach dem</l>
+					<l>Königl. Dannemärckischen Herrn Abgesandten D. Langermannen ich</l>
+					<l>zusprechen vndt heimsuchen mochte: Habe ich mich vorhero durch H. D.</l>
+					<l>Raschken (weil Er mit Ihme wol bekandt, Sein Jüngster Bruder</l>
+					<l>auch, Martinus Raschken, izo Königl. Dennemarckisch. Resident zu</l>
+					<l>Hamburg sein soll) umb einen Access beworben; Er aber nur hinwie-</l>
+					<l>derumb, das ich nur kommen vndt Ihme ieder Zeit, auch ohne Creditiv</l>
+					<l>lieb vnd angenehm sein solte, zuentbieten laßen</l>
+					<l>Darauff ich auch dann diesen Nachmittag nach 3. Vhren (welcher stunde</l>
+					<l>Er nur auff mein anmeldes, hatte bestimmen laßen) in sein Losa-</l>
+					<l>ment verfüget; vndt erstlich in das ringsherumb mit gewürckte</l>
+					<l>Tapezereijen bezeugte Taffelgemach durch eines in des Principal-</l>
+					<l>Quartier gebrochenen Durchhang, geführet worden, Daselbsten mich</l>
+					<l>nicht lang, hernach der Herr Abgesandte in transitu auß Seinen Lo-</l>
+					<l>sament empfangen, willkommen Geheißen, vndt mit Ihme in das</l>
+					<l>Principal-Gemach zu nechst darbey (so gleichfals mit schöner von Histori-</l>
+					<l>en geschmückten Tapezereijen ringsherumb: Ober der Taffel aber</l>
+					<l>vndt im Haubtail oder Oberstellt mit einem Hermelien vndt Tep-</l>
+					<l>pich von Braun- und rohten guldenen Stuck, ie eins umbs ander</l>
+					<l>bekleidet: Gemeldte Taffel aber vndt nach eine andere, an der</l>
+					<l>wandt stehendt, mit schönen rohten Tuch, einen Scharlach, nicht vngleich</l>
+					<l>bedecket weren) genommen, vndt von meiner Ankunfft deambu-</l>
+					<l>lando mich zubefragen, angefangen.</l>
+				</lg>
+			</p>
+			<pb n="47"/>
+			<p>
+				<lg>
+					<l>Ego: congratulirte Ihme de valetudine vndt apprecirte prosperum Actionum</l>
+					<l>et consiliorum sucessum: Entschuldigte darneben beydes, das ich Ihme in man-</l>
+					<l>gelung eines Recommendation Schreibens oder andren Accessus, biß hero</l>
+					<l>nicht angesprochen; vndt das auch I. Fürst. Durch. als bnwtißen Seiner</l>
+					<l>nach anwesenheit (Sintamat die avisen beij Vns das, Er in prociectu</l>
+					<l>zu rückreiste vnterschiedlich gegeben) mich mit ist desgleichen Recom-</l>
+					<l>mendation-Schreiben nicht versehen hetten, Aldieweil ich mich aber der</l>
+					<l>so nachen anverwandtnüß der beyden Höchst, vndt Hohen König. auch Chur-</l>
+					<l>vndt Fürst. Häuser erinnert: Als hette ich lenger nicht umbhin gekonnt,</l>
+					<l>Ihme, als I. Königl. May. Hochansehnlichen Herrn Abgesandten, Aufzuwarten</l>
+					<l>zu congratuliren, vndt danebens Meine weinige Person unterdienlichst</l>
+					<l>zu recommandiren: Inmaßen dann I. Fürst. Durch. Ihm senden alle</l>
+					<l>Zweiffel solche meine Auffwertung gnädigst gefallen laßen. Ihme, den</l>
+					<l>Herrn Abgesandten, auch mit günstiger vnd geneigten willen wol be-</l>
+					<l>gethen sein vndt verbleiben würden.</l>
+					<l>Mo[nsieur]. bedanckte sich der Congratulation vndt voti, vndt dürffte im übrigen kei-</l>
+					<l>ner entschuldigung: Dann Er leicht erachten könte, das ich zwar bißhe-</l>
+					<l>ro sonst, Expeditiones gehabt; I. Fürst. Durch. aber wegen des Creditivs beij</l>
+					<l>dem iztgen zustande, vndt da man nicht wißen können, wie es noch</l>
+					<l>mit den tractaten forte oder abgehen möchte, angestanden haben würde.</l>
+					<l>Das ich Ihme aber, in respect Seines Gnädigstes Königs, zusprechen vnd</l>
+					<l>congratuliren wollen, darfür thete Er sich bedancken; vndt wolte es</l>
+					<l>wegen I. May. mit guter gelegenheit zu rühmen wißen. Erinner-</l>
+					<l>te sich auch nicht allein der nahmverwandtnuß; Sondern auch der guten</l>
+					<l>Affection vndt Freundtschafft zwischen I. König. May. Vndt I. Fürst. Durch.</l>
+					<l>wie dan insonderheit auch dieses, das einsmahls, Vor ohngefehr, einen, oder</l>
+					<l>1 1/2 Jahre, seines behalts, I. Fürstl. Durch. Seinen Gnädigsten König umb in-</l>
+					<l>tercession oder Interposition bey der Cron Schwed. contra executiones</l>
+					<l>der Mansfeld. besazung ersuchet. I. May. auch Ihme solches bey den</l>
+					<l>Schwedisch. Minestris zu negotiiren anbefohlen, vndt dero behuff I. Fürst </l>
+					<l>Durchl. Schreiben in Originali (er noch beyhanden hette) zugeschickt</l>
+					<l>mehr aber were leider I. May. so vnvermuchtet überstellet, vndt So</l>
+					<l>an eines solchen handt gesezet: Das Sie rebus de stantibus, nichts bey</l>
+					<l>der Sachen thun. Noch anderen die hiebevor zu Ihr gleichsamb Ihren re-</l>
+					<l>cours vndt zuflucht genommen, zu statten kommen könten. Vnter-</l>
+					<l>desen, sind weil, ia die Herren Schwedischen bißhero vorgeben, das Sie ohn</l>
+					<l>die Teuzschen Fürsten vndt Stände nichts tractiren, oder schließen könten</l>
+					<l>vndt dahero deroselben herbeykunfft, so hoch urgirten. So Zweiffele</l>
+					<l>nicht, I. Fürst. Durch. als ein so hoher standt vndt eines der Vornehmsten</l>
+					<l>glieder des Heil. Röm. Reich, werde, die Ihrigen nicht ehisten anhero zu</l>
+					<l>senden bereiht sein, Mich aber inmittels, den zustandt zuerkun-</l>
+					<l>digen vndt praeparatoria zumachen, vorangeschickt haben, Wo Er </l>
+					<l>nun konte angenehme Freundschafft vndt gefallen erweisen,</l>
+					<l>konnete Er sich in respect I. Fürst. Durch. darzu schuldig vndt er¬</l>
+					<l>big: Vndt solte Ihme sehr lieb sein, wan ich Ihme nur öffter, Weil</l>
+					<l>doch sonst nirgendts hinkome, zusprechen wolllte.</l>
+				</lg>
+			</p>
+			<pb n="48"/>
+			<p>
+				<lg>
+					<l>Ego: iberawrete den elenden zustandt undt das gleich zu der Zeit da man</l>
+					<l>dem Haubtwerck näher treten, vndt zum Congress schreiten solten, dieser wieder-</l>
+					<l>holte, hoch verderbliche Krieg, zu mercklichen, bißhero verseur tens Hindernüß deren</l>
+					<l>so lange Jahr schon so viel Millionen Seelen desidirte Friedens tractaten</l>
+					<l>sich entspannen hette. Vndt zeigete zugleich, hac occasione an: Das zwar</l>
+					<l>I. Fürst. Durch. dero Rähte vndt Gesandten vorlängst anhero abfertiget, wol-</l>
+					<l>len. Wann es nicht bey dem zu grundt verderbten Zustande des Landes</l>
+					<l>(welchen ich, so viel die Schwedisch. vndt sonderlich die Königsmarck. pres-</l>
+					<l>suren vndt Einquartierungen anlanget, per discursum ein weinig be-</l>
+					<l>rührte) an denen hier zu nötigen vnkosten ermangelt hette, Damit</l>
+					<l>aber danach I. Fürst. Durch. Von den hiesigen tractaten etwas eigent-</l>
+					<l>lichere nachricht haben; Auch, das an Ihr der mangel nicht sey bezeigen</l>
+					<l>möchten: So hetten Sie meine weinige Person vorangeschickt, vnd</l>
+					<l>weren noch gnädigst gemeinet, so baldt immer zu den mitteln zuge-</l>
+					<l>langen möglich, von dero Rähten iemandes anhero abzusenden, Vndt</l>
+					<l>Weil Er nun selbst zu guter freundtschafft vndt erweisung, die ich gleich-</l>
+					<l>fals Vnterthänigst referiret vndt rühren wollen, sich anerbohten,: So nahme</l>
+					<l>ich gelegenheit, Ihn schließlichen umb vertrauliche communication deßen,</l>
+					<l>was Er vermeine, das Meines Gnädigsten, vndt Herrn, entweder ratione</l>
+					<l>status publici zu wißen mötig. oder I Fürst. Durch. vndt, dero Erz-</l>
+					<l>stiffts propriam interesse angieige, vndt allbereit vorgelauffen, oder</l>
+					<l>noch vorlauffen möchte, zuersuchen.</l>
+					<l>Mo[nsieur]: Hielte das lezte petitum de praeterito, vor eine höfflichkeit, Sintemahl</l>
+					<l>ich der Zeit über, weil ich hierntere, daßelbe was beser, Als ich selbst wür-</l>
+					<l>de erkehnen vndt vernommen haben: Was aber künfftig vorgehen möchte</l>
+					<l>were Er zu communiciren erböhtig. Discourirte vndt referirte darneben-</l>
+					<l>weitläuffhig vndt vmbständig: Welcher gestalt I. König. May.</l>
+					<l>von der Cron Schweden anfänglich zu dieser intermediation gebracht, vnd</l>
+					<l>gleichsamb genötiget worden. Wie sich angeleget, Sie Ihr, das Werck</l>
+					<l>sein laßen, So gar, das Sie auch angescheget vnd. Kayser. Avise geschrie-</l>
+					<l>ben, die Schwedisch enschuldiget, vndt hergegen, die moria in praetiminarium</l>
+					<l>denen Kayser. Commissariis beygemeßen. Wie nun die praeliminarien</l>
+					<l>dermal einsten richtig gewesen; vndt darinnen sonderlich die intermidi-</l>
+					<l>ation I. König. May. beyderseits beliebet vndt beschloßen worden: Hetten</l>
+					<l>die Schwedischen gebehten, das I. König. May. mit abschickung Ihrer Gesandten</l>
+					<l>den Anfang machen wollen. Dann Sie, die Schwed., ehe vnt zuvor des</l>
+					<l>Herrn intermediatoris Legati zur stelle ettre zuerscheinig bedencken</l>
+					<l>trügen. Das hetten fur I. May. zu beförderung den Sachen, gerne</l>
+					<l>gethan, vndt die Ihrigen mit großen Vmkosten, anhero abgeferiget. Wie</l>
+					<l>Sie dan (nehmblich die hiebevor gemelten Vierfeater Legati) mit in</l>
+					<l>150 Personen sich Zeitlich eingestellet, vndt ezliche wochen vergeblich gewart-</l>
+					<l>tet zu Ihrer ankunfft aber viemagdt, als die Kayser. Herren Abge-</l>
+					<l>sandten gefunden. Da Sie den, vff derselben ersuch der Schwedisch</l>
+					<l>Herren Legatos zu zweyen tates ganz erkundig invitiret vndt erinnert:</l>
+					<l>Dieselben aber sich von einer Zeit zur andern sich auffgehalten, noch das erste</l>
+					<l>mal uff 4. Wocher, das aber aber vff 8 Tage, mit Vermelden</l>
+					<l>das Sie wir auff etwas daran gelegen were, warteten, uff sich genommen,</l>
+					<l>2.</l>
+				</lg>
+			</p>
+			<pb n="49"/>
+			<p>
+				<lg>
+					<l>Vndt ob wol endtlich H. Salvius sich eingestellet: So hette Er doch die Voll-</l>
+					<l>machten, ehe vndt zuvor das des Legatus principalis, Herr Oxentsierns zu-</l>
+					<l>stelle, nicht produciren, noch sich ein geringsten nicht einlaßen wollen.</l>
+					<l>Wie nun hierüber endtlich dieser vnverhöffte überfall, eingebrochen; Hetten</l>
+					<l>Sie mit bestürztem Gemuhte zu Ihme, ermelter Salvio, geschickt, vnd der</l>
+					<l>beschaffenheit sich erkundiget: Der zwar der Sachen in facto gestendig</l>
+					<l>gewesen. Darbeneben aber gegen Ihme zngeshicten, das Er nichts darümb</l>
+					<l>gewust, noch Raht oder That darzu gegeben, sondern Ihme vimehr sehr leidt</l>
+					<l>were, zum Höchsten, ja auch mit Thränen, entschuldiget vndt contestiret</l>
+					<l>hette. Vndt wie nun solcher einfall, ganz vnverschuldeter</l>
+					<l>vnbenannter vnd vnvermuthen weise geschehen: Darbey auch so</l>
+					<l>grausam, als wann I. May. ein Türcke oder Heyde, oder sonst der Cron</l>
+					<l>Schweden (gegen die Sie sich doch ieder Zeit anders nicht, als nachbarlich be-</l>
+					<l>zeiget) abgesagter Erbfeindt gewesen, procediret were: Also hiel-</l>
+					<l>te Er dafür, ez hierunter etwan dieser obschon eines müße gewesen sein</l>
+					<l>utweder, nach ezlicher politiorum Vermeinten principio, das nemblich</l>
+					<l>ehe kein Vniversal-Fiede zu hoffen, es sey denn zuver tota Europa Chri-</l>
+					<l>stiana gleichsamb totaliter ruiiret: (Zu dem ende dan auch nicht al-</l>
+					<l>lein der Ragorzi wieder den Keyser excitiret werde, Sondern es hat-</l>
+					<l>te auch das ansehen, als wann zwischen dem Grafen vor OstFrießland</l>
+					<l>vndt den Heßischen ein neuer Krieg angesinnnen würde; dergleichen</l>
+					<l>vielleicht von Franckreich fomentirte simultates, auch zwischen Pfalz-</l>
+					<l>Neuburg vnnd I. Keyse. May. sich ereugnen wollen) Oder aber</l>
+					<l>das Sie vermeinet, vor angehenden tractaten auch von Dannemarck</l>
+					<l>partem de tuniea zu bekommen, und zum wenigster eine erleichte-</l>
+					<l>rung, wo nicht zur befreyhung, des Zolls in Sund, armata et</l>
+					<l>tune temporis victrici manu zubehalten. Nun würde zwar</l>
+					<l>Schwedischen theils fürgegeben, als wann sie nach die Dennemarck.</l>
+					<l>interposition wol leiden könte. Vndt die Dänischen selbst sta-</l>
+					<l>tionem verlaßen sollen: dargegen aber ein ieder Vernünfftigen</l>
+					<l>nicht ahnehme; Ob per reram naturam die izige Hostilität der bey-</l>
+					<l>den Cronen sich mit der intermediation comportiren könne? Sie</l>
+					<l>schlügen ferner für, die tractaten entweder ohne interposition</l>
+					<l>oder auch intermediation der Venetianischen oder auch der Reich-</l>
+					<l>stände anzutretten; Welches beydes aber, der einmal zu beyde-</l>
+					<l>theilen beliebten vndt beschloßenen praeliminar-tractaten halben, ja so we-</l>
+					<l>nig sich schicken wolle. Ferner wurde fürgegeben, als wan</l>
+					<l>diese differentien durch beyderseits an den Grenzen zusammen-</l>
+					<l>gesetzte ReichsRähte, vnt beliebtes interposition von Franckreich vndt</l>
+					<l>Hollandt beyzulegen, im Sterckahre. Deren gans aber gar nicht</l>
+					<l>auch mir begehret weren. Diese interposition aber noch uff einholen</l>
+					<l>der Schwedischen resolution (zumal auch M[onsieur] Tollerie dahin verweise</l>
+					<l>bestünde) Vnterdeßen holte sein gnädigster König nicht als</l>
+					<l>in die 8. Jeuster, noch mit großer, Monatlich in 200 Rthlr. sich belauffe,</l>
+					<l>den vnkosten, in Vietestiete; Sondern hette ihm auch gnedigst anbe-</l>
+					<l>fohlen: Das Er alhier verbleiben, vigitiren, vnndt nicht I. May. zu pra-</l>
+				</lg>
+			</p>
+			<pb n="50"/>
+			<p>
+				<lg>
+					<l>judim verhangen, oder einräumen sollte. Es hetten zwar auch die Keyser.</l>
+					<l>herren Abgesandten zuzwißen begehret; Ob I. May. noch die intermediati-</l>
+					<l>on mainteniren vndt Ihre Gesandten wieder anhero schicken wollte, oder</l>
+					<l>geschehen laßen könten, das die tractaten ohne dieselbe fürgenommen</l>
+					<l>würden: Welches alles Er fideliter berichtet; auch selbst umb gnedigste</l>
+					<l>Abforderung vndt dimission von dieser venrichtung üebellei hatt.</l>
+					<l>Die weil Er aber bißhero nicht allein keine Reslution darauff</l>
+					<l>bekommen; Sondern auch der Secretarius Klein (ob er zwar von</l>
+					<l>dem Ort, da Er albereit angelanget, so mir aber entfallen, nicht</l>
+					<l>vor 14 Tagen alhier sein können) noch nicht ankommen: So</l>
+					<l>vermuhte Er fast das, I. May. mit den expeditionitus militari-</l>
+					<l>bus so vieh zu thun gehabtt; Vndt demnach ermeldten Secrcta-</l>
+					<l>rius noch uff deroselben Resolution warten müße. Solte</l>
+					<l>nun I. Mey. endtlich der intermediation sich, hoc reram sta-</l>
+					<l>tu, begeben: So were ja hohe Zeit, das die Teüzschen Fürsten vndt</l>
+					<l>Ständen ie ehe ie lieber, herbeij kommen, an der stelle tretten, vndt Ihr</l>
+					<l>selbst eigenes Hohes Interesse in acht nehmen, Wie dann ohn daß</l>
+					<l>noch mehr zu rechten, vndt hoc praesertin statu hohe Zeit were:</l>
+					<l>Das die Stände sich viellieben, vndt Kielehe, mit. I. Keys. May.</l>
+					<l>selbst eines gewißen vereinigten; Darmit Sie, der Fremden Cro-</l>
+					<l>nen hierunter nicht bedürfften. Es würden zwar solches, die Auß-</l>
+					<l>wertigen Potentaten nicht gerne geschehen laßen; Sondern hindern</l>
+					<l>so viel als sie immer könten: Es möchte auch wol an Kay-</l>
+					<l>se. seite; sonderlich der Pfälzischen sachen halber große difficul-</l>
+					<l>täten geben. Vndt ob wol nicht ohne, das die Plätzische Sache</l>
+					<l>sehr weitleufflig; Also ez Sie Seiner meinung nach wol auff</l>
+					<l>andere tractaten außgesezet werden müßete, So hielte Er doch</l>
+					<l>dafür: Das, wann mir vnter deßen I. Keyser. May. andern</l>
+					<l>mal-contentes Fürsten vndt Ständen (als Würtenberg, Baden,</l>
+					<l>Augspurg) satisfaction gebe, dardurch so wol der Stände selbsten</l>
+					<l>als der Teüzschen Officiren vndt Soldaten affection gewonnen.</l>
+					<l>Hergegen den Auswärtigen Potentaten Ihr bishenigen Pratexio</l>
+					<l>Armorum (Libertatis se. Germanicae) Vnanmerten des</l>
+					<l>könte. Inmaßen Er solches vnlängst, einer vornehmer vertrauten</l>
+					<l>Person Cauf zuvorsehen geben. Die es darn gar wol angenommen;</l>
+					<l>Auch Zweiffels ohne, ferner nachdencken, vndt mit andern daraus</l>
+					<l>connuniciren würde.</l>
+					<l>Wie nun dieses alles, von wolgemelten H. D. Langermanns discourse</l>
+					<l>vndt meistentheils einentliche formalia, wienach nicht alles</l>
+					<l>hoc ordine gewesen. Also hatt mir deselbe, so viel ich assequiren</l>
+					<l>vndt behalten können, auffzuzeichnen, vndt ad Qartom nachricht-</l>
+					<l>lich, vndt  (zumal vmb vnterschiedtlich von vorigen Relationibo</l>
+					<l>differirend vmbstände willen) außführlich zu bringen ge-</l>
+					<l>bühren wollen</l>
+					<l>3a.</l>
+				</lg>
+			</p>
+			<pb n="51"/>
+			<p>
+				<lg>
+					<l>So viel sonst [x]itius Belli anlangete; Conformirte vndt berich-</l>
+					<l>tete Er noch in [x]: Das von den 48 oder 49. Schwedischen</l>
+					<l>Schiffen, mehr nicht als 29 in den Kieler Haven beij Geistanpnniß</l>
+					<l>eingelauffen. Waßen dann nicht allein die Schwedischen nicht</l>
+					<l>[x] könte, das vnterschiedene (der eroberten Zugeschweigen) zu</l>
+					<l>grundt geschoßen worden, So 2  22s s eines, wel-</l>
+					<l>ches nicht zu repariren gewesen, sincken laßen: Sondern es hette</l>
+					<l>auch autoptae berichtet: das in Kiel, über 450. gequetzschte; als</l>
+					<l>die Schwedischen nun 30 oder 40. gestehen wollen, eingebracht wor-</l>
+					<l>den, Wie wol nun die Schwedische auff beijden seiten des Ponts</l>
+					<l>Ihre großen Stücke gepflanzet, das I. May. mit den großen Or-</l>
+					<l>lags schiffen sich nicht hienein wagen dürffe: So weren doch her-</l>
+					<l>gegen die Schwedischen mit an die 40. Dähnischen Orlags, auch noch</l>
+					<l>adern Schiffen vndt beand (zusammer über 60) dermaßen besezt;</l>
+					<l>das Sie schwerlich heraus- oder durch würden kommen können.</l>
+					<l>Die Torstensohnische armee aber hatte sich biß in Schleßwig hinangezogen:</l>
+					<l>vndt würde nun so wol von der Kayser. Hauptarmada deren</l>
+					<l>Action als auch dem verlauff beyderseitt flotten mit schiffen ein</l>
+					<l>nehmen zuvernehmen sein.</l>
+					<l>Folgenden Freytag, Sonnabendt vndt Sonntag den</l>
+					<l>2. 3. 4. Augustis War alhier ein so vngestümer Nordwest windt, vnd</l>
+					<l>nicht einfallendes vngenwetter: Das ich diese drey tage nicht</l>
+					<l>außgehen noch anderweit etwas erkundigen können; er</l>
+					<l>das mich Sonntags früh als ich aus der Kirchen kahme, der</l>
+					<l>Keyser. Haubtmann noch berichtet: Als wann die Holländer</l>
+					<l>vormochs von sendt totaliter ruiniret, vndt abgetrieben worden.</l>
+					<l>Der König zu Dannemarck einen berg bey Christianrreiß erobert,</l>
+					<l>verschanzt, Stücken darauff gebracht, vndt bereitts 2. Schiff</l>
+					<l>in grundtgeschoßen. General Liautenent Galles aber</l>
+					<l>zum Stiek eingefallen, vnd die daselbst gefundene gequetsch-</l>
+					<l>te, über 400. Mann, meist niedergemacht hette.</l>
+					<l>5. Augusti Monntags Früh wurde ich zum Jungen Baron de Ror-</l>
+					<l>te gefordert, vnd von Ihme nur der Französischen Herren</l>
+					<l>abgesandte andtwordt an I. Fürstl. Durchl. zugestellet:</l>
+					<l>Die sich dann noch selben Tages mit der Schwedischen Ordinari Post</l>
+					<l>über Beckenburg uff Handung spedirt: Diese continuationem</l>
+					<l>Diarij aber, theils wegen kürze der Zeit, theils anderen, erheblicher</l>
+					<l>Vrsachen halber, biß folgenden Tag differiret.</l>
+					<l>Vernehme sonst, ex relatione eines guten Freundes so viel: Das</l>
+					<l>Der Keyser. Herrn Abgesandten zum Theil über den weunichst Ihnen insinu-</l>
+					<l>irten (aber weder verschloßen, noch offer acceptirten, nechst mündt-</l>
+					<l>licher eröffnung Ihner meinung, dem Syndico zurück gegeben)</l>
+				</lg>
+			</p>
+			<pb n="52"/>
+			<p>
+				<lg>
+					<l>Schwedischen Schreiben; theils aber wegen bißheriger, vnd mich ferner ver-</l>
+					<l>hoffenden guten progress der Keyser. vndt Dannemarck waffen, die Hoff-</l>
+					<l>nung geschöpft: Es werden sich nunmehr die Schwedischen etwas näher</l>
+					<l>zum Zweck legen, vnd den fortgang der tractaten Ihnen angelegener</l>
+					<l>sein laßen. Wo bey dan auch dieses vermeldet würde: Das nicht</l>
+					<l>allein der Schwedische Resident zu Münster H. Rosenhane, des</l>
+					<l>Spanische Ambassador Don Diego de Savedra (welcher auch</l>
+					<l>deßen qualitäten vndt discretion sehr gerühmet) besuchet; Sondern</l>
+					<l>auch der Heßische alhiesige Abgesandte umb audienz bey denen</l>
+					<l>Keyser. Herrn Abgesandten sich beworben, auch darauff Sein Cre-</l>
+					<l>ditiv eingeschicket hette.</l>
+					<l>Sodem zu Abendts bekam mein Wirth Schreiben von Bremen vndt</l>
+					<l>wurde Ihme zugleich ein schreiben von Stahde communiciret: Aus</l>
+					<l>deßen beygelegten Extract die beckandtnüß oder continuation, hier</l>
+					<l>nechst vorstehender avisen etzlicher maßes zuvernehmen.</l>
+				</lg>
+			</p>
+		</body>
+	</text>
+</TEI>
