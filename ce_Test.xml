@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">[Haupttitel]</title>
+        <author>
+          <persName ref="http://d-nb.info/gnd/XXX">
+            <surname>[Familienname des Autors]</surname>
+            <forename>[Vorname des Autors]</forename>
+          </persName>
+        </author>
+        <respStmt>
+          <persName>
+            <surname>[Familienname des Herausgebers]</surname>
+            <forename>[Vorname des Herausgebers]</forename>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility">Erstellung der Transkription nach
+              DTA-Richtlinien</note>
+            <date type="importDTA"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Vollständige digitalisierte Ausgabe.</edition>
+      </editionStmt>
+      <extent>
+        <measure type="images">[Umfang in Bilddateien]</measure>
+        <measure type="tokens">[Umfang in Tokens]</measure>
+        <measure type="types">[Umfang in Types]</measure>
+        <measure type="characters">[Umfang in Zeichen]</measure>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <orgName>Deutsches Textarchiv</orgName>
+          <email>dta@bbaw.de</email>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication"/>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+            <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported
+              License.</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="URLWeb">[URL der DTA-Werkpublikation]</idno>
+          <idno type="DTADirName">[Verzeichnisname innerhalb des DTA-Korpus]</idno>
+          <idno type="DTAID">[ID innerhalb des DTA-Korpus]</idno>
+        </idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="M">[Zitiertitel]</bibl>
+        <biblFull>
+          <titleStmt>
+            <title level="m" type="main">[Haupttitel einer Monographie]</title>
+            <author>
+              <persName ref="http://d-nb.info/gnd/XXX">
+                <surname>[Familienname des Autors]</surname>
+                <forename>[Vorname des Autors]</forename>
+              </persName>
+            </author>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <publicationStmt>
+            <publisher><name>[Verlag/Druckerei]</name></publisher>
+            <pubPlace>[Druckort]</pubPlace>
+            <date type="publication">[Erscheinungsjahr]</date>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <repository>[besitzende Bibliothek]</repository>
+            <idno>
+              <idno type="shelfmark">[Signatur]</idno>
+              <idno type="URLCatalogue">[URL Katalogaufnahme]</idno>
+              <idno type="URLImages">[URL Bilddateien]</idno>
+            </idno>
+          </msIdentifier>
+          <physDesc>
+            <typeDesc>
+              <p>[vorrangige Schriftart des zugrundeliegenden Textbandes]</p>
+            </typeDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>[Hinweise zu den Transkriptions- und Annotationsrichtlinien]</p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">(Früh-)Neuhochdeutsch</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >dtae</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <pb facs="#f0001"/>
+    <body>
+      <div>
+        <p>Kamen wir evangelischen bei dem fürstlich ertzbischoflich Magdeburgischen directorium
+          zusamen und geschahe a parte Altenburg relation, daß die königlich Schwedischen
+          plenipotentiarii unß neben dem fürstlich Lüneburgischen zu sich erfordert und andeutung
+          gethan, was die stände, der Calvinischen religion zugethan, per deputatos an sie bringen
+          laßen. Zeigten auch zugleich an, was wir zur antwort gegeben und insonderheit wegen
+          Pfaltz, daß ein fall, deßen restitution erfolgen solte, unsern glaubensgenoßen das
+          publicum exercitium in selbigen landen möchte verwilligt werden, dan sonst denen
+          evangelischen ständen bedencklich fallen wolte, ohne solche versicherung pro restitutorie
+          simpliciter zu votiren, welches dan die herren Schwedischen sehr wol aufgenommen. Vide
+          diarium die 25. huius.</p>
+        <p> Magdeburgisches Direktorium, Sachsen-Weimar Gotha und Eisenach , Württemberg,
+          Hessen-Darmstadt, Baden-Durlach. Praemissa gratiarum actione, ließen ihnen wohl gefallen,
+          was wegen der Pfältzischen bei den königlich Schwedischen angesucht worden. </p>
+        <p> Mecklenburg-Schwerin und Güstrow. Negst dancksagung könne er nicht verhalten, daß herr
+          graf Oxenstirn ihn diese tage zu sich erfordern laßen und von dem ebenmeßig meldung
+          gethan, was Altenburg vorbracht. Er hette verspüret, daß die herren Schwedischen denen
+          evangelischen sehr wol affectionirt, wie sie dan gesagt, sie hetten befehlich, wan die
+          reformirten uf ihren postulatis bestehen wolten, zu den Augßpurgischen
+          confessionsverwandten zu treten. Die Calvinisten hetten jüngst zu ihnen gesagt, sie würden
+          von Pilato zu Herode und von diesem zu jenem gewiesen. </p>
+        <p> Sachsen-Lauenburg, Nassau-Saarbrücken, Fränkische Grafen. Wie vorsitzende, daß es wegen
+          Pfaltz wol gethan sei und man sich wegen der reformirten einer endlichen meinung ehest zu
+          entschließen. Dieweil auch der Churbrandenburgische abgesandter herr We((381'))senbeck
+          bißhero nicht in acht genommen, quo respectu er im fürstenrath votire, und wan etwas pro
+          salute Imperii contra collegium electorale in consideration und deliberation gezogen
+          worden, sich demselben acriter opponirt und das collegium electorale propugniret, wie er
+          auch vormittags publice im fürstenrath gethan, so wurd von den anwesenden vor gut
+          befunden, wan dergleichen mehr geschehe, solte bei dem Österreichischen directorium
+          angehalten werden, per deputatos, und zwar Altenburg und Lüneburg, demselben zu
+          untersagen, daß er sich deßen enthalten möchte. </p>
+      </div>
+    </body>
+  </text>
+</TEI>
