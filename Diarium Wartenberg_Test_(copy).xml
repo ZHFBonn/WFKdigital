@@ -206,7 +206,7 @@
 	"id": "undefined?person_annotation_20240515143139599",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-05-15T12:31:39.599Z",
-	"dcterms:modified": "2024-05-15T12:31:39.599Z",
+	"dcterms:modified": "2024-05-15T12:39:10.175Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KatharinaStuhldreher",
 		"@type": [
@@ -304,7 +304,7 @@
                <l>noch anderen gesandten bei dem einzugh nicht wieder-</l>
                <l>fahren, alß haben eß Ihr Hochfürstliche Gnaden auch mit</l>
                <l>großer dancksagung recuhiret und sein also fortgefähren,</l>
-               <l>darauff folgendts der Munsterisch Stadtobrister <persName key="Reumont, Johann von" ref="https://d-nb.info/gnd/124461549" cert="high">reimundt</persName></l>
+               <l>darauff folgendts der Munsterisch Stadtobrister <persName key="Reumont, Johann von" ref="https://d-nb.info/gnd/124461549" cert="high" type="real">reimundt</persName></l>
                <l>in nahmen der stadt angelangt, deme Ihr Hochfurstliche</l>
                <l>gnade in der Chutschen auffstehendt die handt gereichet,</l>
                <l>und oberoll andere gesandten gar abgesanden so hat man</l>
