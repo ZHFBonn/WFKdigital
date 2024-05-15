@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>Vergleich  I</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: zhf@uni-bonn.de</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<p>
+				<lg>
+					<l>Asa</l>
+					<l>34</l>
+					<l>Diarium</l>
+					<l>Meiner Reise von Halle naher</l>
+					<l>Oßnabrück vnndt Münster.</l>
+					<l>Ob ich wol die gnadigste abfertigung Sontags, als den</l>
+					<l>Juny bekommen; Vnndt darauff folgende Montags den</l>
+					<l>16.</l>
+					<l>17.</l>
+					<l>auff sein sollen: So hatt sichs doch wegen der vnverhofften</l>
+					<l>march der Käyser. Armada; So denselben Sontag zu-</l>
+					<l>na das Haubtguartier genommen, Vndt folgendts in das</l>
+					<l>Fürstenthumb Anhaldt gerücket, darmit biß Mittwochs, den</l>
+					<l>d</l>
+					<l>19. Juny verzogen: Da ich mich den nebenden Fürst</l>
+					<l>Braunschweig. Lünb. Ambts vndt dloster Secretario Carl</l>
+					<l>Stißern, vndt deßen beyden Vettern in begleitung I.</l>
+					<l>Fürstl. Durch. Tromgeters, mit denen von Halle abge-</l>
+					<l>führten, vndt mit 15 Croaten convoyeten Proviant Wag.</l>
+					<l>auffgemacht; in hoffnung selben Tag noch Calbe zu er-</l>
+					<l>reichen, Wie wir aber nach einem gutem stück we-</l>
+					<l>ges einen worden, das dieser Maricz vndt abführe</l>
+					<l>nicht auff Bern sondern auff Rosenburgk (so vns</l>
+					<l>zu weit umb gedunckt) gienge: Haben wir Vns</l>
+					<l>zwar in Zeitten von Ihnen abgeschlagen, weil wir aber</l>
+					<l>nicht allein damahls schon ziemlichen umbgefahren</l>
+					<l>Sondern auch vnter wegens Von baubren gar weit irre</l>
+					<l>gewiesen worden, vndt den weg wal uff 7. meilen</l>
+					<l>gezogen, darzu wegen der Proviant wagen vnd Con-</l>
+					<l>voy kaum vor 9. Vhr früh fort gefahren, weiter nicht</l>
+					<l>als biß Bennburg, sonst 9. M. gelangen mögen.</l>
+					<l>Hierselbst ich dann, auff guttachten H. Carl Stißers</l>
+					<l>vndt des Tromgeters auff erlangete nachricht der</l>
+					<l>Großen Vnsicherheitt zu beiden seiten der Saale, nach den</l>
+					<l>Abendt einen Boten an Leutnandt Gräffen (den</l>
+					<l>aber der Bothe nicht angetroffen; oder vielleicht weil</l>
+					<l>Er nicht wieder zu vns kommen gar nicht fortge-</l>
+					<l>lauffen) in des Haubtquartier Wedlitz umb des H.</l>
+					<l>General-Leutenandts Paß vnd Convoy abgefertiget.</l>
+					<l>folgendes</l>
+					<l>20. aber nach der Mittagsmahlzeitt in I. Fürst. Gn. Fürst</l>
+					<l>Christians zu Anhaldts soyte (durch anleitung vnndt</l>
+					<l>recommendation dero Ambtmannes vnndt Secretary</l>
+				</lg>
+			</p>
+		</body>
+	</text>
+</TEI>
