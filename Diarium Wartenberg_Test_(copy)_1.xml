@@ -363,7 +363,6 @@
 	"id": "undefined?person_annotation_20240521062154996",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-05-21T04:21:54.996Z",
-	"dcterms:modified": "2024-05-21T04:21:54.996Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KatharinaStuhldreher",
 		"@type": [
@@ -389,7 +388,7 @@
 		"oa:hasSelector": {
 			"@id": "undefined?person_annotation_20240521062154996#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/lg/l[14]/persName"
+			"rdf:value": "TEI/text/body/p/lg/l[14]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -12755,7 +12754,7 @@
                <l>soldaten zu fueß, wie auch zwey fenlein Burger im feld</l>
                <l>gestanden und gebreuchig salve geschossen, darub die stuck</l>
                <l>alle alßbalt in der Statt loß gangen. am Stadt thor vor-</l>
-               <l>herauß haben Burgermeister und raht, <persName key="Franz Wilhelm, Osnabrück, Bischof" ref="https://d-nb.info/gnd/118806262" cert="high" type="real">Ihre Hochfürstliche</persName></l>
+               <l>herauß haben <persName cert="low" type="real">Burgermeister</persName> und raht, <persName key="Franz Wilhelm, Osnabrück, Bischof" ref="https://d-nb.info/gnd/118806262" cert="high" type="real">Ihre Hochfürstliche</persName></l>
                <l>Gnaden alß Chur Colnischen <persName key="Ferdinand, Köln, Erzbischof" ref="https://d-nb.info/gnd/118532537">Ihres Landtfursten und Herrn</persName></l>
                <l>abgesandten und ohne das einen benachbarten Landtsfursten</l>
                <l>mit einer oration empfangen, worauß sie auch geburendt be-</l>
