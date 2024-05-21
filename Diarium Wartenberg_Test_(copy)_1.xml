@@ -4602,7 +4602,6 @@
 	"id": "undefined?person_annotation_20240521070659098",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-05-21T05:06:59.098Z",
-	"dcterms:modified": "2024-05-21T05:06:59.098Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KatharinaStuhldreher",
 		"@type": [
@@ -4628,7 +4627,7 @@
 		"oa:hasSelector": {
 			"@id": "undefined?person_annotation_20240521070659098#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[5]/lg/l[2]/persName"
+			"rdf:value": "TEI/text/body/p[5]/lg/l[2]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -12978,7 +12977,7 @@
          <p>
             <lg>
                <l>(VI)</l>
-               <l>Oßnabruckischen Hoffmarschalck gesthuret <persName key="Franz Wilhelm, Osnabrück, Bischof" ref="https://d-nb.info/gnd/118806262" cert="high" type="real">Ihre Hochfürst-</persName></l>
+               <l><persName cert="low" type="real">Oßnabruckischen Hoffmarschalck</persName> gesthuret <persName key="Franz Wilhelm, Osnabrück, Bischof" ref="https://d-nb.info/gnd/118806262" cert="high" type="real">Ihre Hochfürst-</persName></l>
                <l>liche Gnaden haben uber Ihrer ordinari Hoffstant etli-</l>
                <l>che von der Oßnabruckscher und ritterschafft zu</l>
                <l>dießem actu beschrieben, die andere aber haben sich</l>
