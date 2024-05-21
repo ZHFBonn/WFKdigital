@@ -10725,10 +10725,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?person_annotation_20240521082305387",
+	"id": "undefined?person_annotation_20240521082313935",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-05-21T06:23:05.387Z",
-	"dcterms:modified": "2024-05-21T06:23:13.935Z",
+	"dcterms:created": "2024-05-21T06:23:13.935Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KatharinaStuhldreher",
 		"@type": [
@@ -10739,7 +10738,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "undefined?person_annotation_20240521082305387#Target",
+		"@id": "undefined?person_annotation_20240521082313935#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@type": "dctypes:Text",
@@ -10752,7 +10751,7 @@
 			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?person_annotation_20240521082305387#Selector",
+			"@id": "undefined?person_annotation_20240521082313935#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[11]/lg/l[12]/persName"
 		}
@@ -12755,7 +12754,7 @@
                <l>gestanden und gebreuchig salve geschossen, darub die stuck</l>
                <l>alle alßbalt in der Statt loß gangen. am Stadt thor vor-</l>
                <l>herauß haben <persName cert="low" type="real">Burgermeister</persName> und raht, <persName key="Franz Wilhelm, Osnabrück, Bischof" ref="https://d-nb.info/gnd/118806262" cert="high" type="real">Ihre Hochfürstliche</persName></l>
-               <l>Gnaden alß Chur Colnischen <persName key="Ferdinand, Köln, Erzbischof" ref="https://d-nb.info/gnd/118532537">Ihres Landtfursten und Herrn</persName></l>
+               <l>Gnaden alß <persName key="Ferdinand, Köln, Erzbischof" ref="https://d-nb.info/gnd/118532537">Chur Colnischen Ihres Landtfursten und Herrn</persName></l>
                <l>abgesandten und ohne das einen benachbarten Landtsfursten</l>
                <l>mit einer oration empfangen, worauß sie auch geburendt be-</l>
                <l>andtwortet, alß nun in die Statt kommen ist die gantze</l>
