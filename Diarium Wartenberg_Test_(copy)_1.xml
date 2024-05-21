@@ -13110,11 +13110,11 @@
                <l>wolte dannoch <persName key="Franz Wilhelm, Osnabrück, Bischof" ref="https://d-nb.info/gnd/118806262" type="real">Ihr Hochfürstliche Gnade</persName> ersteß visitiren</l>
                <l>hatt Ihm beim abscheiden biß an die stiegen über den</l>
                <l>sahll beglaitet, die Cavalierß aber biß an daß thor.</l>
-               <l><persName cert="low">Engelberdt von Lieck</persName> nachdeme er sich bey deme auch Konig-</l>
+               <l><persName cert="low"><persName cert="low" type="real">Engelberdt von Lieck</persName></persName> nachdeme er sich bey deme auch Konig-</l>
                <l><persName key="Brun, Antoine" ref="https://d-nb.info/gnd/100235441" cert="high" type="real">lichen hispanischen abgesandten Herrn Brun</persName> angeben laßen,</l>
                <l>ist der <persName>Secretarius</persName> zu Ihm kommen, mit dem bedeuten er</l>
-               <l>Ihm bey seinen Herren anmelten wolle, so lange Er <persName cert="low">Wieck</persName></l>
-               <l>außen gewartet, beim zu ruck kommen deß Secretarius ist Er</l>
+               <l>Ihm bey seinen Herren anmelten wolle, so lange Er <persName cert="low"><persName>Wieck</persName></persName></l>
+               <l>außen gewartet, beim zu ruck kommen deß <persName cert="low" type="real">Secretarius</persName> ist Er</l>
                <l>von demselben zum Salett gefhuret alwoh balt herauff er</l>
                <l>her Abgesandt zu thur kommen, und noch vernommener saluta-</l>
                <l>tion so sitzendt so latinisch geschehen, sich hochlich</l>
