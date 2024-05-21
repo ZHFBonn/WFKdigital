@@ -912,7 +912,7 @@
 	"id": "undefined?person_annotation_20240521063208323",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-05-21T04:32:08.323Z",
-	"dcterms:modified": "2024-05-21T04:32:08.323Z",
+	"dcterms:modified": "2024-05-21T08:27:54.920Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KatharinaStuhldreher",
 		"@type": [
@@ -952,7 +952,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.5.0"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:medium"
 }]]>
         </rdf:Description>
       
@@ -12759,7 +12760,7 @@
                <l>mit einer oration empfangen, worauß sie auch geburendt be-</l>
                <l>andtwortet, alß nun in die Statt kommen ist die gantze</l>
                <l>Burgerey in armis gestanden bis an deß generall Velt-</l>
-               <l><persName key="Velen, Alexander von" ref="https://d-nb.info/gnd/122820096">zeugmeisterß</persName> logiment und /:wie auch die Soldatesca:/</l>
+               <l><persName key="Velen, Alexander von" ref="https://d-nb.info/gnd/122820096" cert="medium" type="real">zeugmeisterß</persName> logiment und /:wie auch die Soldatesca:/</l>
                <l>salve geben, demnegst sein <persName key="Franz Wilhelm, Osnabrück, Bischof" ref="https://d-nb.info/gnd/118806262" cert="high" type="real">Ihre Hochfürstliche Gnaden</persName> von</l>
                <l>Ihme herren Veltzeugnerey in sein quartier ein genohmmen</l>
                <l>unnd stattlich mit dem vornembsten vom Adell tractiret die</l>
