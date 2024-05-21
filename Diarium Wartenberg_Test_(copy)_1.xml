@@ -12874,7 +12874,7 @@
 		"oa:hasSelector": {
 			"@id": "undefined?person_annotation_20240521111244603#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[10]/lg/l[15]/persName"
+			"rdf:value": "TEI/text/body/p[10]/lg/l[15]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -13263,7 +13263,7 @@
                <l>(17) <persName key="Franz Wilhelm, Osnabrück, Bischof" ref="https://d-nb.info/gnd/118806262" type="real">hochfürstliche Gnaden</persName> / Dieselbe biß fur die thur deß</l>
                <l>Zimmers begalitet, zuvor aber in dem audientz zimmer emp</l>
                <l>fangen.</l>
-               <l>Den 26 hat der Magistratus <persName key="Franz Wilhelm, Osnabrück, Bischof" ref="https://d-nb.info/gnd/118806262" cert="high">Ihr hochfürstliche gnaden</persName></l>
+               <l>Den 26 hat der <persName cert="low" type="real">Magistratus</persName> <persName key="Franz Wilhelm, Osnabrück, Bischof" ref="https://d-nb.info/gnd/118806262" cert="high">Ihr hochfürstliche gnaden</persName></l>
                <l>fisch und 16 kannen mit wein praesentieren laßen gleich</l>
                <l>den anderen gesandten beschehen und benebenst audientz</l>
                <l>begeret so bestimmet dahn sie dan auch in zimb-</l>
