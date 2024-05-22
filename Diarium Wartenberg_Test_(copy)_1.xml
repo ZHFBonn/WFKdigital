@@ -125,10 +125,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/Diarium%20Wartenberg_Test_(copy)_1.xml?person_annotation_20240521061725004",
+	"id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/Diarium%20Wartenberg_Test_(copy)_1.xml?person_annotation_20240522103012417",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-05-21T04:17:25.004Z",
-	"dcterms:modified": "2024-05-22T08:30:12.417Z",
+	"dcterms:created": "2024-05-22T08:30:12.417Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KatharinaStuhldreher",
 		"@type": [
@@ -139,7 +138,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/Diarium%20Wartenberg_Test_(copy)_1.xml?person_annotation_20240521061725004#Target",
+		"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/Diarium%20Wartenberg_Test_(copy)_1.xml?person_annotation_20240522103012417#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/Diarium%20Wartenberg_Test_(copy)_1.xml",
@@ -153,14 +152,14 @@
 			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/Diarium%20Wartenberg_Test_(copy)_1.xml?person_annotation_20240521061725004#Selector",
+			"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/Diarium%20Wartenberg_Test_(copy)_1.xml?person_annotation_20240522103012417#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/lg/l[5]/persName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": " https://d-nb.info/gnd/101079877",
+		"@id": "https://d-nb.info/gnd/118806262",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -12989,7 +12988,7 @@
                <l><persName key="Velen, Alexander von" ref="https://d-nb.info/gnd/122820096" cert="high" type="real">Graff von Veelen</persName>, bey sich habend eine anzahl officirer</l>
                <l>und 2 Compagnien zu pferd endgegen, welcher negst vor-</l>
                <l>gangener empfahung zu Ihn in die gutschen, warein der</l>
-               <l><persName key="Theodor Adolph Paderborn, Bischof 1601-1661" ref=" https://d-nb.info/gnd/101079877">Herr Paderbornischen domb Probst von der Rech</persName>, alß mit</l>
+               <l>Herr Paderbornischen domb Probst von der Rech, alß mit</l>
                <l>abgeordneter nebenst dem Veldmarschalck Leuthnand Freyhern</l>
                <l><persName key="Leutersheim, Johann von ca. 1. H. 17. Jh." ref="http://viaf.org/viaf/197780421/" cert="high" type="real">von Leutterheimb</persName>. alß der zu <persName key="Franz Wilhelm, Osnabrück, Bischof" ref="https://d-nb.info/gnd/118806262">Ihrer Hochfürstlichen Gna-</persName></l>
                <l>den, nacher Reckenberg zu dem end kommen were, geweßen,</l>
