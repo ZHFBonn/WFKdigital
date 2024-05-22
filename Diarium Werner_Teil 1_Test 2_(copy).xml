@@ -329,6 +329,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240522064158508",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-05-22T04:41:58.508Z",
+	"dcterms:modified": "2024-05-22T04:41:58.508Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KatharinaStuhldreher",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Katharina Stuhldreher "
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240522064158508#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240522064158508#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/lg/l[11]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://d-nb.info/gnd/1226089917",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -382,15 +461,15 @@
             <lg>
                <l><persName>Thomas Benckendorffes</persName>; von welchem ich sonst vorhe-</l>
                <l>ro auch dieses vernommen,: Das zwar im werck ge-</l>
-               <l>wesen, H. Mochovium, wegen des gesambten Fürst. Hau-</l>
+               <l>wesen, <persName cert="low" type="real">H. Mochovium</persName>, wegen des gesambten Fürst. Hau-</l>
                <l>ßes naher Oßnabrück abzuschicken: So aber biß dato zum</l>
                <l>theil aus mangel der mittel; vndt weil mann auch von</l>
                <l>anderen Fürsten vndt Stände Gesandten daselbst noch nichts</l>
                <l>vernommen, vndt das Hauß Anhaldt auch die ersten</l>
                <l>zu sein bedencken gehabt, verblieben) selbst dahin</l>
                <l>geritten, mich bey der Canzley so wohl den H. Gene-</l>
-               <l>ral Quartiermeister Reichen, vndt uff deßen anwei-</l>
-               <l>sung beym Herrn Graff Bruay angeben, vndt einen gu-</l>
+               <l><persName>ral Quartiermeister Reichen</persName>, vndt uff deßen anwei-</l>
+               <l>sung beym <persName key="Spinola, Albert Gaston" ref="https://d-nb.info/gnd/1226089917" cert="high" type="real">Herrn Graff Bruay</persName> angeben, vndt einen gu-</l>
                <l>ten Paß, nebenst einen Trompeter vom Trautschischen</l>
                <l>Rg. so damahls bey der Haubtwachen waren vndt dar-</l>
                <l>von genommen würde erhalten: Worauff</l>
