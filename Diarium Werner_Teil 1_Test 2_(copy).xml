@@ -486,6 +486,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240522064959459",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-05-22T04:49:59.459Z",
+	"dcterms:modified": "2024-05-22T04:49:59.459Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KatharinaStuhldreher",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Katharina Stuhldreher "
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240522064959459#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240522064959459#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/lg/l[15]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://d-nb.info/gnd/118738925",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -565,9 +644,9 @@
                <l>Bey meiner ankunfft nun, habe ich zuförderst</l>
                <l>die bey mir gehabte Gnädigste Schreiben vndt be-</l>
                <l>fehliche <persName cert="low" type="real">J. Hochw. Dom Capituls Syndico, dem H. Möllen-</persName></l>
-               <l>Voigt vndt den Einnehmer Knachenhauer, Gebührendt</l>
+               <l>Voigt vndt den <persName>Einnehmer Knachenhauer</persName>, Gebührendt</l>
                <l>insinuiret: Nechst diesem aber vermittels des H.</l>
-               <l>Syndici, so wohl auch meines Dieners, vndt zwahr</l>
+               <l><persName cert="low" type="real">Syndici</persName>, so wohl auch meines Dieners, vndt zwahr</l>
                <l>ein nahmen vndt auff befehlich der anwesenden</l>
                <l>Herren, J. Hochw. Dom Capituls beym Probst auff</l>
                <l>vnßer Fraven Closter St. Remisoldo Becken dem</l>
@@ -580,8 +659,8 @@
          <p>
             <lg>
                <l>haltender entschuldigung als vnvermögens vnndt</l>
-               <l>sonsten abgewiesen worden. Wie ich dan vom H. Syn-</l>
-               <l>dico vndt H. Knachenhauer vernahme, das Er zu vor-</l>
+               <l>sonsten abgewiesen worden. Wie ich dan vom <persName>H. Syn-</persName></l>
+               <l>dico vndt <persName cert="low" type="real">H. Knachenhauer</persName> vernahme, das Er zu vor-</l>
                <l>hero mit der Landtschafft darüber, das Er dem alter</l>
                <l>Herkommen zu wieder, dieselbe auffzunehmen, vndt</l>
                <l>(wiewohl wie dießfals gegen die Landtschafft</l>
@@ -590,10 +669,10 @@
                <l>vndt ihnen solche seine vnbescheidenheit bey neulich-</l>
                <l>sten Capitulo generali scharff verwiesen sein sollen:</l>
                <l>So habe Ich solche verweigerung stellen; vndt inmit-</l>
-               <l>telst beym H. Möllen Voigt ein kehren müßen,</l>
+               <l>telst beym <persName>H. Möllen Voigt</persName> ein kehren müßen,</l>
                <l>Vernahme sonsten theils auß den geschriebenen</l>
                <l>Hamburg. Zeitungen, theils auß mündlicher Rela-</l>
-               <l>tion: Ob solte der Schwedische Reichs Canzler, Ox-</l>
+               <l>tion: Ob solte der <persName key="Oxenstierna, Axel" ref="https://d-nb.info/gnd/118738925" cert="high" type="real">Schwedische Reichs Canzler, Ox-</persName></l>
                <l>enstierna, zu vermutlicher, mercklicher verende-</l>
                <l>rung, mit Tade abgangen sein; vndt die Schwed.</l>
                <l>die meiste Artollerie, nebenst in 300. Wispel Ge-</l>
