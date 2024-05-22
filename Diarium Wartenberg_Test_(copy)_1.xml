@@ -285,6 +285,7 @@
 	"id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/Diarium%20Wartenberg_Test_(copy)_1.xml?person_annotation_20240521061942963",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-05-21T04:19:42.963Z",
+	"dcterms:modified": "2024-05-21T04:19:42.963Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KatharinaStuhldreher",
 		"@type": [
@@ -311,7 +312,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/Diarium%20Wartenberg_Test_(copy)_1.xml?person_annotation_20240521061942963#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/lg/l[7]/persName[2]"
+			"rdf:value": "TEI/text/body/p[6]/lg/l[7]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -325,7 +326,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.5.0"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:low"
 }]]>
         </rdf:Description>
       
@@ -12978,6 +12980,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/Diarium%20Wartenberg_Test_(copy)_1.xml?person_annotation_20240522103132312",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-05-22T08:31:32.312Z",
+	"dcterms:modified": "2024-05-22T08:31:32.312Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KatharinaStuhldreher",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Katharina Stuhldreher "
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/Diarium%20Wartenberg_Test_(copy)_1.xml?person_annotation_20240522103132312#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/Diarium%20Wartenberg_Test_(copy)_1.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/Diarium%20Wartenberg_Test_(copy)_1.xml?person_annotation_20240522103132312#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/lg/l[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://d-nb.info/gnd/101079877",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -12988,9 +13070,9 @@
                <l><persName key="Velen, Alexander von" ref="https://d-nb.info/gnd/122820096" cert="high" type="real">Graff von Veelen</persName>, bey sich habend eine anzahl officirer</l>
                <l>und 2 Compagnien zu pferd endgegen, welcher negst vor-</l>
                <l>gangener empfahung zu Ihn in die gutschen, warein der</l>
-               <l>Herr Paderbornischen domb Probst von der Rech, alß mit</l>
+               <l><persName key="Theodor Adolph, Paderborn, Bischof" ref="https://d-nb.info/gnd/101079877" cert="high" type="real">Herr Paderbornischen domb Probst von der Rech</persName>, alß mit</l>
                <l>abgeordneter nebenst dem Veldmarschalck Leuthnand Freyhern</l>
-               <l><persName key="Leutersheim, Johann von ca. 1. H. 17. Jh." ref="http://viaf.org/viaf/197780421/" cert="high" type="real">von Leutterheimb</persName>. alß der zu <persName key="Franz Wilhelm, Osnabrück, Bischof" ref="https://d-nb.info/gnd/118806262">Ihrer Hochfürstlichen Gna-</persName></l>
+               <l>von Leutterheimb. alß der zu <persName key="Franz Wilhelm, Osnabrück, Bischof" ref="https://d-nb.info/gnd/118806262">Ihrer Hochfürstlichen Gna-</persName></l>
                <l>den, nacher Reckenberg zu dem end kommen were, geweßen,</l>
                <l>(4) eingesessen / Alß man sich nun zur Statt genähert, ist</l>
                <l>unweit derselben eine squadron zwischen 4 und 400 Mann</l>
