@@ -128,7 +128,7 @@
 	"id": "undefined?person_annotation_20240522063306780",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-05-22T04:33:06.780Z",
-	"dcterms:modified": "2024-05-22T05:04:33.217Z",
+	"dcterms:modified": "2024-05-22T08:09:34.610Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KatharinaStuhldreher",
 		"@type": [
