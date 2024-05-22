@@ -81,4 +81,84 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
-      </rdf:RDF></xenoData><revisionDesc><listChange><change><name/><date/></change></listChange></revisionDesc></teiHeader><text><body><p>51. Sitzung</p><p>Osnabrück 1646 I 26 / II 5</p><p>HStA Weimar, Außenstelle Altenburg, Altes Hausarchiv Cl. I E 8 vol. 1, fol. 381-381'.</p><p>Kamen wir evangelischen bei dem fürstlich ertzbischoflich Magdeburgischen directorium zusamen und geschahe a parte Altenburg relation, daß die königlich Schwedischen plenipotentiarii unß neben dem fürstlich Lüneburgischen zu sich erfordert und andeutung gethan, was die stände, der Calvinischen religion zugethan, per deputatos an sie bringen laßen. Zeigten auch zugleich an, was wir zur antwort gegeben und insonderheit wegen Pfaltz, daß ein fall, deßen restitution erfolgen solte, unsern glaubensgenoßen das publicum exercitium in selbigen landen möchte verwilligt werden, dan sonst denen evangelischen ständen bedencklich fallen wolte, ohne solche versicherung pro restitutorie simpliciter zu votiren, welches dan die herren Schwedischen sehr wol aufgenommen. Vide diarium die 25. huius.</p><p>Magdeburgisches Direktorium, Sachsen-Weimar Gotha und Eisenach , Württemberg, Hessen-Darmstadt, Baden-Durlach. Praemissa gratiarum actione, ließen ihnen wohl gefallen, was wegen der Pfältzischen bei den königlich Schwedischen angesucht worden.</p><p>Mecklenburg-Schwerin und Güstrow. Negst dancksagung könne er nicht verhalten, daß <persName key="Oxenstierna, Johan Axelsson" ref="https://d-nb.info/gnd/117191949" cert="high" type="real">herr graf Oxenstirn</persName> ihn diese tage zu sich erfordern laßen und von dem ebenmeßig meldung gethan, was Altenburg vorbracht. Er hette verspüret, daß die herren Schwedischen denen evangelischen sehr wol affectionirt, wie sie dan gesagt, sie hetten befehlich, wan die reformirten uf ihren postulatis bestehen wolten, zu den Augßpurgischen confessionsverwandten zu treten. Die Calvinisten hetten jüngst zu ihnen gesagt, sie würden von Pilato zu Herode und von diesem zu jenem gewiesen.</p><p>Sachsen-Lauenburg, Nassau-Saarbrücken, Fränkische Grafen. Wie vorsitzende, daß es wegen Pfaltz wol gethan sei und man sich wegen der reformirten einer endlichen meinung ehest zu entschließen. Dieweil auch der Churbrandenburgische abgesandter herr We((381'))senbeck bißhero nicht in acht genommen, quo respectu er im fürstenrath votire, und wan etwas pro salute Imperii contra collegium electorale in consideration und deliberation gezogen worden, sich demselben acriter opponirt und das collegium electorale propugniret, wie er auch vormittags publice im fürstenrath gethan, so wurd von den anwesenden vor gut befunden, wan dergleichen mehr geschehe, solte bei dem Österreichischen directorium angehalten werden, per deputatos, und zwar Altenburg und Lüneburg, demselben zu untersagen, daß er sich deßen enthalten möchte.</p></body></text></TEI>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/E60205.xml?person_annotation_20240522111909957",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-05-22T09:19:09.957Z",
+	"dcterms:modified": "2024-05-22T09:19:09.957Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KatharinaStuhldreher",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Katharina Stuhldreher "
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/E60205.xml?person_annotation_20240522111909957#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/E60205.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/E60205.xml?person_annotation_20240522111909957#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://d-nb.info/gnd/122687981",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><revisionDesc><listChange><change><name/><date/></change></listChange></revisionDesc></teiHeader><text><body><p>51. Sitzung</p><p>Osnabrück 1646 I 26 / II 5</p><p>HStA Weimar, Außenstelle Altenburg, Altes Hausarchiv Cl. I E 8 vol. 1, fol. 381-381'.</p><p>Kamen wir evangelischen bei dem fürstlich ertzbischoflich Magdeburgischen directorium zusamen und geschahe a parte Altenburg relation, daß die königlich Schwedischen plenipotentiarii unß neben dem fürstlich Lüneburgischen zu sich erfordert und andeutung gethan, was die stände, der Calvinischen religion zugethan, per deputatos an sie bringen laßen. Zeigten auch zugleich an, was wir zur antwort gegeben und insonderheit wegen Pfaltz, daß ein fall, deßen restitution erfolgen solte, unsern glaubensgenoßen das publicum exercitium in selbigen landen möchte verwilligt werden, dan sonst denen evangelischen ständen bedencklich fallen wolte, ohne solche versicherung pro restitutorie simpliciter zu votiren, welches dan die herren Schwedischen sehr wol aufgenommen. Vide diarium die 25. huius.</p><p>Magdeburgisches Direktorium, Sachsen-Weimar Gotha und Eisenach , Württemberg, Hessen-Darmstadt, Baden-Durlach. Praemissa gratiarum actione, ließen ihnen wohl gefallen, was wegen der Pfältzischen bei den königlich Schwedischen angesucht worden.</p><p>Mecklenburg-Schwerin und Güstrow. Negst dancksagung könne er nicht verhalten, daß <persName key="Oxenstierna, Johan Axelsson" ref="https://d-nb.info/gnd/117191949" cert="high" type="real">herr graf Oxenstirn</persName> ihn diese tage zu sich erfordern laßen und von dem ebenmeßig meldung gethan, was Altenburg vorbracht. Er hette verspüret, daß die herren Schwedischen denen evangelischen sehr wol affectionirt, wie sie dan gesagt, sie hetten befehlich, wan die reformirten uf ihren postulatis bestehen wolten, zu den Augßpurgischen confessionsverwandten zu treten. Die Calvinisten hetten jüngst zu ihnen gesagt, sie würden von Pilato zu Herode und von diesem zu jenem gewiesen.</p><p>Sachsen-Lauenburg, Nassau-Saarbrücken, Fränkische Grafen. Wie vorsitzende, daß es wegen Pfaltz wol gethan sei und man sich wegen der reformirten einer endlichen meinung ehest zu entschließen. Dieweil auch der Churbrandenburgische abgesandter <persName key="Wesenbeck, Matthäus von" ref="https://d-nb.info/gnd/122687981" cert="high" type="real">herr We((381'))senbeck</persName> bißhero nicht in acht genommen, quo respectu er im fürstenrath votire, und wan etwas pro salute Imperii contra collegium electorale in consideration und deliberation gezogen worden, sich demselben acriter opponirt und das collegium electorale propugniret, wie er auch vormittags publice im fürstenrath gethan, so wurd von den anwesenden vor gut befunden, wan dergleichen mehr geschehe, solte bei dem Österreichischen directorium angehalten werden, per deputatos, und zwar Altenburg und Lüneburg, demselben zu untersagen, daß er sich deßen enthalten möchte.</p></body></text></TEI>
