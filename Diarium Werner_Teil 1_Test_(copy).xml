@@ -171,6 +171,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240522062548063",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-05-22T04:25:48.063Z",
+	"dcterms:modified": "2024-05-22T04:25:48.063Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KatharinaStuhldreher",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Katharina Stuhldreher "
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240522062548063#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240522062548063#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/lg/l[29]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://d-nb.info/gnd/121936503",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <facsimile xml:id="facs_1">
       <surface ulx="0" uly="0" lrx="2479" lry="3508">
@@ -323,10 +402,10 @@
                <l facs="#facs_1_tr_1_tl_29">gezogen, darzu wegen der Proviantwagen vndt Con-</l>
                <l facs="#facs_1_tr_1_tl_30">voy kaum vor 9. vhr früh fort gefahren, weiter nicht</l>
                <l facs="#facs_1_tr_1_tl_31">als biß Bernburg, sonst 5. M. gelangen mögen.</l>
-               <l facs="#facs_1_tr_1_tl_32">Hierselbst ich dann, auff guttachten H. Carl Stißers</l>
+               <l facs="#facs_1_tr_1_tl_32">Hierselbst ich dann, auff guttachten <persName key="Stisser, Carl" ref="https://d-nb.info/gnd/121936503" cert="high" type="real">H. Carl Stißers</persName></l>
                <l facs="#facs_1_tr_1_tl_33">vndt des Trompeters auff erlangete nachricht der</l>
                <l facs="#facs_1_tr_1_tl_34">Großen vnsicherheitt zu beiden seiten der Saale, noch des</l>
-               <l facs="#facs_1_tr_1_tl_35">Abendt einen Poten an Leutenandt Gräffen (den</l>
+               <l facs="#facs_1_tr_1_tl_35">Abendt einen Poten an <persName>Leutenandt Gräffen</persName> (den</l>
                <l facs="#facs_1_tr_1_tl_36">aber der Pothe nicht angetroffen; oder vielleicht weil</l>
                <l facs="#facs_1_tr_1_tl_37">Er nicht wieder zu vns kommen gar nicht fortge-</l>
                <l facs="#facs_1_tr_1_tl_38">lauffen) in des Haubtquartier Wedlitz umb des H.</l>
