@@ -81,4 +81,84 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
-      </rdf:RDF></xenoData><revisionDesc><listChange><change><name/><date/></change></listChange></revisionDesc></teiHeader><text><body><p>Co40610A</p><p>Nr. 56</p><p><persName key="Contarini, Alvise" ref="https://d-nb.info/gnd/118521977" cert="high" type="real">Contarini</persName> an Senat</p><p>1644 Juni 10</p><p>Riceva con la mia solita riverenza le benignissime di Vostra Serenità de 27 del passato, le quali mentre non mi portano occasione di repplica convengo anch'io rimettermi alli aggionti fogli, che informeranno a piano di quest' occorrenze: Osserveranno, che nei congressi di queste due ultime settimane non s'è fatto pocco a sostener, che non precipiti tutto ció, che fon hora s'era fabricato con sodisfattione di amendue li partiti; E non è meraviglia, se saranno molto alternanti, e difficili i maneggi della pace al rimbombo dell'armi da tante parti, che renderanno la campagna di quest' anno la più formidabile di quante mai per l'adietro; ogn'una delle parti riponendo in essa le speranze maggiori del vantaggio nei trattati del prossimo verno.</p><p>Il Cond. Condulmer s'humilia con tutto l'ossequio alla gratia privileggiata, e ben singolare, che l'E.V. si sono compiacciute di fargli, molto aggiustata per dirme il vero alla stratezza delle sue fortune, e molto propria per animar lui a rendersene capare col ben servire, et | altri con l'essempio. come per quelle, che s' aspetta alla benigna loro espressione di haver in ció mirato etiandio alla mia intercessione et attestati, rendo le più divote humilissime gratie.</p><p>Pasino (?) mistura mercante suddito di Vostra Serenità habitante di presente in Amsterdam m' avisa di haver comprata ultimamente in Dancica sotto nome di Marsilio mistura suo padre suddito;, et habitante costi una nave di portata di 200 lastre in circa. Mi prega di mandargli una patente acciò possi portar la bandiera si San Marco, et navigar questo primo viaggio per maggior sicurtà come nave Venetiana sino costi, dove poi riccorrerà ai soliti decreti dell' Eccelentissimo Senato in tal materia. Io non ho voluto mandargiela parendomi, che in questa materia ve sia qualche legge da osservarsi: tuttavia se per aggevolar il negocio, ch'è cosa di tanto utile, et tanto importante a principi mi permetteranno per questo solo primo viaggio di dargli patente, o vero in altro modo facilitar a questa mercante gl'effetti del suo buon desiderio resta ciò rimesso al beneplacito di V.E.</p><p>Le quali in tanto supplico di farmi balottar donare per spese straordinarie, et altro da render conto secondo l'ordinario. Gratie etc.</p><p>Münster le 10 Giugno 644</p><p>1.930 Zeichen</p></body></text></TEI>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/Contarini_co40610a.xml?person_annotation_20240522113140619",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-05-22T09:31:40.619Z",
+	"dcterms:modified": "2024-05-22T09:31:40.619Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KatharinaStuhldreher",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Katharina Stuhldreher "
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/Contarini_co40610a.xml?person_annotation_20240522113140619#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/Contarini_co40610a.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/Contarini_co40610a.xml?person_annotation_20240522113140619#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://d-nb.info/gnd/1014991110",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><revisionDesc><listChange><change><name/><date/></change></listChange></revisionDesc></teiHeader><text><body><p>Co40610A</p><p>Nr. 56</p><p><persName key="Contarini, Alvise" ref="https://d-nb.info/gnd/118521977" cert="high" type="real">Contarini</persName> an Senat</p><p>1644 Juni 10</p><p>Riceva con la mia solita riverenza le benignissime di Vostra Serenità de 27 del passato, le quali mentre non mi portano occasione di repplica convengo anch'io rimettermi alli aggionti fogli, che informeranno a piano di quest' occorrenze: Osserveranno, che nei congressi di queste due ultime settimane non s'è fatto pocco a sostener, che non precipiti tutto ció, che fon hora s'era fabricato con sodisfattione di amendue li partiti; E non è meraviglia, se saranno molto alternanti, e difficili i maneggi della pace al rimbombo dell'armi da tante parti, che renderanno la campagna di quest' anno la più formidabile di quante mai per l'adietro; ogn'una delle parti riponendo in essa le speranze maggiori del vantaggio nei trattati del prossimo verno.</p><p>Il <persName key="Condulmer, Nicolo" ref="https://d-nb.info/gnd/1014991110" cert="high" type="real">Cond. Condulmer</persName> s'humilia con tutto l'ossequio alla gratia privileggiata, e ben singolare, che l'E.V. si sono compiacciute di fargli, molto aggiustata per dirme il vero alla stratezza delle sue fortune, e molto propria per animar lui a rendersene capare col ben servire, et | altri con l'essempio. come per quelle, che s' aspetta alla benigna loro espressione di haver in ció mirato etiandio alla mia intercessione et attestati, rendo le più divote humilissime gratie.</p><p>Pasino (?) mistura mercante suddito di Vostra Serenità habitante di presente in Amsterdam m' avisa di haver comprata ultimamente in Dancica sotto nome di Marsilio mistura suo padre suddito;, et habitante costi una nave di portata di 200 lastre in circa. Mi prega di mandargli una patente acciò possi portar la bandiera si San Marco, et navigar questo primo viaggio per maggior sicurtà come nave Venetiana sino costi, dove poi riccorrerà ai soliti decreti dell' Eccelentissimo Senato in tal materia. Io non ho voluto mandargiela parendomi, che in questa materia ve sia qualche legge da osservarsi: tuttavia se per aggevolar il negocio, ch'è cosa di tanto utile, et tanto importante a principi mi permetteranno per questo solo primo viaggio di dargli patente, o vero in altro modo facilitar a questa mercante gl'effetti del suo buon desiderio resta ciò rimesso al beneplacito di V.E.</p><p>Le quali in tanto supplico di farmi balottar donare per spese straordinarie, et altro da render conto secondo l'ordinario. Gratie etc.</p><p>Münster le 10 Giugno 644</p><p>1.930 Zeichen</p></body></text></TEI>
