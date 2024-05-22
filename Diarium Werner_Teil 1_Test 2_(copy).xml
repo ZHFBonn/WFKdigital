@@ -49,7 +49,7 @@
 	"id": "undefined?person_annotation_20240522063240005",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-05-22T04:32:40.005Z",
-	"dcterms:modified": "2024-05-22T04:32:40.005Z",
+	"dcterms:modified": "2024-05-22T05:04:23.155Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KatharinaStuhldreher",
 		"@type": [
@@ -128,7 +128,7 @@
 	"id": "undefined?person_annotation_20240522063306780",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-05-22T04:33:06.780Z",
-	"dcterms:modified": "2024-05-22T04:33:06.780Z",
+	"dcterms:modified": "2024-05-22T05:04:33.217Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KatharinaStuhldreher",
 		"@type": [
@@ -168,7 +168,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.5.0"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -206,7 +207,7 @@
 	"id": "undefined?person_annotation_20240522063340814",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-05-22T04:33:40.814Z",
-	"dcterms:modified": "2024-05-22T04:33:40.814Z",
+	"dcterms:modified": "2024-05-22T05:04:38.784Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KatharinaStuhldreher",
 		"@type": [
@@ -285,7 +286,7 @@
 	"id": "undefined?person_annotation_20240522063612197",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-05-22T04:36:12.197Z",
-	"dcterms:modified": "2024-05-22T04:36:12.197Z",
+	"dcterms:modified": "2024-05-22T05:04:43.786Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KatharinaStuhldreher",
 		"@type": [
@@ -364,7 +365,7 @@
 	"id": "undefined?person_annotation_20240522064158508",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-05-22T04:41:58.508Z",
-	"dcterms:modified": "2024-05-22T04:41:58.508Z",
+	"dcterms:modified": "2024-05-22T05:04:48.650Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KatharinaStuhldreher",
 		"@type": [
@@ -443,7 +444,7 @@
 	"id": "undefined?person_annotation_20240522064406155",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-05-22T04:44:06.155Z",
-	"dcterms:modified": "2024-05-22T04:44:06.155Z",
+	"dcterms:modified": "2024-05-22T05:04:53.113Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KatharinaStuhldreher",
 		"@type": [
@@ -483,7 +484,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.5.0"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -521,7 +523,7 @@
 	"id": "undefined?person_annotation_20240522064959459",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-05-22T04:49:59.459Z",
-	"dcterms:modified": "2024-05-22T04:49:59.459Z",
+	"dcterms:modified": "2024-05-22T05:04:59.905Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KatharinaStuhldreher",
 		"@type": [
@@ -585,7 +587,7 @@
                <l>19. Juny verzogen: Da ich mich dan neben den Fürst.</l>
                <l><persName key="Stisser, Carl" ref="https://d-nb.info/gnd/121936503" cert="high" type="real">Braunschweig. Lünb. Ambts vndt Closter Secretario Carl</persName></l>
                <l>Stißern, vndt deßen beyden Vettern p. in begleitung I.</l>
-               <l><persName key="Christian Ludwig, Braunschweig-Lüneburg, Herzog" ref="https://d-nb.info/gnd/102117977">Fürst. Durch.</persName> Trompeters, mit denen von Halle abge-</l>
+               <l><persName key="Christian Ludwig, Braunschweig-Lüneburg, Herzog" ref="https://d-nb.info/gnd/102117977" cert="high" type="real">Fürst. Durch.</persName> Trompeters, mit denen von Halle abge-</l>
                <l>führten, vndt mit 15 Croaten convoyeten Proviantwag.</l>
                <l>auffgemacht; in hoffnung selben Tag noch Calbe zu er-</l>
                <l>reichen, Wie wir aber nach einem gutem stück we-</l>
@@ -625,9 +627,9 @@
                <l>vernommen, vndt das Hauß Anhaldt auch die ersten</l>
                <l>zu sein bedencken gehabt, verblieben) selbst dahin</l>
                <l>geritten, mich bey der Canzley so wohl den H. Gene-</l>
-               <l><persName>ral Quartiermeister Reichen</persName>, vndt uff deßen anwei-</l>
+               <l><persName cert="low" type="real">ral Quartiermeister Reichen,</persName> vndt uff deßen anwei-</l>
                <l>sung beym <persName key="Spinola, Albert Gaston" ref="https://d-nb.info/gnd/1226089917" cert="high" type="real">Herrn Graff Bruay</persName> angeben, vndt einen gu-</l>
-               <l>ten Paß, nebenst einen Trompeter vom <persName key="Traudisch, Georg Adam" ref="https://d-nb.info/gnd/1037333675">Trautschischen</persName></l>
+               <l>ten Paß, nebenst einen Trompeter vom <persName key="Traudisch, Georg Adam" ref="https://d-nb.info/gnd/1037333675" cert="high" type="real">Trautschischen</persName></l>
                <l>Rg. so damahls bey der Haubtwachen waren vndt dar-</l>
                <l>von genommen würde erhalten: Worauff</l>
                <l>wir vns den Freytags den</l>
@@ -646,7 +648,7 @@
                <l>fehliche <persName cert="low" type="real">J. Hochw. Dom Capituls Syndico, dem H. Möllen-</persName></l>
                <l>Voigt vndt den <persName>Einnehmer Knachenhauer</persName>, Gebührendt</l>
                <l>insinuiret: Nechst diesem aber vermittels des H.</l>
-               <l><persName cert="low" type="real">Syndici</persName>, so wohl auch meines Dieners, vndt zwahr</l>
+               <l><persName cert="low" type="real">Syndici</persName>, so wohl auch <persName cert="low" type="real">meines Dieners</persName>, vndt zwahr</l>
                <l>ein nahmen vndt auff befehlich der anwesenden</l>
                <l>Herren, J. Hochw. Dom Capituls beym Probst auff</l>
                <l>vnßer Fraven Closter St. Remisoldo Becken dem</l>
@@ -669,7 +671,7 @@
                <l>vndt ihnen solche seine vnbescheidenheit bey neulich-</l>
                <l>sten Capitulo generali scharff verwiesen sein sollen:</l>
                <l>So habe Ich solche verweigerung stellen; vndt inmit-</l>
-               <l>telst beym <persName>H. Möllen Voigt</persName> ein kehren müßen,</l>
+               <l>telst beym <persName cert="low" type="real">H. Möllen Voigt</persName> ein kehren müßen,</l>
                <l>Vernahme sonsten theils auß den geschriebenen</l>
                <l>Hamburg. Zeitungen, theils auß mündlicher Rela-</l>
                <l>tion: Ob solte der <persName key="Oxenstierna, Axel" ref="https://d-nb.info/gnd/118738925" cert="high" type="real">Schwedische Reichs Canzler, Ox-</persName></l>
