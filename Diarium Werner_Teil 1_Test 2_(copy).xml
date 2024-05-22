@@ -606,7 +606,7 @@
                <l>aber der Pothe nicht angetroffen; oder vielleicht weil</l>
                <l>Er nicht wieder zu vns kommen gar nicht fortge-</l>
                <l>lauffen) in des Haubtquartier Wedlitz umb des H.</l>
-               <l>General-Leutenandts Paß vndt Convoy abgefertiget;</l>
+               <l><persName cert="low">General-Leutenandts</persName> Paß vndt Convoy abgefertiget;</l>
                <l>folgenden</l>
                <l>20. aber nach der mittagsmahlzeitt in J. Fürst. Gn. Fürst</l>
                <l><persName key="Christian II., Anhalt-Bernburg, Fürst" ref="https://d-nb.info/gnd/119130947" cert="high" type="real">Christians zu Anhaldts</persName> soyte (durch anleitung vnndt</l>
@@ -616,7 +616,7 @@
          <pb n="2"/>
          <p>
             <lg>
-               <l><persName>Thomas Benckendorffes</persName>; von welchem ich sonst vorhe-</l>
+               <l><persName cert="low" type="real">Thomas Benckendorffes</persName>; von welchem ich sonst vorhe-</l>
                <l>ro auch dieses vernommen,: Das zwar im werck ge-</l>
                <l>wesen, <persName cert="low" type="real">H. Mochovium</persName>, wegen des gesambten Fürst. Hau-</l>
                <l>ßes naher Oßnabrück abzuschicken: So aber biß dato zum</l>
