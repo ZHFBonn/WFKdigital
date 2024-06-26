@@ -398,4 +398,84 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
-      </rdf:RDF></xenoData><revisionDesc><listChange><change><name/><date/></change></listChange></revisionDesc></teiHeader><text><body><p>-/</p><p><persName key="Peñaranda de Bracamonte, Gaspar de" ref="https://d-nb.info/gnd/136793517" cert="high" type="real">Peñaranda</persName> an <persName key="Brun, Antoine" ref="https://d-nb.info/gnd/100235441" cert="high" type="real">Brun</persName></p><p>Brüssel 1648 September 3</p><p>Ausfertigung: AGR Rec. 119 fol. 221-221' (3 B 1)</p><p>Recivo su carta de Vuestra Señoria de 1 y a la del conde de Henin respondo en la que va aqui avertoria para que Vuestra Señoria la vea y se la mande encaminar.</p><p>En quanto a la del otro personaje de la Haya me parece que Vuestra Señoria le escriva que hable alli a <persName key="Friquet, Jean" ref="https://d-nb.info/gnd/1015369677" cert="high" type="real">Monsieur Friquet</persName> y a este que le camine y nos diga lo que le parece del sugeto para que conforme esto caminemos.</p><p>He visto las del <persName key="Friedrich III., Dänemark, König" ref="https://d-nb.info/gnd/118693484" cert="high" type="real">rey de Dinamarca</persName> y combendra que Vuestra Señoria agasaje mucho al ymbiado combidandole a comer y me parece sera bien responder al <persName key="Friedrich III., Dänemark, König" ref="https://d-nb.info/gnd/118693484" cert="high" type="real">rey</persName> una carta muy respectuosa Vuestra Señoria lo podra hacer si asi lo juzgase. Del exercito no ay novedad mas de que se va juntando apresa y la artilleria marcha al campo el principe de conde dicen esta en Eters dijose ayer que Ranzau havia pasado la rivera de Furnes aunque acosta de alguna gente que le matann y que se fortificava delante de aquella plaza para sitiarla mas esto ultimo parece no es cierto segun una carta que oy se ha recivido de Dixmunda que dicen que el yntento de Ransau no fue sino hacer diversion mientras entravan en Ipre algunos varcas con viveres remito a Vuesra Señoria copia de los ultimos avisos que tenemos de Paris con que por aora no se ofrece otra cosa que decir a Vuestra Señoria.</p><p>El pasaporte para madama Servient se pedira luego a Su Alteza.</p></body></text></TEI>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/48SEP03B.xml?person_annotation_20240626071153817",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-06-26T05:11:53.817Z",
+	"dcterms:modified": "2024-06-26T05:11:53.817Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KatharinaStuhldreher",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Katharina Stuhldreher "
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/48SEP03B.xml?person_annotation_20240626071153817#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/48SEP03B.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/48SEP03B.xml?person_annotation_20240626071153817#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://d-nb.info/gnd/119303973",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><revisionDesc><listChange><change><name/><date/></change></listChange></revisionDesc></teiHeader><text><body><p>-/</p><p><persName key="Peñaranda de Bracamonte, Gaspar de" ref="https://d-nb.info/gnd/136793517" cert="high" type="real">Peñaranda</persName> an <persName key="Brun, Antoine" ref="https://d-nb.info/gnd/100235441" cert="high" type="real">Brun</persName></p><p>Brüssel 1648 September 3</p><p>Ausfertigung: AGR Rec. 119 fol. 221-221' (3 B 1)</p><p>Recivo su carta de Vuestra Señoria de 1 y a la del conde de Henin respondo en la que va aqui avertoria para que Vuestra Señoria la vea y se la mande encaminar.</p><p>En quanto a la del otro personaje de la Haya me parece que Vuestra Señoria le escriva que hable alli a <persName key="Friquet, Jean" ref="https://d-nb.info/gnd/1015369677" cert="high" type="real">Monsieur Friquet</persName> y a este que le camine y nos diga lo que le parece del sugeto para que conforme esto caminemos.</p><p>He visto las del <persName key="Friedrich III., Dänemark, König" ref="https://d-nb.info/gnd/118693484" cert="high" type="real">rey de Dinamarca</persName> y combendra que Vuestra Señoria agasaje mucho al ymbiado combidandole a comer y me parece sera bien responder al <persName key="Friedrich III., Dänemark, König" ref="https://d-nb.info/gnd/118693484" cert="high" type="real">rey</persName> una carta muy respectuosa Vuestra Señoria lo podra hacer si asi lo juzgase. Del exercito no ay novedad mas de que se va juntando apresa y la artilleria marcha al campo el principe de conde dicen esta en Eters dijose ayer que <persName key="Rantzau, Josias de" ref="https://d-nb.info/gnd/119303973" cert="high" type="real">Ranzau</persName> havia pasado la rivera de Furnes aunque acosta de alguna gente que le matann y que se fortificava delante de aquella plaza para sitiarla mas esto ultimo parece no es cierto segun una carta que oy se ha recivido de Dixmunda que dicen que el yntento de Ransau no fue sino hacer diversion mientras entravan en Ipre algunos varcas con viveres remito a Vuesra Señoria copia de los ultimos avisos que tenemos de Paris con que por aora no se ofrece otra cosa que decir a Vuestra Señoria.</p><p>El pasaporte para madama Servient se pedira luego a Su Alteza.</p></body></text></TEI>
