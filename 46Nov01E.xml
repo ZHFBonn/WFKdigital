@@ -158,4 +158,84 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
-      </rdf:RDF></xenoData><revisionDesc><listChange><change><name/><date/></change></listChange></revisionDesc></teiHeader><text><body><p>-/</p><p><persName key="Philipp IV., König von Spanien" ref="https://d-nb.info/gnd/1325003476" cert="high" type="real">Philipp IV.</persName> an <persName key="Aragón y Mendoza, Diego de" ref="https://d-nb.info/gnd/1019979968" cert="high" type="real">Terranova</persName></p><p>Zaragoza 1646 November 1</p><p>Konzept: AGS E leg. 2471 unfol. (1 S 26)</p><p>En una de vuestras cartas de 1 de setiembre pasado para el secretario Coloma veo las causas de sentimiento que mostrais de no haveros encargado vinieseis acompañando a la Archiduquesa, mi sobrina, como se ha hecho con otros embaxadores en semejantes casos, y aunque siempre he hecho de vuestra persona y sangre la estimacion que mereze y os hubiera encargado esta funcion, tube por servicio mas necessario que en la occurrencia presente y constitucion de los tiempos no faltasedes de essa corte, siendo como sabeis los negocios que se ofrezen de tanto porte y conssideracion, y esto mismo y el haver faltado los motibos con la muerte del Principe, mi hijo, que Dios tiene, obliga a que por aora no se os conceda la licencia que deseais, sperando de vuestro mucho zelo de mi servicio os conformareis con mi resolucion en ello, y que antes de vuestra salida pondreis las negociaçiones de vuestro cargo en la buena dispossicion y efecto que yo confio de vuestra prudencia, en que me hareis servicio de mucho agrado y estimacion.</p></body></text></TEI>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/46Nov01E.xml?person_annotation_20240626063007608",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-06-26T04:30:07.608Z",
+	"dcterms:modified": "2024-06-26T04:30:07.608Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KatharinaStuhldreher",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Katharina Stuhldreher "
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/46Nov01E.xml?person_annotation_20240626063007608#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/46Nov01E.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/46Nov01E.xml?person_annotation_20240626063007608#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://d-nb.info/gnd/1014990521",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><revisionDesc><listChange><change><name/><date/></change></listChange></revisionDesc></teiHeader><text><body><p>-/</p><p><persName key="Philipp IV., König von Spanien" ref="https://d-nb.info/gnd/1325003476" cert="high" type="real">Philipp IV.</persName> an <persName key="Aragón y Mendoza, Diego de" ref="https://d-nb.info/gnd/1019979968" cert="high" type="real">Terranova</persName></p><p>Zaragoza 1646 November 1</p><p>Konzept: AGS E leg. 2471 unfol. (1 S 26)</p><p>En una de vuestras cartas de 1 de setiembre pasado para el <persName key="Coloma, Pedro" ref="https://d-nb.info/gnd/1014990521" cert="high" type="real">secretario Coloma</persName> veo las causas de sentimiento que mostrais de no haveros encargado vinieseis acompañando a la Archiduquesa, mi sobrina, como se ha hecho con otros embaxadores en semejantes casos, y aunque siempre he hecho de vuestra persona y sangre la estimacion que mereze y os hubiera encargado esta funcion, tube por servicio mas necessario que en la occurrencia presente y constitucion de los tiempos no faltasedes de essa corte, siendo como sabeis los negocios que se ofrezen de tanto porte y conssideracion, y esto mismo y el haver faltado los motibos con la muerte del Principe, mi hijo, que Dios tiene, obliga a que por aora no se os conceda la licencia que deseais, sperando de vuestro mucho zelo de mi servicio os conformareis con mi resolucion en ello, y que antes de vuestra salida pondreis las negociaçiones de vuestro cargo en la buena dispossicion y efecto que yo confio de vuestra prudencia, en que me hareis servicio de mucho agrado y estimacion.</p></body></text></TEI>
