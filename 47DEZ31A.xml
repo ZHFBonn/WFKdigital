@@ -1,1 +1,81 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="tei:teisimple"><teiHeader><fileDesc><titleStmt><title/><author>gesi</author></titleStmt><editionStmt><edition><date>2023-07-05</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Converted from a Word document</p></sourceDesc></fileDesc><encodingDesc><appInfo><application xml:id="docxtotei" ident="TEI_fromDOCX" version="7.57.1"><label>DOCX to TEI</label></application></appInfo></encodingDesc><revisionDesc><listChange><change><date>2024-11-13T08:46:27Z</date><name>gesi</name></change></listChange></revisionDesc></teiHeader><text><body><p rendition="simple:FÜRsimple:AKTENNUMMER">-/</p><p rendition="simple:FÜRsimple:ABSENDERsimple:UNDsimple:EMPFÄNGER">Philipp IV. an Peñaranda</p><p rendition="simple:FÜRsimple:ORT/JAHR/MONAT/TAG">Madrid 1647 Dezember 31</p><p rendition="simple:FÜRsimple:AKTENÜBERLIEFERUNG">Konzept: AGS E. leg. 2472 (1S19)</p><p rendition="simple:FÜRsimple:HAUPTSCHREIBEN-TEXT">En uno de vuestros despachos de 6 de otubre veo lo que se os offreze çerca de la venida a España del rey de Bohemia mi sobrino de que os aviso el Duque de Terranova la respuesta que le hizistis disuadiendole de tomar empeño en ella por las malas consequenzias que podria traer la execuçion a essos tratados particularmente al de Holanda con lo demas que discurris en la materia todo me ha parezido propio de vuestra atençion y del amor con que mirais las cosas de mi servicio de que os doy affectuosas graçias. Pero siendo assi que en vuestros discursos se reconoze mucha fuerza para resistir a la venida de mi sobrino todavia la resoluzion que el Emperador mi hermano tomo de embiarle por aca fue con tal forma que no dejo arbitrio a poderla escusar aunque tube presentes (quando recebi su carta con el aviso) las consideraçiones politicas que vos y el consejo me ha representado y quanto quiera que la materia no tiene estado de reçebir alterazion no por esso se ha entrado en ningun empeño de matrimonio con la infanta mi hija ni hoi le hay y pues su edad de dispossision para pensar en la mayor convenenzia que puede traer a mis reynos su casamiento se atendera a ello. Debajo de este presupuesto y inteligençia habeis de guiar essa negoçiazion de suerte que antes sirva de fazilitar la conclusion con Holandeses que de embarazarla como lo spero de vuestra mucha prudencia y buena direccion.</p></body></text></TEI>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rendition="tei:teisimple"><teiHeader><fileDesc><titleStmt><title/><author>gesi</author></titleStmt><editionStmt><edition><date>2023-07-05</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Converted from a Word document</p></sourceDesc></fileDesc><xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/47DEZ31A.xml?person_annotation_20241113095604433",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-13T08:56:04.433Z",
+	"dcterms:modified": "2024-11-13T08:56:04.433Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KatharinaStuhldreher",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Katharina Stuhldreher "
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/47DEZ31A.xml?person_annotation_20241113095604433#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/47DEZ31A.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/ZHFBonn/WFKdigital/main/47DEZ31A.xml?person_annotation_20241113095604433#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://d-nb.info/gnd/136793517",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><encodingDesc><appInfo><application xml:id="docxtotei" ident="TEI_fromDOCX" version="7.57.1"><label>DOCX to TEI</label></application></appInfo></encodingDesc><revisionDesc><listChange><change><date>2024-11-13T08:46:27Z</date><name>gesi</name></change></listChange></revisionDesc></teiHeader><text><body><p rendition="simple:FÜRsimple:AKTENNUMMER">-/</p><p rendition="simple:FÜRsimple:ABSENDERsimple:UNDsimple:EMPFÄNGER">Philipp IV. an Peñaranda</p><p rendition="simple:FÜRsimple:ORT/JAHR/MONAT/TAG">Madrid 1647 Dezember 31</p><p rendition="simple:FÜRsimple:AKTENÜBERLIEFERUNG">Konzept: AGS E. leg. 2472 (1S19)</p><p rendition="simple:FÜRsimple:HAUPTSCHREIBEN-TEXT">En uno de <persName key="Peñaranda de Bracamonte, Gaspar de" ref="https://d-nb.info/gnd/136793517" cert="high" type="real">vuestros</persName> despachos de 6 de otubre veo lo que se os offreze çerca de la venida a España del rey de Bohemia mi sobrino de que os aviso el Duque de Terranova la respuesta que le hizistis disuadiendole de tomar empeño en ella por las malas consequenzias que podria traer la execuçion a essos tratados particularmente al de Holanda con lo demas que discurris en la materia todo me ha parezido propio de vuestra atençion y del amor con que mirais las cosas de mi servicio de que os doy affectuosas graçias. Pero siendo assi que en vuestros discursos se reconoze mucha fuerza para resistir a la venida de mi sobrino todavia la resoluzion que el Emperador mi hermano tomo de embiarle por aca fue con tal forma que no dejo arbitrio a poderla escusar aunque tube presentes (quando recebi su carta con el aviso) las consideraçiones politicas que vos y el consejo me ha representado y quanto quiera que la materia no tiene estado de reçebir alterazion no por esso se ha entrado en ningun empeño de matrimonio con la infanta mi hija ni hoi le hay y pues su edad de dispossision para pensar en la mayor convenenzia que puede traer a mis reynos su casamiento se atendera a ello. Debajo de este presupuesto y inteligençia habeis de guiar essa negoçiazion de suerte que antes sirva de fazilitar la conclusion con Holandeses que de embarazarla como lo spero de vuestra mucha prudencia y buena direccion.</p></body></text></TEI>
